@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>漕河泾浦江智慧园区</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    <link href="css/app.min.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/mobiscroll.custom-2.6.2.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script type="text/javascript" language="javascript"> 
+	
+	function showHtmlcallHome(){
+		if (window.WebViewBridge) {
+      window.WebViewBridge.send("navPop");
+      return;
+    }
+
+		
+	}
+	
+	
+</script>
+    <style>
+      /* TODO */
+    </style>
+  </head>
+
+  <body>
+    <div class="app-page" data-page="home">
+  
+<div class="app-topbar">
+  
+  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" onclick="showHtmlcallHome()">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand mi_nav" style="" href="#">帮我推荐</a>
+          <button type="button" class="navbar-back app-button gotoBack" data-back>
+            <span class="fame-btn-back"></span>
+          </button>
+
+      </div>
+    </div>
+  
+  <div class="app-title">
+    <img class="title_img" src="images/logo.png" alt="">
+  </div>
+  </div>
+</div>
+
+    <div class="app-content">
+    <div class="container main_container" style="">
+    <div class="header_img">
+      <img src="images/ban1.jpg" alt="">
+    </div>
+      <div class="row text-center row_all">
+        <div class="row row_btns"> 
+
+        </div>
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" id="h1">
+            <form action="" method="post">
+              <input type="hidden" name="type" value="help" />
+              <input type="hidden" name="slug" value="帮我推荐" />
+              <input type="hidden" name="subslug" value="帮我推荐" />
+              <div class="row row_selects text-left">
+              <div class="clearfix s-line"></div>
+                <div class="row txt-row">
+                  <div class="col-xs-6"  style=""> 
+                    <span class="txt-grey">注册资本</span>
+                  </div>
+                  <div class="col-xs-6"  style=""> 
+                    <input class="input_grey" style="width:80%" type="text" name="zhucezhiben" data-name="注册资本"  data-type="require"  placeholder="(必填)" >
+                    <span class="txt-grey">万</span>
+                  </div>
+                </div>
+              <div class="clearfix s-line"></div>
+                <div class="row txt-row">
+                  <div class="col-xs-6"  style=""> 
+                    <span  class="txt-grey">注册时间</span>
+                  </div>
+                  <div class="col-xs-6"  style="padding-top: 4px;"> 
+                    <input class="input_grey"  style="width:80%" type="text" name="zhuceshijian"  data-name="注册时间"  data-type="require"  placeholder="(必填)" >
+                    <span  class="txt-grey">年</span>
+                  </div>
+                </div>
+                <div class="clearfix s-line"></div>
+                <div class="row txt-row">
+                  <div class="col-xs-6"  style=""> 
+                    <span  class="txt-grey">公司人数</span>
+                  </div>
+                  <div class="col-xs-6"  style="padding-top: 4px;"> 
+                    <input class="input_grey"  style="width:80%" type="text" name="gongsirenshu" data-name="公司人数"  data-type="require"  placeholder="(必填)" >
+                    <span  class="txt-grey">人</span>
+                  </div>
+                </div>
+                <div class="clearfix s-line"></div>
+                <div class="row txt-row">
+                <div class="col-xs-6"  style=""> 
+                  <span  class="txt-grey">企业类型</span>
+                </div>
+                <div class="col-xs-6"  style="padding-top: 4px;"> 
+                  <select class="sel_grey" style="width:100%" name="qiyeleixing" data-name="企业类型">
+                  <option value="营销">营销</option>
+				   <option value="研发">研发</option>
+				    <option value="生产">生产</option>
+                  </select>
+                  
+                  </div>
+              </div>
+              <div class="clearfix s-line"></div>
+              <div class="row txt-row">
+                  <div class="col-xs-4"  style=""> 
+                    <span  class="txt-grey">联系方式</span>
+                  </div>
+                  <div class="col-xs-8"  style="padding-top: 4px;"> 
+                    <input class="input_grey"  style="width:100%;" type="text" name="gongsirenshu" placeholder="手机号(必填)"  data-name="联系方式" data-type="require">
+                    
+                  </div>
+                </div>
+
+              <div class="row">
+                  <div class="col-xs-4"  style=""> 
+                    <span  class="txt-grey">备注</span>
+                  </div>
+                  <div class="col-xs-8"  style="padding-top: 4px;"> 
+                    <input class="input_grey"  style="width:100%;" type="text" name="gongsirenshu"  placeholder="备注信息">
+                  </div>
+                </div>
+                
+                </div>
+              <div class="row row_submit" >
+                  <div class="clearfix s-line" style="padding-top: 14px;"></div>
+                  <button type="submit" value="submit" class="btn btn-primary" style=""> 提  交</button>
+                </div>
+            </form>
+          </div> <!-- tabpanel -->
+
+        </div>
+
+      </div>
+
+    </div><!-- /.container -->
+      </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/app.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mobiscroll.custom-2.6.2.min.js"></script>
+    <script src="js/main.js"></script>
+    </body>
+</html>

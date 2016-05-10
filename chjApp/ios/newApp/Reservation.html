@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>漕河泾浦江智慧园区</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    <link href="css/app.min.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/mobiscroll.custom-2.6.2.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script type="text/javascript" language="javascript"> 
+	
+	function showHtmlcallHome(){
+		if (window.WebViewBridge) {
+      window.WebViewBridge.send("navPop");
+      return;
+    }
+
+	}
+	function showHtmlcallEvent(){
+    if (window.WebViewBridge) {
+      window.WebViewBridge.send("navEvent");
+      return;
+    }    
+  }
+	
+</script>
+    <style>
+      /* TODO */
+    </style>
+  </head>
+
+  <body>
+
+<!-- 以下为预约界面   -->
+  <div class="app-page order" data-page="order" id="order">
+    <div class="app-topbar">
+      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" onclick="showHtmlcallHome()">
+      <div class="container">
+        <div class="navbar-header">
+                  <a class="navbar-brand mi_nav" href="#">活动预约</a>
+            <button type="button" class="navbar-back app-button gotoBack">
+            <span class="fame-btn-back"></span>
+          </button>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="app-content">
+      <div class="container main_container " style="">
+        <div class="row row_all">
+          <form role="form" class="check_form" style="margin-top:20px;">
+          <div class="form-group">
+            <div class="form-border">
+            <div class="input-group input-group-m ">
+              <span class="input-group-addon">预约活动</span>
+              <div class="btn-group form-control btn-inline" id="event_name" style="padding-left:12px;">
+                篮球
+              </div>
+            </div>
+            </div>
+            <div class="form-border">
+            <div class="input-group input-group-m b_line">
+              <span class="input-group-addon">公司名称</span>
+              <input id="input-name" type="text" class="form-control inputs" placeholder="必填">
+            </div>
+            <div class="input-group input-group-m b_line">
+              <span class="input-group-addon">预约人数</span>
+              <input   id="input-num"  type="text" class="form-control inputs" placeholder="必填">
+            </div>
+            <div class="input-group input-group-m b_line">
+              <span class="input-group-addon">手机号码</span>
+              <input   id="input-tel"  type="text" class="form-control inputs" placeholder="必填">
+            </div>
+            <div class="input-group input-group-m">
+              <span class="input-group-addon b_line">预约时间</span>
+              <input id="input-time" type="text" class="form-control inputs" placeholder="必填">
+            </div>
+
+            </div>
+            
+          </div>
+          <div class="row row_submit">
+            <div class="clearfix s-line"  style="padding-bottom: 14px;"></div>
+            <button id="order_submit" type="button" value="button" class="btn btn-primary" onclick="fun_post()" style=""> 预约</button>
+          </div>
+        </form>
+      
+
+        </div>
+      </div><!-- /.container -->
+
+    </div>
+  </div>
+
+
+<!-- 以下为已预约界面   -->
+  <div class="app-page check" data-page="check">
+    <div class="app-topbar">
+      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" onclick="showHtmlcallHome()">
+      <div class="container">
+        <div class="navbar-header">
+                  <a class="navbar-brand mi_nav" href="#">已预约活动</a>
+            <button type="button" class="navbar-back app-button gotoBack" data-back>
+            <span class="fame-btn-back"></span>
+          </button>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="app-content">
+      <div class="container main_container " style="">
+        <div class="row row_all">
+          <form role="form" class="check_form check_demo" style="">
+          <div class="form-group">
+            <div class="">
+            <div class="input-group input-group-m" style="text-align: center;width: 100%;
+">
+              <img src="" class="qr_img"/>
+            </div>
+            </div>
+            <div class="form-border">
+            <div class="input-group input-group-m b_line">
+              <span class="input-group-addon">公司姓名</span>
+              <input type="text" class="form-control c_comname" placeholder="" readonly >
+            </div>
+            <div class="input-group input-group-m b_line">
+              <span class="input-group-addon">活动名称</span>
+              <input  type="text" class="form-control c_name" placeholder="" readonly >
+            </div>
+            <div class="input-group input-group-m b_line">
+              <span class="input-group-addon">预约人数</span>
+              <input type="text" class="form-control c_num" placeholder="" readonly >
+            </div>
+            <div class="input-group input-group-m b_line">
+              <span class="input-group-addon">活动地点</span>
+              <input type="text" class="form-control c_addr" placeholder="" readonly >
+            </div>
+            <div class="input-group input-group-m b_line">
+              <span class="input-group-addon ">预约时间</span>
+              <input type="text" class="form-control c_time" placeholder="" readonly >
+            </div>
+
+            <div class="input-group input-group-m">
+              <span class="input-group-addon">手机号码</span>
+              <input type="text" class="form-control c_tel" placeholder="" readonly >
+            </div>
+            </div>
+          </div>
+        </form>
+      
+
+        </div>
+      </div><!-- /.container -->
+
+    </div>
+  </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/app.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mobiscroll.custom-2.6.2.min.js"></script>
+    <script src="js/order.js"></script>
+    </body>
+</html>

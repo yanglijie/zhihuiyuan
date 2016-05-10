@@ -1,0 +1,16 @@
+{
+  "name": "chjApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-native": "^0.22.2",
+    "react-native-auto-updater": "^0.2.5",
+    "react-native-keyboard-aware-scroll-view": "0.0.6",
+    "react-native-swiper": "^1.4.3",
+    "react-native-wechat": "^1.3.2"
+  }
+}
