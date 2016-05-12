@@ -108,25 +108,25 @@ class IndexPage extends Component {
       if(json.status == 0){
         //login success
         console.log('login success');
+        var name=json.detail.username;
         Gapp.user = json.detail;
         
         //set the username
         Gapp.user.mobile = this.state.mobile;
         Gapp.user.username = this.state.username;
         Gapp.user.password = hex_md5(this.state.password);
+        Gapp.user.zhizhao=name;
         console.log(Gapp)
         this.setState({loginErr:''});
         //this.setState({notifCount:this._onLoadEvent()});
 
         this._saveValue_One().done();
-
-        var userName = json.detail.username
       
         this.props.navigator.push({
           title: '首页',
           component: MainPage,
           navigationBarHidden: true,
-          passProps: {Gapp: Gapp,userName:userName}
+          passProps: {Gapp: Gapp}
         });
         
       }else{
