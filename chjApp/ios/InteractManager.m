@@ -8,7 +8,7 @@
 #import "InteractManager.h"
 #import "UIKit/UIKit.h"
 
-@implementation InteractManager
+@implementation InteractManager 
 
 RCT_EXPORT_MODULE();
 RCT_EXPORT_METHOD(addEvent:(int)name location:(NSString *)str)
@@ -19,7 +19,7 @@ RCT_EXPORT_METHOD(addEvent:(int)name location:(NSString *)str)
     {
       
       RCTLogInfo(@"Tel to: %@", str);
-      [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel://10086"]];
+      [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel://02134637000"]];
     }
       break;
     case 2:
