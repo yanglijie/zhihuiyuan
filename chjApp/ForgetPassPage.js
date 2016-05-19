@@ -27,8 +27,23 @@ class ForgetPassPage extends Component {
       rePassword:'',
       screenWidth:Dimensions.get('window').width,
       screenHeight:Dimensions.get('window').height,
+      waiting:0,
       
     };
+  }
+   _deWaiting(){
+    console.log('waiting:'+this.state.waiting)
+    if(this.state.waiting > 0){
+      this.setState({waiting:(this.state.waiting -1) })
+      var timer = setTimeout(
+         () => { this._deWaiting(); },
+         1000
+       );
+    }
+  }
+  componentWillUnmount(){
+    console.log('unmount');
+    this.setState({waiting:0 });
   }
   queryStringForQueryAndPage(data) {
     var querystring = Object.keys(data)
@@ -39,6 +54,16 @@ class ForgetPassPage extends Component {
   };
   _getVerifyCode(e){
     console.log('获取验证码');
+    if (this.state.waiting>0) {
+      AlertIOS.alert(
+                 '请等待1分钟',
+                  null,
+                [
+                   {text: '确定'},
+                ]
+              )
+      return false
+    };
      try {
 
       console.log('Home/Login/sendCode');
@@ -57,18 +82,27 @@ class ForgetPassPage extends Component {
             if(json.status == 0){
               //login success
               console.log('faSong success');
-              
-            }else if(json.status == 1){
-              this.setState({verify:''})
               AlertIOS.alert(
-                 '请重新申请验证码',
+                 '验证码已发送到您手机上，请查收',
                   null,
                 [
                    {text: '确定'},
                 ]
               )
-            }else{
-              console.log('fail');
+              this.setState({waiting:60});
+              setTimeout(
+                 () => { this._deWaiting(); },
+                 1000
+               );
+            }else {
+              this.setState({verify:''})
+              AlertIOS.alert(
+                 '发送失败,请1分钟后重试',
+                  null,
+                [
+                   {text: '确定'},
+                ]
+              )
             }
           })
           .catch((error) => {
@@ -172,6 +206,12 @@ class ForgetPassPage extends Component {
     this.refs.scrollView.scrollTo({y:0})
   }
   render() {
+    var loginSpinner;
+    if (this.state.waiting == 0) {
+      loginSpinner = '获取验证码';
+    }else{
+      loginSpinner =  this.state.waiting;
+    }
     return (
       <ScrollView style={{flex:1,flexDirection:'row'}}
       ref='scrollView'
@@ -186,7 +226,7 @@ class ForgetPassPage extends Component {
               source={require('image!myIcon')} />
           </View>
           </View>
-          <View style={[{flex:5,flexDirection:'column'}]}>
+          <View style={[{flex:5,flexDirection:'column',marginLeft:this.state.screenWidth*0.1,}]}>
             <View>
             <View style={{flex:1,flexDirection:'row',height:this.state.screenHeight*0.5*0.1}}>
               <Text style={styles.label}>
@@ -198,21 +238,21 @@ class ForgetPassPage extends Component {
                   value={this.state.mobile}
                   keyboardType = 'numeric'
                   onChangeText={(text) => this.setState({mobile: text})}
-                  placeholder='手机号' 
-                  placeholderTextColor={'#003257'}
+
                   ref='telInput'
                   onFocus={this.inputFocused.bind(this, 'telInput')}
                   onEndEditing={this.inputDisFocused.bind(this)}
                   />
             </View>
             </View>
+             <View style={{height:1,backgroundColor:'white',marginRight:this.state.screenWidth*0.1}} />
             <View>
-            <View style={{flex:1,flexDirection:'row',height:this.state.screenHeight*0.5*0.1,marginTop:this.state.screenHeight*0.5*0.1*0.5}}>
+            <View style={{flex:1,flexDirection:'row',height:this.state.screenHeight*0.5*0.1,marginTop:this.state.screenHeight*0.5*0.1*0.25}}>
               <Text style={styles.label}>
                 验证码
               </Text>
               <TextInput
-                  style={styles.inputs}
+                  style={[styles.inputs,{} ]}
                   value={this.state.verify}
                   keyboardType = 'numeric'
                   onChangeText={(text) => this.setState({verify: text})}
@@ -220,17 +260,17 @@ class ForgetPassPage extends Component {
                   ref='verInput'
                   onFocus={this.inputFocused.bind(this, 'verInput')}
                   onEndEditing={this.inputDisFocused.bind(this)}
-                  placeholder='验证码'
-                  placeholderTextColor={'#003257'}/>
+                  />
               <TouchableHighlight style={{flex:3}}
                 onPress={this._getVerifyCode.bind(this)}
                 underlayColor='#48BBEC'>
-                <Text style={[styles.label,{marginTop:10}]}>获取验证码</Text>
+                 <Text style={[styles.label1,{marginTop:10,marginLeft:this.state.screenWidth*0.15,}]}>{loginSpinner}</Text>
               </TouchableHighlight>
             </View>
             </View>
+            <View style={{height:1,backgroundColor:'white',marginRight:this.state.screenWidth*0.1}} />
             <View>
-            <View style={{flex:1,flexDirection:'row',height:this.state.screenHeight*0.5*0.1,marginTop:this.state.screenHeight*0.5*0.1*0.5}}>
+            <View style={{flex:1,flexDirection:'row',height:this.state.screenHeight*0.5*0.1,marginTop:this.state.screenHeight*0.5*0.1*0.25}}>
               <Text style={styles.label}>
                 密码
               </Text>
@@ -246,8 +286,9 @@ class ForgetPassPage extends Component {
                   />
             </View>
             </View>
+            <View style={{height:1,backgroundColor:'white',marginRight:this.state.screenWidth*0.1}} />
             <View>
-            <View style={{flex:1,flexDirection:'row',height:this.state.screenHeight*0.5*0.1,marginTop:this.state.screenHeight*0.5*0.1*0.5}}>
+            <View style={{flex:1,flexDirection:'row',height:this.state.screenHeight*0.5*0.1,marginTop:this.state.screenHeight*0.5*0.1*0.25}}>
               <Text style={styles.label}>
                 确认密码
               </Text>
@@ -262,19 +303,19 @@ class ForgetPassPage extends Component {
                   />
             </View>
             </View>
-            
-          <View style={{flexDirection:'row',marginTop:this.state.screenHeight*0.5*0.1}}>
-              <TouchableHighlight style={[styles.button,{marginRight:this.state.screenWidth*0.2,height:this.state.screenHeight*0.5*0.1,marginLeft:this.state.screenWidth*0.2}]}
+            <View style={{height:1,backgroundColor:'white',marginRight:this.state.screenWidth*0.1}} />
+          <View style={{flexDirection:'row',}}>
+              <TouchableHighlight style={[styles.button,{marginTop:this.state.screenHeight*0.5*0.1,height:this.state.screenHeight*0.5/12,marginRight:this.state.screenWidth*0.1,}]}
                 onPress={this._onPassWord.bind(this)}
                 underlayColor='#3D8CC5'>
-                <Text style={styles.buttonText}>修改密码</Text>
+                <Text style={styles.buttonText}>修  改  密  码</Text>
               </TouchableHighlight>
             </View>
-            <View style={{flexDirection:'row',marginTop:this.state.screenHeight*0.5*0.05}}>
-              <TouchableHighlight style={[styles.button,{marginRight:this.state.screenWidth*0.2,height:this.state.screenHeight*0.5*0.1,marginLeft:this.state.screenWidth*0.2}]}
+            <View style={{flexDirection:'row',}}>
+              <TouchableHighlight style={[styles.button,{marginTop:this.state.screenHeight*0.5/12,height:this.state.screenHeight*0.5/12,marginRight:this.state.screenWidth*0.1,}]}
                 onPress={this._onPopMy.bind(this)}
                 underlayColor='#3D8CC5'>
-                <Text style={styles.buttonText}>返回</Text>
+                <Text style={styles.buttonText}>返  回</Text>
               </TouchableHighlight>
             </View>
           </View>
@@ -304,37 +345,43 @@ const styles = StyleSheet.create({
     flex:1
   },
   inputs: {
-    flex: 3,
+    flex: 1,
     fontSize: 15,
-    marginRight:10,
-    borderWidth: 1,
-    borderColor: '#013861',
-    borderRadius: 5,
-    color: '#003257',
-    backgroundColor:'#3D8CC5'
+    color:'white',
+    marginLeft:10,
   },
-  button:{
+   button:{
     flex: 1,
     flexDirection: 'row',
-    backgroundColor: '#0067B1',
-    borderColor: '#0067B1',
+    //backgroundColor: '#48BBEC',
+    borderColor: 'white',
     borderWidth: 1,
     borderRadius: 4,
     alignSelf: 'stretch',
-    justifyContent: 'center',
+    justifyContent: 'center'
   },
   buttonText: {
     fontSize: 15,
     color: 'white',
-    alignSelf: 'center'
+    alignSelf: 'center',
+    marginTop:5,
+    marginBottom:5,
   },
-  label:{
+    label:{
     color: 'white',
     fontSize:15,
     marginTop:10,
     marginLeft:10,
-    width:80,
+    width:60,
     textAlign: 'left',
+    backgroundColor:'transparent'
+  },
+  label1:{
+    color: 'white',
+    fontSize:15,
+    marginTop:10,
+    width:80,
+    textAlign: 'right',
     backgroundColor:'transparent'
   }
 });

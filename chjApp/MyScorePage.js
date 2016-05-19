@@ -18,7 +18,7 @@ var {
 
 class myScorePage extends Component {
 
-	constructor(props) {
+  constructor(props) {
     super(props);
     this.state = {
       verifyCode: '',
@@ -78,18 +78,16 @@ class myScorePage extends Component {
      
     
     }
-	_onPopMy(){
+  _onPopMy(){
 
-		this.props.navigator.pop();
-	}
+    this.props.navigator.pop();
+  }
 
   render() {
 
 
      return (
-      <ScrollView style={{flex:1,}}
-      bounces={false}
-      automaticallyAdjustContentInsets={false}>
+      <View style={{flex:1,}}>
         
         <View>
         <View style={styles.container}>
@@ -106,8 +104,10 @@ class myScorePage extends Component {
         </View> 
       </View>
 
-      <View style={{flex:1,}}>
-        
+      
+      <ScrollView style={{flex:1,}}
+      bounces={false}
+      automaticallyAdjustContentInsets={false}>
           <View style={{flex:1,height:(this.state.screenHeight-64)*0.4,}}>
             <Text style={{color:'#0067B1',fontSize:15,marginTop:this.state.screenHeight*0.5*0.1,marginLeft:5,}}>
               积分统计
@@ -148,8 +148,9 @@ class myScorePage extends Component {
               {this.state.valueG}
              </Text>
           </View >
-      </View>
+      
       </ScrollView>
+      </View>
     );
   }
 }
@@ -167,10 +168,10 @@ var styles = StyleSheet.create({
     marginLeft:20
   },
   text2:{
-  	color:'red',
-  	fontSize:15,
-  	textAlign: 'right',
-  	width:100
+    color:'red',
+    fontSize:15,
+    textAlign: 'right',
+    width:100
   },
   backImage: {
     marginTop:7,

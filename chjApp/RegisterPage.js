@@ -204,10 +204,11 @@ class RegisterPage extends Component {
           </View>
           <View style={[{flex:2,marginLeft:5,flexDirection:'column',marginRight:5,height:this.state.screenHeight*0.5*0.1}]}>
             <View>
-            <View style={{flex:1,flexDirection:'row',height:this.state.screenHeight*0.5*0.1}}>
+            <View style={{flex:1,flexDirection:'row',height:this.state.screenHeight*0.5*0.1,marginLeft:this.state.screenWidth*0.1}}>
               <Text style={styles.label}>
                 手机号
               </Text>
+              
               <TextInput
                   ref='telInput'
                   
@@ -216,15 +217,16 @@ class RegisterPage extends Component {
                   value={this.state.mobile}
                   keyboardType = 'numeric'
                   onChangeText={(text) => this.setState({mobile: text})}
-                  placeholder='手机号' 
-                  placeholderTextColor={'#003257'}
+  
                   onFocus={this.inputFocused.bind(this, 'telInput')}
                   onEndEditing={this.inputDisFocused.bind(this)}
                   />
+            
             </View>
             </View>
+            <View style={{height:1,backgroundColor:'white',marginLeft:this.state.screenWidth*0.1,marginRight:this.state.screenWidth*0.1}} />
             <View>
-            <View style={{flex:1,flexDirection:'row',height:this.state.screenHeight*0.5*0.1,marginTop:this.state.screenHeight*0.5*0.1*0.5}}>
+            <View style={{flex:1,flexDirection:'row',height:this.state.screenHeight*0.5*0.1,marginTop:this.state.screenHeight*0.5*0.1*0.5,marginLeft:this.state.screenWidth*0.1}}>
               <Text style={styles.label}>
                 验证码
               </Text>
@@ -235,8 +237,7 @@ class RegisterPage extends Component {
                   keyboardType = 'numeric'
                   onChangeText={(text) => this.setState({verify: text})}
                   secureTextEntry={true}
-                  placeholder='验证码' 
-                  placeholderTextColor={'#003257'}
+ 
                   onFocus={this.inputFocused.bind(this, 'verfInput')}
                   onEndEditing={this.inputDisFocused.bind(this)}
                   />
@@ -245,19 +246,21 @@ class RegisterPage extends Component {
                 onPress={this._getVerifyCode.bind(this)}
                 underlayColor='#48BBEC'
                 >
-                <Text style={[styles.label,{marginTop:10}]}>{loginSpinner}</Text>
+                <Text style={[styles.label1,{marginTop:10,marginLeft:this.state.screenWidth*0.15,}]}>{loginSpinner}</Text>
               </TouchableHighlight>
             </View>
             </View>
-            <View style={{flexDirection:'row',marginTop:this.state.screenHeight*0.5*0.1}}>
-              <TouchableHighlight style={[styles.button,{marginRight:this.state.screenWidth*0.2,height:this.state.screenHeight*0.5*0.1,marginLeft:this.state.screenWidth*0.2}]}
+            <View style={{height:1,backgroundColor:'white',marginLeft:this.state.screenWidth*0.1,marginRight:this.state.screenWidth*0.1}} />
+            
+            <View style={{flexDirection:'row'}}>
+              <TouchableHighlight style={[styles.button,{marginTop:this.state.screenHeight*0.5*0.1,height:this.state.screenHeight*0.5/12,marginLeft:this.state.screenWidth*0.1,marginRight:this.state.screenWidth*0.1,}]}
                 onPress={this._onDoRegister.bind(this)}
-                underlayColor='#3D8CC5'>
-                <Text style={styles.buttonText}>注    册</Text>
+                underlayColor='#48BBEC'>
+                <Text style={styles.buttonText}>注   册</Text>
               </TouchableHighlight>
             </View>
-            <View style={{flexDirection:'row',marginTop:this.state.screenHeight*0.5*0.1}}>
-              <TouchableHighlight style={[styles.button,{marginRight:this.state.screenWidth*0.2,height:this.state.screenHeight*0.5*0.1,marginLeft:this.state.screenWidth*0.2}]}
+            <View style={{flexDirection:'row',}}>
+              <TouchableHighlight style={[styles.button,{marginTop:this.state.screenHeight*0.5/12,height:this.state.screenHeight*0.5/12,marginLeft:this.state.screenWidth*0.1,marginRight:this.state.screenWidth*0.1,}]}
                 onPress={this._onPopMy.bind(this)}
                 underlayColor='#3D8CC5'>
                 <Text style={styles.buttonText}>返    回</Text>
@@ -290,37 +293,44 @@ const styles = StyleSheet.create({
     flex:1
   },
 inputs: {
-    flex: 3,
+    flex: 1,
     fontSize: 15,
-    marginRight:10,
-    borderWidth: 1,
-    borderColor: '#013861',
-    borderRadius: 5,
-    color: '#003257',
-    backgroundColor:'#3D8CC5'
+    color:'white',
+    marginLeft:10,
   },
   button:{
     flex: 1,
     flexDirection: 'row',
-    backgroundColor: '#0067B1',
-    borderColor: '#0067B1',
+    //backgroundColor: '#48BBEC',
+    borderColor: 'white',
     borderWidth: 1,
     borderRadius: 4,
     alignSelf: 'stretch',
-    justifyContent: 'center',
+    justifyContent: 'center'
   },
   buttonText: {
     fontSize: 15,
     color: 'white',
-    alignSelf: 'center'
+    alignSelf: 'center',
+    marginTop:5,
+    marginBottom:5,
   },
     label:{
     color: 'white',
     fontSize:15,
     marginTop:10,
     marginLeft:10,
-    width:80,
+    width:50,
     textAlign: 'left',
+    backgroundColor:'transparent'
+  },
+  label1:{
+    color: 'white',
+    fontSize:15,
+    marginTop:10,
+    marginLeft:10,
+    width:80,
+    textAlign: 'right',
     backgroundColor:'transparent'
   }
 });

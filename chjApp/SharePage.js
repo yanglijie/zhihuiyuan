@@ -17,6 +17,7 @@ import React, {
   Easing
 } from 'react-native';
 import * as WeChat from 'react-native-wechat';
+var resolveAssetSource = require('resolveAssetSource');
 class SharePage extends Component {
 
   constructor(props) {
@@ -25,21 +26,84 @@ class SharePage extends Component {
       verifyCode: '',
       mobile:'',
 
+
       screenWidth:Dimensions.get('window').width,
       screenHeight:Dimensions.get('window').height
     };
   }
   async _onShare1(e){
   	    try {
-      await WeChat.registerApp('1234567');
-      var result = await WeChat.shareToTimeline({
-          type: 'imageUrl',
+      await WeChat.registerApp('wxf73e1fab51526b73');
+      var imageResource = require('./images/share_codeapk1.png');
+ 
+      var result = await WeChat.shareToSession({
+          type: 'imageResource',
           title: 'web image',
           description: 'share web image to time line',
           mediaTagName: 'email signature',
           messageAction: undefined,
           messageExt: undefined,
-          imageUrl: 'http://www.ncloud.hk/email-signature-262x100.png'
+          imageUrl: resolveAssetSource(imageResource).uri
+      });
+      console.log('share image url to time line successful', result);
+    }
+    catch (e) {
+        console.log('share image url to time line failed', e);
+    }
+  }
+ async _onShare2(e){
+        try {
+      await WeChat.registerApp('wxf73e1fab51526b73');
+      var imageResource = require('./images/share_codeapk.png');
+ 
+      var result = await WeChat.shareToSession({
+          type: 'imageResource',
+          title: 'web image',
+          description: 'share web image to time line',
+          mediaTagName: 'email signature',
+          messageAction: undefined,
+          messageExt: undefined,
+          imageUrl: resolveAssetSource(imageResource).uri
+      });
+      console.log('share image url to time line successful', result);
+    }
+    catch (e) {
+        console.log('share image url to time line failed', e);
+    }
+  }
+  async _onShare3(e){
+        try {
+      await WeChat.registerApp('wxf73e1fab51526b73');
+      var imageResource = require('./images/share_code.png');
+ 
+      var result = await WeChat.shareToSession({
+          type: 'imageResource',
+          title: 'web image',
+          description: 'share web image to time line',
+          mediaTagName: 'email signature',
+          messageAction: undefined,
+          messageExt: undefined,
+          imageUrl: resolveAssetSource(imageResource).uri
+      });
+      console.log('share image url to time line successful', result);
+    }
+    catch (e) {
+        console.log('share image url to time line failed', e);
+    }
+  }
+  async _onShare4(e){
+        try {
+      await WeChat.registerApp('wxf73e1fab51526b73');
+      var imageResource = require('./images/pujiang2code.jpg');
+ 
+      var result = await WeChat.shareToSession({
+          type: 'imageResource',
+          title: 'web image',
+          description: 'share web image to time line',
+          mediaTagName: 'email signature',
+          messageAction: undefined,
+          messageExt: undefined,
+          imageUrl: resolveAssetSource(imageResource).uri
       });
       console.log('share image url to time line successful', result);
     }
@@ -76,7 +140,7 @@ class SharePage extends Component {
           <View style={styles.slide} >
             <Image style={[styles.image,{width:this.state.screenWidth,}]} source={require('image!share_back')} >
               <View>
-                <Text style={[styles.text,{marginTop:(this.state.screenHeight-64)*0.2*0.25,height:(this.state.screenHeight-64)*0.2}]} >双创云服APP</Text>
+                <Text style={[styles.text,{marginTop:(this.state.screenHeight-64)*0.2*0.25,height:(this.state.screenHeight-64)*0.2}]} >双创云服APP（Android）</Text>
               </View>
               <View>
               <Text style={[styles.text1,{height:(this.state.screenHeight-64)*0.28,}]}>
@@ -88,13 +152,36 @@ class SharePage extends Component {
               <View >
                 <View style={{flex:1,flexDirection:'row',marginLeft:this.state.screenWidth*0.1}}>
 
-                  <Image style={{flex: 1, height: this.state.screenHeight*0.25, resizeMode: Image.resizeMode.contain}} source={require('./images/share_codeapk.png')} />
+                  <Image style={{flex: 1, height: this.state.screenHeight*0.25, resizeMode: Image.resizeMode.contain}} source={require('./images/share_codeapk1.png')} />
                   <Image style={[styles.rightImage,{marginTop:this.state.screenHeight*0.25*0.25}]} source={require('./images/share_right.png')} />
                 </View>
               </View>
               <View style={{flexDirection:'row',marginTop:this.state.screenHeight*0.4*0.1}}>
               <TouchableHighlight style={[styles.buttonStyle,{marginRight:this.state.screenWidth*0.3,marginLeft:this.state.screenWidth*0.3}]}
                 onPress={this._onShare1.bind(this)}
+                underlayColor='#3D8CC5'>
+                <Text style={styles.text2}>立即分享</Text>
+              </TouchableHighlight>
+              </View>
+            </Image>
+          </View>
+          <View style={styles.slide} >
+            <Image style={[styles.image,{width:this.state.screenWidth,}]} source={require('image!share_back')} >
+              <Text style={[styles.text,{marginTop:(this.state.screenHeight-64)*0.2*0.25,height:(this.state.screenHeight-64)*0.2}]}>双创云服APP（IOS）</Text>
+              <Text style={[styles.text1,{height:(this.state.screenHeight-64)*0.28,}]} > 漕河泾开发区创新创业园服务APP旨在通过打造“互联网+”的双创云服务平台，
+                为园区科技型企业提供融资上市、申报项目、技术服务、人才服务和信息发布等一站式创新创业服务，
+                推动科技企业技术创新，加快区域科技和经济发展，为上海加快建成具有全球影响力的科技创新中心助力。
+                </Text>
+              <View>
+                <View style={{flex:3,flexDirection:'row',marginLeft:10}}>
+                  <Image style={[styles.rightImage,{marginTop:this.state.screenHeight*0.25*0.25}]}source={require('./images/share_left.png')} />
+                  <Image style={{flex: 1, height: this.state.screenHeight*0.25, resizeMode: Image.resizeMode.contain}} source={require('./images/share_codeapk.png')} />
+                  <Image style={[styles.rightImage,{marginTop:this.state.screenHeight*0.25*0.25}]} source={require('./images/share_right.png')} />
+                </View>
+              </View>
+              <View style={{flexDirection:'row',marginTop:this.state.screenHeight*0.4*0.1}}>
+              <TouchableHighlight style={[styles.buttonStyle,{marginRight:this.state.screenWidth*0.3,marginLeft:this.state.screenWidth*0.31}]}
+                onPress={this._onShare2.bind(this)}
                 underlayColor='#3D8CC5'>
                 <Text style={styles.text2}>立即分享</Text>
               </TouchableHighlight>
@@ -116,8 +203,8 @@ class SharePage extends Component {
                 </View>
               </View>
               <View style={{flexDirection:'row',marginTop:this.state.screenHeight*0.4*0.1}}>
-              <TouchableHighlight style={[styles.buttonStyle,{marginRight:this.state.screenWidth*0.3,marginLeft:this.state.screenWidth*0.3}]}
-                onPress={this._onShare1.bind(this)}
+              <TouchableHighlight style={[styles.buttonStyle,{marginRight:this.state.screenWidth*0.3,marginLeft:this.state.screenWidth*0.31}]}
+                onPress={this._onShare3.bind(this)}
                 underlayColor='#3D8CC5'>
                 <Text style={styles.text2}>立即分享</Text>
               </TouchableHighlight>
@@ -139,8 +226,8 @@ class SharePage extends Component {
                 </View>
               </View>
               <View style={{flexDirection:'row',marginTop:this.state.screenHeight*0.4*0.1}}>
-              <TouchableHighlight style={[styles.buttonStyle,{marginRight:this.state.screenWidth*0.3,marginLeft:this.state.screenWidth*0.3}]}
-                onPress={this._onShare1.bind(this)}
+              <TouchableHighlight style={[styles.buttonStyle,{marginRight:this.state.screenWidth*0.3,marginLeft:this.state.screenWidth*0.31}]}
+                onPress={this._onShare4.bind(this)}
                 underlayColor='#3D8CC5'>
                 <Text style={styles.text2}>立即分享</Text>
               </TouchableHighlight>
@@ -203,7 +290,7 @@ const styles = StyleSheet.create({
     borderColor: '#0067B1',
     borderWidth: 1,
     borderRadius: 4,
-    alignSelf: 'stretch',
+    alignSelf: 'center',
     justifyContent: 'center',
   },
   image: {

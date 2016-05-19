@@ -664,7 +664,7 @@ _onLoadEvent1(e){
         <View style={{flex:1,flexDirection:'column'}} >
           <View style={[styles.navBar,{width:this.state.screenWidth}]} {...this._panResponder.panHandlers}  >
             <View style={{width:80,alignItems: 'center', justifyContent: 'center'}} >
-              <TouchableHighlight style={styles.minbtn}
+              <TouchableHighlight style={styles.minbtn1}
                 onPress={this._onTopBtn1.bind(this)}
                 underlayColor='transparent'>
                 <Image
@@ -673,7 +673,7 @@ _onLoadEvent1(e){
               </TouchableHighlight>
             </View>
             <View style={{flex:1,alignItems: 'center', justifyContent: 'center'}}>
-              <TouchableHighlight style={styles.minbtn}
+              <TouchableHighlight style={styles.minbtn1}
                 underlayColor='transparent'>
                 <Image
                   style={styles.minbtn}
@@ -681,7 +681,7 @@ _onLoadEvent1(e){
               </TouchableHighlight>
             </View>
             <View style={{width:80,alignItems: 'center', justifyContent: 'center'}}>
-            <TouchableHighlight style={styles.minbtn}
+            <TouchableHighlight style={styles.minbtn1}
                 onPress={this._onTopBtn3.bind(this)}
                 underlayColor='transparent'>
                 <Image
@@ -886,7 +886,7 @@ _onLoadEvent1(e){
               </TouchableHighlight>
             </View>
             <View style={{width:80,alignItems: 'center', justifyContent: 'center'}}>
-            <TouchableHighlight style={[styles.minbtn,{justifyContent:'center', alignItems:'center'}]}
+            <TouchableHighlight style={[styles.minbtn1,{justifyContent:'center', alignItems:'center'}]}
                 onPress={this._onTopBtn4.bind(this)}
                 underlayColor='transparent'>
                 <Text
@@ -896,7 +896,7 @@ _onLoadEvent1(e){
             </View>
           </View>
           <View style={{flex:3}}>
-            <View style={{flexDirection:'row',height:(this.state.screenHeight-113)/10*2,backgroundColor:'#0066FF'}}>
+            <View style={{flexDirection:'row',height:(this.state.screenHeight-113)/10*2,backgroundColor:'#0094FF'}}>
               <Image style={{width:(this.state.screenHeight-113)/10*1.2,height:(this.state.screenHeight-113)/10*1.2,marginTop:(this.state.screenHeight-113)/10*0.4,marginLeft:20}}
                   source={require('image!my_logo')} />
                   <View>
@@ -1016,26 +1016,28 @@ _onLoadEvent1(e){
       );
   }
 }
-  componentWillMount() {
-    
-    
 
+  componentWillMount() {
 
     this._panResponder = PanResponder.create({
       // Ask to be the responder:
-      onMoveShouldSetPanResponder: (evt, gestureState) => {console.log(1);  return true},
+      onMoveShouldSetPanResponder: (evt, gestureState) => {
+      	console.log(gestureState);
+      	if( (Math.abs(gestureState.dx)+Math.abs(gestureState.dy))>10){
+      		return true;
+      	}else
+      	return false
+      },
       onPanResponderGrant: (evt, gestureState) => {
         // The guesture has started. Show visual feedback so the user knows
         // what is happening!
         // gestureState.{x,y}0 will be set to zero now
         this.setState({startWidth:this.state.moveDx._value});
-
       },
       onPanResponderMove: (evt, gestureState) => {
         // The most recent move distance is gestureState.move{X,Y}
         // The accumulated gesture distance since becoming responder is
        // gestureState.d{x,y}
-
        var dx = gestureState.dx+this.state.startWidth;
        var widthDx = (dx <0)?0:dx;
        var sliderWidth = this.state.sliderWidth;
@@ -1112,9 +1114,6 @@ _onLoadEvent1(e){
     if(toWidth == 0){
     	this.setState({isshowslider:true})
     }else{this.setState({isshowslider:false})}
-
-    console.log("isshowslider:");
-    console.log(this.state.isshowslider);
   }
 
   _onMyEvent(){
@@ -1461,7 +1460,11 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
   },
-  minbtn:{
+  minbtn1:{
+    width:55,
+    height:35
+  },
+   minbtn:{
     width:35,
     height:35
   },

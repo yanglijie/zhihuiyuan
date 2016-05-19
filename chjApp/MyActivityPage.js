@@ -142,7 +142,9 @@ class MyActivityPage extends Component {
  
 	}
   renderRow(rowData, sectionID, rowID) {
-    var img = require('./images/share_codeapk.png')
+    var img = rowData.qrcode;
+    console.log(img)
+
     if (!rowData.Event) {
      
       return(<View></View>);
@@ -164,6 +166,7 @@ class MyActivityPage extends Component {
 		      		<Image
 			            style={{width:30,height:30,margin:10,marginLeft:15}}
 			            source={require('image!myIcon')} />
+
 			       <Text style={{width:100,height:20,marginTop:18,fontSize:13,color:'#ADADAD',}}>
 				      	活动通行证
 				    </Text>
@@ -172,7 +175,7 @@ class MyActivityPage extends Component {
 			      	<View style={{backgroundColor:'white',marginLeft:(this.state.screenWidth-20)/3*0.1,marginTop:(this.state.screenWidth-20)/3*0.25,marginBottom: (this.state.screenWidth-20)/3*0.25,}}>
 			      		<Image
 			            style={{width:78,height:78,margin:(this.state.screenWidth-20)/3*0.1,}}
-			            source={img} />
+			            source={{uri: 'http://famesmart.com/phpqrcode/qrcode.php?size=78&data='+img}}  />
 			      	</View>
 			      	<View style={{flex:6,flexDirection:'column',marginTop:(this.state.screenWidth-20)/3*0.19,marginLeft:(this.state.screenWidth-20)/3*0.1}}>
 				      	<View style={{flex:1,flexDirection:'row',}}>
@@ -265,6 +268,7 @@ var styles = StyleSheet.create({
   textFont: {
     color: '#FFFFFF',
     fontSize: 13,
+    backgroundColor:'transparent',
   },
   image: {
   	marginTop:7,

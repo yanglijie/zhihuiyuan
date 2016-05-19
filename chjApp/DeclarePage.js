@@ -13,13 +13,15 @@ import React, {
 
 var WebViewBridge = require('react-native-webview-bridge');
 var MyservicePage = require('./MyServicePage');
+var Dimensions = require('Dimensions');
 
 class DeclarePage extends Component {
   constructor(props) {
     super(props);
     this.state = {
       verifyCode: '',
-      mobile:''
+      mobile:'',
+      screenHeight:Dimensions.get('window').height,
     };
   }
   _getVerifyCode(e){
@@ -69,7 +71,7 @@ class DeclarePage extends Component {
 			console.log(injectScript);
     return (
     	<View style={{flex:1}}>
-        <WebViewBridge style={styles.webview_style} 
+        <WebViewBridge style={[styles.webview_style,{}]} 
           startInLoadingState={true}
           domStorageEnabled={true}
           javaScriptEnabled={true}
@@ -86,7 +88,7 @@ class DeclarePage extends Component {
 }
 var styles = StyleSheet.create({
     webview_style:{  
-       backgroundColor:'white',   
+       backgroundColor:'white', 
     }
 });
 module.exports = DeclarePage;

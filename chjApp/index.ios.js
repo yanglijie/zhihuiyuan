@@ -249,7 +249,7 @@ async _loadInitialState(){
 
     var loginSpinner = this.state.isLogining ?
     ( <Text style={styles.buttonText}>登录中...</Text> ) :
-    ( <Text style={styles.buttonText}>登   陆</Text>);
+    ( <Text style={styles.buttonText}>登   录</Text>);
     return (
       
       <ScrollView ref='scrollView'  
@@ -267,30 +267,24 @@ async _loadInitialState(){
           </View>
 
           <View style={{flex:2,marginLeft:this.state.screenwidth*0.1,marginRight:this.state.screenwidth*0.1,flexDirection:'column',}}>
-            <View style={{flexDirection:'row',width:this.state.screenwidth*0.8,height:this.state.screenHeight*0.5/12,}}>
+            <View style={{width:this.state.screenwidth*0.8,height:this.state.screenHeight*0.5/12}}>
 
-              <Image
-                style={{flex:1,height:this.state.screenHeight*0.5/12*0.95,resizeMode: Image.resizeMode.contain,}}
-                source={require('image!back_edittext')}>
-                <TextInput
-                  autofocus={true}
-                  ref='usernameInput'
-                  style={styles.inputs}
-                  autoCorrect={true}
-                  value={this.state.username}
-                  onChangeText={(text) => this.setState({username: text})}
-                  placeholder='请输入手机号/营业执照' 
-                  placeholderTextColor={'#003257'}
-                  onFocus={this.inputFocused.bind(this, 'usernameInput')}
-                  onEndEditing={this.inputDisFocused.bind(this)}
+              <TextInput
+                autofocus={true}
+                ref='usernameInput'
+                style={styles.inputs}
+                autoCorrect={true}
+                value={this.state.username}
+                onChangeText={(text) => this.setState({username: text})}
+                placeholder='请输入手机号/营业执照' 
+                placeholderTextColor={'#003257'}
+                onFocus={this.inputFocused.bind(this, 'usernameInput')}
+                onEndEditing={this.inputDisFocused.bind(this)}
                   />
-                  
-              </Image>
-              </View>
-            <View style={{flexDirection:'row',height:this.state.screenHeight*0.5/12,}}>
-              <Image
-                style={{height:this.state.screenHeight*0.5/12*0.95,flex:1,resizeMode: Image.resizeMode.contain,}}
-                source={require('image!back_edittext')}>
+              
+            </View>
+            <View style={{height:1,backgroundColor:'white'}} />
+            <View style={{height:this.state.screenHeight*0.5/12,}}>
                 <TextInput
                   ref='pwdInput'
                   style={styles.inputs}
@@ -301,8 +295,8 @@ async _loadInitialState(){
                   onFocus={this.inputFocused.bind(this, 'pwdInput')}
                   onEndEditing={this.inputDisFocused.bind(this)}
                   />
-              </Image>
             </View>
+            <View style={{height:1,backgroundColor:'white'}} />
             <View style={{flexDirection:'row'}}>
               <Text style={[styles.errText,{color:'red'}]}>{this.state.loginErr}
               </Text>

@@ -54,10 +54,11 @@ class MsgDetailsPage extends Component {
     var img = require('image!myIcon');
     
     var content = eventData.Message_content.content;
-    var contentHTML = "" + escape2Html(content);
+    var contentHTML = removeHtmlTab(escape2Html(content));
+
 
     return (
-      <View style={{flex:1,}}>
+      <View  style={{flex:1,}}>
         
         <View>
         <View style={styles.container}>
@@ -75,8 +76,6 @@ class MsgDetailsPage extends Component {
       </View>
 
       <View style={{flex:3}}
-        bounces={false}
-        showsVerticalScrollIndicator={true}
         automaticallyAdjustContentInsets={false}>
         <View>
           <View style={{flex:1,flexDirection:'row'}}>
@@ -102,23 +101,25 @@ class MsgDetailsPage extends Component {
             </View>
           </View>
         </View>
-        <View>
-          <Text style={{fontSize:15,color:'#0067B1',marginLeft:this.state.screenWidth*0.03,}}>
+        
+          <Text style={{fontSize:15,color:'#0067B1',marginLeft:this.state.screenWidth*0.03,marginTop:this.state.screenWidth*0.05,height:this.state.screenWidth*0.1}}>
             内容详情
           </Text>
-        </View>
-        
-          <WebView
-          style={{flex:1,marginLeft:this.state.screenWidth*0.03,marginRight:this.state.screenWidth*0.03,backgroundColor:'#fff'}}
-          source={{html: contentHTML}}
-          scalesPageToFit={false}
-          scrollEnabled={true}
-          automaticallyAdjustContentInsets={false}
-        ></WebView>
-        
+        <ScrollView style={{flex:3}}
+        bounces={false}
+        showsVerticalScrollIndicator={false}
+        >
+          <Text 
+              style={{flex:1,fontSize:14,color:'#505050',marginLeft:this.state.screenWidth*0.03,marginRight:this.state.screenWidth*0.03,}}
+            >
+            {contentHTML}
+            </Text>
+        </ScrollView>
+          
         
       </View>
       </View>
+      
     );
   }
 }

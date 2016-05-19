@@ -261,6 +261,7 @@ var styles = StyleSheet.create({
     color: '#FFFFFF',
     fontSize: 13,
     marginTop:7,
+    backgroundColor:'transparent',
   },
   image: {
     marginTop:7,
