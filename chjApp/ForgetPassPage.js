@@ -259,9 +259,9 @@ class ForgetPassPage extends Component {
                   
                   ref='verInput'
                   onFocus={this.inputFocused.bind(this, 'verInput')}
-                  onEndEditing={this.inputDisFocused.bind(this)}
-                  />
-              <TouchableHighlight style={{flex:3}}
+                  onEndEditing={this.inputDisFocused.bind(this)}/>
+                  
+              <TouchableHighlight style={{width:10}}
                 onPress={this._getVerifyCode.bind(this)}
                 underlayColor='#48BBEC'>
                  <Text style={[styles.label1,{marginTop:10,marginLeft:this.state.screenWidth*0.15,}]}>{loginSpinner}</Text>

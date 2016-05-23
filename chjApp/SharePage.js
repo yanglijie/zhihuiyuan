@@ -18,6 +18,7 @@ import React, {
 } from 'react-native';
 import * as WeChat from 'react-native-wechat';
 var resolveAssetSource = require('resolveAssetSource');
+var awita=WeChat.registerApp('wxf73e1fab51526b73');
 class SharePage extends Component {
 
   constructor(props) {
@@ -25,15 +26,15 @@ class SharePage extends Component {
     this.state = {
       verifyCode: '',
       mobile:'',
-
+      count:'',
 
       screenWidth:Dimensions.get('window').width,
       screenHeight:Dimensions.get('window').height
     };
   }
   async _onShare1(e){
-  	    try {
-      await WeChat.registerApp('wxf73e1fab51526b73');
+        try {
+
       var imageResource = require('./images/share_codeapk1.png');
  
       var result = await WeChat.shareToSession({
@@ -53,7 +54,7 @@ class SharePage extends Component {
   }
  async _onShare2(e){
         try {
-      await WeChat.registerApp('wxf73e1fab51526b73');
+
       var imageResource = require('./images/share_codeapk.png');
  
       var result = await WeChat.shareToSession({
@@ -73,7 +74,7 @@ class SharePage extends Component {
   }
   async _onShare3(e){
         try {
-      await WeChat.registerApp('wxf73e1fab51526b73');
+
       var imageResource = require('./images/share_code.png');
  
       var result = await WeChat.shareToSession({
@@ -93,7 +94,7 @@ class SharePage extends Component {
   }
   async _onShare4(e){
         try {
-      await WeChat.registerApp('wxf73e1fab51526b73');
+
       var imageResource = require('./images/pujiang2code.jpg');
  
       var result = await WeChat.shareToSession({
@@ -136,6 +137,7 @@ class SharePage extends Component {
         <Swiper style={styles.wrapper}
         width={Dimensions.get('window').width}
         height={Dimensions.get('window').height}
+        
            loop={false}>
           <View style={styles.slide} >
             <Image style={[styles.image,{width:this.state.screenWidth,}]} source={require('image!share_back')} >
@@ -226,7 +228,7 @@ class SharePage extends Component {
                 </View>
               </View>
               <View style={{flexDirection:'row',marginTop:this.state.screenHeight*0.4*0.1}}>
-              <TouchableHighlight style={[styles.buttonStyle,{marginRight:this.state.screenWidth*0.3,marginLeft:this.state.screenWidth*0.31}]}
+              <TouchableHighlight style={[styles.buttonStyle,{marginRight:this.state.screenWidth*0.3,marginLeft:this.state.screenWidth*0.32}]}
                 onPress={this._onShare4.bind(this)}
                 underlayColor='#3D8CC5'>
                 <Text style={styles.text2}>立即分享</Text>

@@ -673,7 +673,7 @@ _onLoadEvent1(e){
               </TouchableHighlight>
             </View>
             <View style={{flex:1,alignItems: 'center', justifyContent: 'center'}}>
-              <TouchableHighlight style={styles.minbtn1}
+              <TouchableHighlight style={styles.minbtn}
                 underlayColor='transparent'>
                 <Image
                   style={styles.minbtn}
@@ -681,18 +681,18 @@ _onLoadEvent1(e){
               </TouchableHighlight>
             </View>
             <View style={{width:80,alignItems: 'center', justifyContent: 'center'}}>
-            <TouchableHighlight style={styles.minbtn1}
+            <TouchableHighlight style={[styles.minbtn1,{marginLeft:this.state.screenWidth*0.1}]}
                 onPress={this._onTopBtn3.bind(this)}
                 underlayColor='transparent'>
                 <Image
-                  style={styles.minbtn}
+                  style={[styles.minbtn,{alignItems: 'center'}]}
                   source={require('image!shareBtn')} />
               </TouchableHighlight>
             </View>
           </View>
           <View style={{flex:1}}>
             <Swiper style={styles.wrapper} height={(Dimensions.get('window').height-113)*0.4}
-              onMomentumScrollEnd={function(e, state, context){console.log('index:', state.index)}}
+             
               dot={<View style={{backgroundColor:'rgba(255,255,255,.2)', width: 5, height: 5,borderRadius: 4, marginLeft: 3, marginRight: 3, marginTop: 3, }} />}
               activeDot={<View style={{backgroundColor: '#FFF', width: 8, height: 8, borderRadius: 4, marginLeft: 3, marginRight: 3, marginTop: 3, }} />}
               paginationStyle={{}} loop={true}

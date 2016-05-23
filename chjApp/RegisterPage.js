@@ -239,10 +239,10 @@ class RegisterPage extends Component {
                   secureTextEntry={true}
  
                   onFocus={this.inputFocused.bind(this, 'verfInput')}
-                  onEndEditing={this.inputDisFocused.bind(this)}
-                  />
-                <TouchableHighlight 
-                style={{flex:3}}
+                  onEndEditing={this.inputDisFocused.bind(this)}  />
+                
+              <TouchableHighlight 
+                style={{flex:1,backgroundColor:'red'}}
                 onPress={this._getVerifyCode.bind(this)}
                 underlayColor='#48BBEC'
                 >

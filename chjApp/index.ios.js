@@ -291,7 +291,8 @@ async _loadInitialState(){
                   value={this.state.password}
                   onChangeText={(text) => this.setState({password: text})}
                   secureTextEntry={true}
-                  placeholder='' 
+                  placeholder='请输入密码' 
+                 placeholderTextColor={'#003257'}
                   onFocus={this.inputFocused.bind(this, 'pwdInput')}
                   onEndEditing={this.inputDisFocused.bind(this)}
                   />
