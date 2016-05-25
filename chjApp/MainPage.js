@@ -92,7 +92,8 @@ class MainPage extends Component {
     this.state = {
       verifyCode: '',
       mobile:'',
-      
+      countNotic:0,
+      evenTap:'',
       presses:0,
       selectedTab:'indexTab',
       moveDx:new Animated.Value(0),
@@ -403,7 +404,7 @@ _onLoadEvent1(e){
 			}
              
 			this.props.Gapp.user.notifCount=count;
-			
+			this.setState({countNotic:count})
 
             return this.state.EventdataSource1;
             }else{
@@ -653,6 +654,12 @@ _onLoadEvent1(e){
             valuedata=valuedata.concat(imagedata[i].value)
             urldata=urldata.concat(imagedata[i].note)
           }
+     var pingye 
+     if (this.props.Gapp.user.zhizhao != null) {
+     	pingye=this.props.Gapp.user.zhizhao;
+     }else{
+     	pingye='未绑定';
+     }
  
     if(pageText == 'indexTab'){
       var sss = (<View style={styles.slide} >
@@ -903,8 +910,9 @@ _onLoadEvent1(e){
                       <Text style={{width:180,height:20,marginTop:(this.state.screenHeight-113)/10*0.5,marginLeft:30,fontSize:15,color:'#ffffff'}}>
                       创       客：{this.props.Gapp.user.username}
                       </Text>
-                      <Text style={{width:180,height:20,marginTop:(this.state.screenHeight-113)/10*0.25,marginLeft:30,fontSize:15,color:'#ffffff'}}>
-                      营业执照：{this.props.Gapp.user.zhizhao}
+                      <Text style={{width:this.state.screenWidth*0.65,height:20,marginTop:(this.state.screenHeight-113)/10*0.25,marginLeft:30,fontSize:15,color:'#ffffff'}}
+                      numberOfLines={1}>
+                      公司名称：{pingye}
                       </Text>
                   </View>
             </View>
@@ -1345,16 +1353,17 @@ _onLoadEvent1(e){
         <TabBarIOS.Item
           title="消息"
           icon={{uri: base64IconMsg, scale: 1.6}}
-          badge={this.props.Gapp.user.notifCount > 0 ? this.props.Gapp.user.notifCount : undefined}
+          badge={this.state.countNotic > 0 ? this.state.countNotic : undefined}
           selected={this.state.selectedTab === 'msgTab'}
           selectedIcon={{uri: base64IconMsgPress, scale: 2.6}}
           onPress={() => {
             this.setState({
+            	evenTap:this._onLoadEvent1(),
               selectedTab: 'msgTab',
-              notifCount: this.props.Gapp.user.notifCount,
+              notifCount: this.state.countNotic,
             });
           } }>
-          {this._renderContent('#783E33', 'msgTab', this.props.Gapp.user.notifCount)}
+          {this._renderContent('#783E33', 'msgTab', this.state.countNotic )}
         </TabBarIOS.Item>
         <TabBarIOS.Item
           icon={{uri: base64IconMy, scale: 1.6}}

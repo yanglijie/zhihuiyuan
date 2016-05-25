@@ -228,7 +228,7 @@ class ForgetPassPage extends Component {
           </View>
           <View style={[{flex:5,flexDirection:'column',marginLeft:this.state.screenWidth*0.1,}]}>
             <View>
-            <View style={{flex:1,flexDirection:'row',height:this.state.screenHeight*0.5*0.1}}>
+            <View style={{flex:1,flexDirection:'row',height:this.state.screenHeight*0.5*0.09}}>
               <Text style={styles.label}>
                 手机号
               </Text>
@@ -245,9 +245,9 @@ class ForgetPassPage extends Component {
                   />
             </View>
             </View>
-             <View style={{height:1,backgroundColor:'white',marginRight:this.state.screenWidth*0.1}} />
+             <View style={{height:1,backgroundColor:'white',marginRight:this.state.screenWidth*0.1,marginTop:this.state.screenHeight*0.5*0.01,}} />
             <View>
-            <View style={{flex:1,flexDirection:'row',height:this.state.screenHeight*0.5*0.1,marginTop:this.state.screenHeight*0.5*0.1*0.25}}>
+            <View style={{flex:1,flexDirection:'row',height:this.state.screenHeight*0.5*0.09,marginTop:this.state.screenHeight*0.5*0.1*0.25}}>
               <Text style={styles.label}>
                 验证码
               </Text>
@@ -261,16 +261,17 @@ class ForgetPassPage extends Component {
                   onFocus={this.inputFocused.bind(this, 'verInput')}
                   onEndEditing={this.inputDisFocused.bind(this)}/>
                   
-              <TouchableHighlight style={{width:10}}
+              <TouchableHighlight 
+                style={{width:80,marginRight:this.state.screenWidth*0.1,}}
                 onPress={this._getVerifyCode.bind(this)}
                 underlayColor='#48BBEC'>
-                 <Text style={[styles.label1,{marginTop:10,marginLeft:this.state.screenWidth*0.15,}]}>{loginSpinner}</Text>
+                 <Text style={[styles.label1,{marginTop:10}]}>{loginSpinner}</Text>
               </TouchableHighlight>
             </View>
             </View>
-            <View style={{height:1,backgroundColor:'white',marginRight:this.state.screenWidth*0.1}} />
+            <View style={{height:1,backgroundColor:'white',marginRight:this.state.screenWidth*0.1,marginTop:this.state.screenHeight*0.5*0.01,}} />
             <View>
-            <View style={{flex:1,flexDirection:'row',height:this.state.screenHeight*0.5*0.1,marginTop:this.state.screenHeight*0.5*0.1*0.25}}>
+            <View style={{flex:1,flexDirection:'row',height:this.state.screenHeight*0.5*0.09,marginTop:this.state.screenHeight*0.5*0.1*0.25}}>
               <Text style={styles.label}>
                 密码
               </Text>
@@ -286,9 +287,9 @@ class ForgetPassPage extends Component {
                   />
             </View>
             </View>
-            <View style={{height:1,backgroundColor:'white',marginRight:this.state.screenWidth*0.1}} />
+            <View style={{height:1,backgroundColor:'white',marginRight:this.state.screenWidth*0.1,marginTop:this.state.screenHeight*0.5*0.01,}} />
             <View>
-            <View style={{flex:1,flexDirection:'row',height:this.state.screenHeight*0.5*0.1,marginTop:this.state.screenHeight*0.5*0.1*0.25}}>
+            <View style={{flex:1,flexDirection:'row',height:this.state.screenHeight*0.5*0.09,marginTop:this.state.screenHeight*0.5*0.1*0.25}}>
               <Text style={styles.label}>
                 确认密码
               </Text>
@@ -303,7 +304,7 @@ class ForgetPassPage extends Component {
                   />
             </View>
             </View>
-            <View style={{height:1,backgroundColor:'white',marginRight:this.state.screenWidth*0.1}} />
+            <View style={{height:1,backgroundColor:'white',marginRight:this.state.screenWidth*0.1,marginTop:this.state.screenHeight*0.5*0.01,}} />
           <View style={{flexDirection:'row',}}>
               <TouchableHighlight style={[styles.button,{marginTop:this.state.screenHeight*0.5*0.1,height:this.state.screenHeight*0.5/12,marginRight:this.state.screenWidth*0.1,}]}
                 onPress={this._onPassWord.bind(this)}

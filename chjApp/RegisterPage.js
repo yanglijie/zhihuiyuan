@@ -204,7 +204,7 @@ class RegisterPage extends Component {
           </View>
           <View style={[{flex:2,marginLeft:5,flexDirection:'column',marginRight:5,height:this.state.screenHeight*0.5*0.1}]}>
             <View>
-            <View style={{flex:1,flexDirection:'row',height:this.state.screenHeight*0.5*0.1,marginLeft:this.state.screenWidth*0.1}}>
+            <View style={{flex:1,flexDirection:'row',height:this.state.screenHeight*0.5*0.09,marginLeft:this.state.screenWidth*0.1}}>
               <Text style={styles.label}>
                 手机号
               </Text>
@@ -224,9 +224,9 @@ class RegisterPage extends Component {
             
             </View>
             </View>
-            <View style={{height:1,backgroundColor:'white',marginLeft:this.state.screenWidth*0.1,marginRight:this.state.screenWidth*0.1}} />
+            <View style={{height:1,backgroundColor:'white',marginLeft:this.state.screenWidth*0.1,marginRight:this.state.screenWidth*0.1,marginTop:this.state.screenHeight*0.5*0.01,}} />
             <View>
-            <View style={{flex:1,flexDirection:'row',height:this.state.screenHeight*0.5*0.1,marginTop:this.state.screenHeight*0.5*0.1*0.5,marginLeft:this.state.screenWidth*0.1}}>
+            <View style={{flex:1,flexDirection:'row',height:this.state.screenHeight*0.5*0.09,marginTop:this.state.screenHeight*0.5*0.1*0.5,marginLeft:this.state.screenWidth*0.1}}>
               <Text style={styles.label}>
                 验证码
               </Text>
@@ -242,15 +242,15 @@ class RegisterPage extends Component {
                   onEndEditing={this.inputDisFocused.bind(this)}  />
                 
               <TouchableHighlight 
-                style={{flex:1,backgroundColor:'red'}}
+                style={{width:80,marginRight:this.state.screenWidth*0.1,}}
                 onPress={this._getVerifyCode.bind(this)}
                 underlayColor='#48BBEC'
                 >
-                <Text style={[styles.label1,{marginTop:10,marginLeft:this.state.screenWidth*0.15,}]}>{loginSpinner}</Text>
+                <Text style={[styles.label1,{marginTop:10,}]}>{loginSpinner}</Text>
               </TouchableHighlight>
             </View>
             </View>
-            <View style={{height:1,backgroundColor:'white',marginLeft:this.state.screenWidth*0.1,marginRight:this.state.screenWidth*0.1}} />
+           <View style={{height:1,backgroundColor:'white',marginLeft:this.state.screenWidth*0.1,marginRight:this.state.screenWidth*0.1,marginTop:this.state.screenHeight*0.5*0.01,}} />
             
             <View style={{flexDirection:'row'}}>
               <TouchableHighlight style={[styles.button,{marginTop:this.state.screenHeight*0.5*0.1,height:this.state.screenHeight*0.5/12,marginLeft:this.state.screenWidth*0.1,marginRight:this.state.screenWidth*0.1,}]}
@@ -328,7 +328,6 @@ inputs: {
     color: 'white',
     fontSize:15,
     marginTop:10,
-    marginLeft:10,
     width:80,
     textAlign: 'right',
     backgroundColor:'transparent'

@@ -108,7 +108,7 @@ class IndexPage extends Component {
       if(json.status == 0){
         //login success
         console.log('login success');
-        var name=json.detail.username;
+        var name=json.detail.comname;
         Gapp.user = json.detail;
         
         //set the username
@@ -267,7 +267,7 @@ async _loadInitialState(){
           </View>
 
           <View style={{flex:2,marginLeft:this.state.screenwidth*0.1,marginRight:this.state.screenwidth*0.1,flexDirection:'column',}}>
-            <View style={{width:this.state.screenwidth*0.8,height:this.state.screenHeight*0.5/12}}>
+            <View style={{width:this.state.screenwidth*0.8,height:this.state.screenHeight*0.5/12*0.95}}>
 
               <TextInput
                 autofocus={true}
@@ -283,8 +283,8 @@ async _loadInitialState(){
                   />
               
             </View>
-            <View style={{height:1,backgroundColor:'white'}} />
-            <View style={{height:this.state.screenHeight*0.5/12,}}>
+            <View style={{height:1,backgroundColor:'white',marginTop:this.state.screenHeight*0.5/12*0.05}} />
+            <View style={{height:this.state.screenHeight*0.5/12*0.95,}}>
                 <TextInput
                   ref='pwdInput'
                   style={styles.inputs}
@@ -297,7 +297,7 @@ async _loadInitialState(){
                   onEndEditing={this.inputDisFocused.bind(this)}
                   />
             </View>
-            <View style={{height:1,backgroundColor:'white'}} />
+            <View style={{height:1,backgroundColor:'white',marginTop:this.state.screenHeight*0.5/12*0.05}} />
             <View style={{flexDirection:'row'}}>
               <Text style={[styles.errText,{color:'red'}]}>{this.state.loginErr}
               </Text>
