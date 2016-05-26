@@ -79,10 +79,8 @@ class MsgDetailsPage extends Component {
         automaticallyAdjustContentInsets={false}>
         <View>
           <View style={{flex:1,flexDirection:'row'}}>
-            <Image style={{width:this.state.screenWidth*0.2,height:this.state.screenWidth*0.2,margin:this.state.screenWidth*0.08,}} 
-              source={img} />
             <View style={{flex:1}}>
-              <View style={{flex:1,flexDirection:'row',marginTop:this.state.screenWidth*0.085}}>
+              <View style={{flex:1,flexDirection:'row',marginLeft:this.state.screenWidth*0.03,marginTop:this.state.screenWidth*0.085}}>
                 <Text style={[styles.text1,{}]}>
                         标题
                 </Text>    
@@ -90,7 +88,7 @@ class MsgDetailsPage extends Component {
                         {eventData.Message_content.title}
                 </Text>
              </View>
-              <View style={{flex:1,flexDirection:'row',marginTop:this.state.screenWidth*0.08}}>
+              <View style={{flex:1,flexDirection:'row',marginLeft:this.state.screenWidth*0.03,marginTop:this.state.screenWidth*0.08}}>
                 <Text style={[styles.text1,{}]}>
                         时间
                 </Text>    
@@ -102,7 +100,7 @@ class MsgDetailsPage extends Component {
           </View>
         </View>
         
-          <Text style={{fontSize:15,color:'#0067B1',marginLeft:this.state.screenWidth*0.03,marginTop:this.state.screenWidth*0.05,height:this.state.screenWidth*0.1}}>
+          <Text style={{fontSize:15,color:'#0067B1',marginLeft:this.state.screenWidth*0.03,marginTop:this.state.screenWidth*0.08,height:this.state.screenWidth*0.1}}>
             内容详情
           </Text>
         <ScrollView style={{flex:3}}

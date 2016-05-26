@@ -801,8 +801,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Li Zou (76JB7WY569)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Zou (76JB7WY569)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shanghai Fame Smart Technology Co., Ltd. (4CMRVCURM7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shanghai Fame Smart Technology Co., Ltd. (4CMRVCURM7)";
 				DEAD_CODE_STRIPPING = NO;
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
@@ -820,7 +820,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.Shuang;
 				PRODUCT_NAME = chjApp;
-				PROVISIONING_PROFILE = "53f9c283-ea07-4d1c-ae9b-0aed46214575";
+				PROVISIONING_PROFILE = "33f22bc5-d678-4740-b146-cd662d608905";
 			};
 			name = Debug;
 		};
@@ -828,9 +828,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Li Zou (76JB7WY569)";
-				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer: Li Zou (76JB7WY569)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Zou (76JB7WY569)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shanghai Fame Smart Technology Co., Ltd. (4CMRVCURM7)";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: Shanghai Fame Smart Technology Co., Ltd. (4CMRVCURM7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shanghai Fame Smart Technology Co., Ltd. (4CMRVCURM7)";
 				DEAD_CODE_STRIPPING = NO;
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
@@ -848,7 +848,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.Shuang;
 				PRODUCT_NAME = chjApp;
-				PROVISIONING_PROFILE = "53f9c283-ea07-4d1c-ae9b-0aed46214575";
+				PROVISIONING_PROFILE = "33f22bc5-d678-4740-b146-cd662d608905";
 			};
 			name = Release;
 		};
@@ -869,8 +869,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Li Zou (76JB7WY569)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Zou (76JB7WY569)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shanghai Fame Smart Technology Co., Ltd. (4CMRVCURM7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shanghai Fame Smart Technology Co., Ltd. (4CMRVCURM7)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -898,7 +898,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "53f9c283-ea07-4d1c-ae9b-0aed46214575";
+				PROVISIONING_PROFILE = "33f22bc5-d678-4740-b146-cd662d608905";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -920,8 +920,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Li Zou (76JB7WY569)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Zou (76JB7WY569)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shanghai Fame Smart Technology Co., Ltd. (4CMRVCURM7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shanghai Fame Smart Technology Co., Ltd. (4CMRVCURM7)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -942,7 +942,7 @@
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "53f9c283-ea07-4d1c-ae9b-0aed46214575";
+				PROVISIONING_PROFILE = "33f22bc5-d678-4740-b146-cd662d608905";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};

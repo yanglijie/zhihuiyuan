@@ -19,7 +19,9 @@ a{
 .main_container{
 	
     padding: 0;
-    height: 100%;
+    background-color: white;
+    /* height: :100%;*/
+    
 }
 .row{
 	margin-right:0;

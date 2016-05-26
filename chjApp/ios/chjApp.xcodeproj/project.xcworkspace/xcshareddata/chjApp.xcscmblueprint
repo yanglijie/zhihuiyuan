@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "EDF2E74E6027A10B130393B84DBC5FA22F51A302",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "EDF2E74E6027A10B130393B84DBC5FA22F51A302" : 0,
+    "83D15A8DCB0F295DC56795B062AB32CB11F0D5BE" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6EC3D781-C402-4801-9DEE-7A498900CCCB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "EDF2E74E6027A10B130393B84DBC5FA22F51A302" : "chjApp\/",
+    "83D15A8DCB0F295DC56795B062AB32CB11F0D5BE" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "chjApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ios\/chjApp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yanglijie\/zhihuiyuan.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "83D15A8DCB0F295DC56795B062AB32CB11F0D5BE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/seacozz2007\/chjApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EDF2E74E6027A10B130393B84DBC5FA22F51A302"
+    }
+  ]
+}

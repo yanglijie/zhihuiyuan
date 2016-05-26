@@ -230,6 +230,8 @@ function fun_post(){
     postData = {};
     postData.token = token;
     postData.comname = $('#input-name').val();
+	postData.pername = $('#input-pername').val();
+	postData.pertitle = $('#input-pertitle').val();
     postData.mobile =  $('#input-tel').val();
     postData.date = $('#input-time').val();
     postData.num = $('#input-num').val();

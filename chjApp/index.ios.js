@@ -91,7 +91,6 @@ class IndexPage extends Component {
 
     var logindata = { 
         'username': this.state.username,
-        'mobile': this.state.mobile,
         'password': this.state.password
     }
     if (this.state.devtoken !='') {
@@ -110,9 +109,8 @@ class IndexPage extends Component {
         console.log('login success');
         var name=json.detail.comname;
         Gapp.user = json.detail;
-        
+        console.log(name);
         //set the username
-        Gapp.user.mobile = this.state.mobile;
         Gapp.user.username = this.state.username;
         Gapp.user.password = hex_md5(this.state.password);
         Gapp.user.zhizhao=name;

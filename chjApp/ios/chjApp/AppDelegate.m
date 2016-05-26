@@ -55,7 +55,7 @@
    * on the same Wi-Fi network.
    */
   //模拟器调试
-  NSURL *jsCodeLocationWeb = [NSURL URLWithString:@"http://127.0.0.1:8081/index.ios.bundle?platform=ios&dev=true"];
+  NSURL *jsCodeLocationWeb = [NSURL URLWithString:@"http://192.168.1.223:8081/index.ios.bundle?platform=ios&dev=true"];
   //
   //  /**
   //   * OPTION 2
@@ -66,27 +66,20 @@
   //   */
   
   //真机调试
-  //NSURL *jsCodeLocationWeb = [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
-  //
+//  NSURL *jsCodeLocationWeb = [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
   RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocationWeb
                                                       moduleName:@"chjApp"
                                                initialProperties:nil
                                                    launchOptions:launchOptions];
   
   self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+  self.window.backgroundColor=[UIColor whiteColor];
   UIViewController *rootViewController = [UIViewController new];
   rootViewController.view = rootView;
   self.window.rootViewController = rootViewController;
   [self.window makeKeyAndVisible];
-  
-  
-  
-  
-  
-  
-  
   return YES;
-  
+
   
   
   /**
@@ -96,30 +89,31 @@
    *  4. Make a call to checkUpdate
    *  5. Don't forget to implement the delegate methods
    */
-  //  NSURL* defaultJSCodeLocation = [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
-  //
-  //  ReactNativeAutoUpdater* updater = [ReactNativeAutoUpdater sharedInstance];
-  //  [updater setDelegate:self];
-  //  NSURL* defaultMetadataFileLocation = [[NSBundle mainBundle] URLForResource:@"metadata" withExtension:@"json"];
-  //  [updater initializeWithUpdateMetadataUrl:[NSURL URLWithString:JS_CODE_METADATA_URL]
-  //                     defaultJSCodeLocation:defaultJSCodeLocation
-  //               defaultMetadataFileLocation:defaultMetadataFileLocation ];
-  //
-  //  [updater setHostnameForRelativeDownloadURLs:@"http://139.196.105.5/iosApp"];
-  //  [updater checkUpdate];
-  //
-  //
-  //  NSURL* latestJSCodeLocation = [updater latestJSCodeLocation];
-  //
-  //  //latestJSCodeLocation = defaultJSCodeLocation;
-  //
-  //  self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-  //  UIViewController *rootViewController = [UIViewController new];
-  //  self.window.rootViewController = rootViewController;
-  //  [self createReactRootViewFromURL:latestJSCodeLocation];
-  //  [self.window makeKeyAndVisible];
-  //  return YES;
-  //
+//    NSURL* defaultJSCodeLocation = [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
+//  
+//    ReactNativeAutoUpdater* updater = [ReactNativeAutoUpdater sharedInstance];
+//    [updater setDelegate:self];
+//    NSURL* defaultMetadataFileLocation = [[NSBundle mainBundle] URLForResource:@"metadata" withExtension:@"json"];
+//    [updater initializeWithUpdateMetadataUrl:[NSURL URLWithString:JS_CODE_METADATA_URL]
+//                       defaultJSCodeLocation:defaultJSCodeLocation
+//                 defaultMetadataFileLocation:defaultMetadataFileLocation ];
+//  
+//    [updater setHostnameForRelativeDownloadURLs:@"http://139.196.105.5/iosApp"];
+//    [updater checkUpdate];
+//  
+//  
+//    NSURL* latestJSCodeLocation = [updater latestJSCodeLocation];
+//  
+//    //latestJSCodeLocation = defaultJSCodeLocation;
+//  
+//    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+//    self.window.backgroundColor=[UIColor whiteColor];
+//    UIViewController *rootViewController = [UIViewController new];
+//    self.window.rootViewController = rootViewController;
+//    [self createReactRootViewFromURL:latestJSCodeLocation];
+//    [self.window makeKeyAndVisible];
+//    return YES;
+  
 }
 
 // Required to register for notifications
@@ -130,7 +124,7 @@
 // Required for the register event.
 - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
 {
-  //NSLog (@"string is :%@", deviceToken);
+  NSLog (@"string is :%@", deviceToken);
   [RCTPushNotificationManager didRegisterForRemoteNotificationsWithDeviceToken:deviceToken];
 }
 // Required for the notification event.

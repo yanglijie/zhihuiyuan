@@ -17795,85 +17795,87 @@ __d('react-native/package.json',function(global, require, module, exports) {  mo
 }
 ;
 });
-__d('image!share_back',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/chjApp3/chjApp/ios/chjApp/Images.xcassets/share_back.imageset/share_back.png","uri":"share_back","width":520,"height":803,"deprecated":true};
+__d('image!share_back',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/chjApp/Images.xcassets/share_back.imageset/share_back.png","uri":"share_back","width":520,"height":803,"deprecated":true};
 });
-__d('image!enterprise_integral',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/chjApp3/chjApp/ios/images/enterprise_integral.png","uri":"enterprise_integral","width":1080,"height":35,"deprecated":true};
+__d('image!back_edittext',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/chjApp/Images.xcassets/back_edittext.imageset/back_edittext.png","uri":"back_edittext","width":715,"height":63,"deprecated":true};
 });
-__d('image!left_arrow',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/chjApp3/chjApp/ios/chjApp/Images.xcassets/left_arrow.imageset/left_arrow.png","uri":"left_arrow","width":96,"height":96,"deprecated":true};
+__d('image!enterprise_integral',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/images/enterprise_integral.png","uri":"enterprise_integral","width":1080,"height":35,"deprecated":true};
 });
-__d('image!share_codeapk',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/chjApp3/chjApp/ios/images/share_codeapk.png","uri":"share_codeapk","width":500,"height":500,"deprecated":true};
+__d('image!left_arrow',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/chjApp/Images.xcassets/left_arrow.imageset/left_arrow.png","uri":"left_arrow","width":96,"height":96,"deprecated":true};
 });
-__d('image!home_btn2',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/chjApp3/chjApp/ios/chjApp/Images.xcassets/home_btn2.imageset/home_btn2.png","uri":"home_btn2","width":419,"height":298,"deprecated":true};
+__d('image!share_codeapk',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/images/share_codeapk.png","uri":"share_codeapk","width":500,"height":500,"deprecated":true};
 });
-__d('image!slideBtn',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/chjApp3/chjApp/ios/chjApp/Images.xcassets/slideBtn.imageset/slideBtn.png","uri":"slideBtn","width":55,"height":55,"deprecated":true};
+__d('image!home_btn2',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/chjApp/Images.xcassets/home_btn2.imageset/home_btn2.png","uri":"home_btn2","width":419,"height":298,"deprecated":true};
 });
-__d('image!topBtn',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/chjApp3/chjApp/ios/chjApp/Images.xcassets/topBtn.imageset/topBtn.png","uri":"topBtn","width":124,"height":124,"deprecated":true};
+__d('image!slideBtn',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/chjApp/Images.xcassets/slideBtn.imageset/slideBtn.png","uri":"slideBtn","width":55,"height":55,"deprecated":true};
 });
-__d('image!shareBtn',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/chjApp3/chjApp/ios/chjApp/Images.xcassets/shareBtn.imageset/shareBtn.png","uri":"shareBtn","width":124,"height":124,"deprecated":true};
+__d('image!topBtn',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/chjApp/Images.xcassets/topBtn.imageset/topBtn.png","uri":"topBtn","width":124,"height":124,"deprecated":true};
 });
-__d('image!home_bg',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/chjApp3/chjApp/ios/chjApp/Images.xcassets/home_bg.imageset/home_bg.png","uri":"home_bg","width":520,"height":460,"deprecated":true};
+__d('image!shareBtn',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/chjApp/Images.xcassets/shareBtn.imageset/shareBtn.png","uri":"shareBtn","width":124,"height":124,"deprecated":true};
 });
-__d('image!home_btn1',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/chjApp3/chjApp/ios/chjApp/Images.xcassets/home_btn1.imageset/home_btn1.png","uri":"home_btn1","width":280,"height":199,"deprecated":true};
+__d('image!home_bg',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/chjApp/Images.xcassets/home_bg.imageset/home_bg.png","uri":"home_bg","width":520,"height":460,"deprecated":true};
 });
-__d('image!home_btn5',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/chjApp3/chjApp/ios/chjApp/Images.xcassets/home_btn5.imageset/home_btn5.png","uri":"home_btn5","width":420,"height":299,"deprecated":true};
+__d('image!home_btn1',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/chjApp/Images.xcassets/home_btn1.imageset/home_btn1.png","uri":"home_btn1","width":280,"height":199,"deprecated":true};
 });
-__d('image!home_btn3',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/chjApp3/chjApp/ios/chjApp/Images.xcassets/home_btn3.imageset/home_btn3.png","uri":"home_btn3","width":280,"height":199,"deprecated":true};
+__d('image!home_btn5',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/chjApp/Images.xcassets/home_btn5.imageset/home_btn5.png","uri":"home_btn5","width":420,"height":299,"deprecated":true};
 });
-__d('image!home_btn4',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/chjApp3/chjApp/ios/chjApp/Images.xcassets/home_btn4.imageset/home_btn4.png","uri":"home_btn4","width":280,"height":199,"deprecated":true};
+__d('image!home_btn3',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/chjApp/Images.xcassets/home_btn3.imageset/home_btn3.png","uri":"home_btn3","width":280,"height":199,"deprecated":true};
 });
-__d('image!my_logo',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/chjApp3/chjApp/ios/chjApp/Images.xcassets/my_logo.imageset/my_logo.png","uri":"my_logo","width":124,"height":124,"deprecated":true};
+__d('image!home_btn4',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/chjApp/Images.xcassets/home_btn4.imageset/home_btn4.png","uri":"home_btn4","width":280,"height":199,"deprecated":true};
 });
-__d('image!right_arrow',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/chjApp3/chjApp/ios/chjApp/Images.xcassets/right_arrow.imageset/right_arrow.png","uri":"right_arrow","width":48,"height":48,"deprecated":true};
+__d('image!my_logo',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/chjApp/Images.xcassets/my_logo.imageset/my_logo.png","uri":"my_logo","width":124,"height":124,"deprecated":true};
 });
-__d('image!slider_bg',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/chjApp3/chjApp/ios/chjApp/Images.xcassets/slider_bg.imageset/slider_bg.png","uri":"slider_bg","width":320,"height":688,"deprecated":true};
+__d('image!right_arrow',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/chjApp/Images.xcassets/right_arrow.imageset/right_arrow.png","uri":"right_arrow","width":48,"height":48,"deprecated":true};
 });
-__d('image!slider_title_bg',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/chjApp3/chjApp/ios/chjApp/Images.xcassets/slider_title_bg.imageset/slider_title_bg.png","uri":"slider_title_bg","width":320,"height":138,"deprecated":true};
+__d('image!slider_bg',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/chjApp/Images.xcassets/slider_bg.imageset/slider_bg.png","uri":"slider_bg","width":320,"height":688,"deprecated":true};
 });
-__d('image!slider_line',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/chjApp3/chjApp/ios/chjApp/Images.xcassets/slider_line.imageset/slider_line.png","uri":"slider_line","width":320,"height":4,"deprecated":true};
+__d('image!slider_title_bg',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/chjApp/Images.xcassets/slider_title_bg.imageset/slider_title_bg.png","uri":"slider_title_bg","width":320,"height":138,"deprecated":true};
 });
-__d('image!login_bg',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/chjApp3/chjApp/ios/chjApp/Images.xcassets/login_bg.imageset/login_bg.png","uri":"login_bg","width":520,"height":924,"deprecated":true};
+__d('image!slider_line',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/chjApp/Images.xcassets/slider_line.imageset/slider_line.png","uri":"slider_line","width":320,"height":4,"deprecated":true};
 });
-__d('image!myIcon',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/chjApp3/chjApp/ios/chjApp/Images.xcassets/myIcon.imageset/myIcon.png","uri":"myIcon","width":370,"height":370,"deprecated":true};
+__d('image!login_bg',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/chjApp/Images.xcassets/login_bg.imageset/login_bg.png","uri":"login_bg","width":520,"height":924,"deprecated":true};
 });
-__d('image!back_edittext',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/chjApp3/chjApp/ios/chjApp/Images.xcassets/back_edittext.imageset/back_edittext.png","uri":"back_edittext","width":715,"height":63,"deprecated":true};
+__d('image!myIcon',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/chjApp/Images.xcassets/myIcon.imageset/myIcon.png","uri":"myIcon","width":370,"height":370,"deprecated":true};
 });
-__d('chjApp/images/forget_pass.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/chjApp3/chjApp/images","httpServerLocation":"/assets/images","width":124,"height":32,"scales":[1],"files":["/Users/famesmart/Desktop/chjApp3/chjApp/images/forget_pass.png"],"hash":"1136990ef9de5921290f70ce31ad53d7","name":"forget_pass","type":"png"});
+__d('chjApp/images/forget_pass.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/images","httpServerLocation":"/assets/images","width":124,"height":32,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/images/forget_pass.png"],"hash":"1136990ef9de5921290f70ce31ad53d7","name":"forget_pass","type":"png"});
 });
-__d('react-native/Libraries/CustomComponents/NavigationExperimental/back_chevron.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/chjApp3/chjApp/node_modules/react-native/Libraries/CustomComponents/NavigationExperimental","httpServerLocation":"/assets/node_modules/react-native/Libraries/CustomComponents/NavigationExperimental","width":26,"height":42,"scales":[1],"files":["/Users/famesmart/Desktop/chjApp3/chjApp/node_modules/react-native/Libraries/CustomComponents/NavigationExperimental/back_chevron.png"],"hash":"ff62a71400a6f2c153edd030a2479ca7","name":"back_chevron","type":"png"});
+__d('react-native/Libraries/CustomComponents/NavigationExperimental/back_chevron.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/node_modules/react-native/Libraries/CustomComponents/NavigationExperimental","httpServerLocation":"/assets/node_modules/react-native/Libraries/CustomComponents/NavigationExperimental","width":26,"height":42,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/node_modules/react-native/Libraries/CustomComponents/NavigationExperimental/back_chevron.png"],"hash":"ff62a71400a6f2c153edd030a2479ca7","name":"back_chevron","type":"png"});
 });
-__d('chjApp/images/plan_1.jpg',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/chjApp3/chjApp/images","httpServerLocation":"/assets/images","width":520,"height":193,"scales":[1],"files":["/Users/famesmart/Desktop/chjApp3/chjApp/images/plan_1.jpg"],"hash":"52122ce1fa94cfc5056f7b6adefc6b28","name":"plan_1","type":"jpg"});
+__d('chjApp/images/plan_1.jpg',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/images","httpServerLocation":"/assets/images","width":520,"height":193,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/images/plan_1.jpg"],"hash":"52122ce1fa94cfc5056f7b6adefc6b28","name":"plan_1","type":"jpg"});
 });
-__d('chjApp/images/plan_2.jpg',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/chjApp3/chjApp/images","httpServerLocation":"/assets/images","width":520,"height":193,"scales":[1],"files":["/Users/famesmart/Desktop/chjApp3/chjApp/images/plan_2.jpg"],"hash":"52122ce1fa94cfc5056f7b6adefc6b28","name":"plan_2","type":"jpg"});
+__d('chjApp/images/plan_2.jpg',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/images","httpServerLocation":"/assets/images","width":520,"height":193,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/images/plan_2.jpg"],"hash":"52122ce1fa94cfc5056f7b6adefc6b28","name":"plan_2","type":"jpg"});
 });
-__d('chjApp/images/plan_3.jpg',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/chjApp3/chjApp/images","httpServerLocation":"/assets/images","width":520,"height":193,"scales":[1],"files":["/Users/famesmart/Desktop/chjApp3/chjApp/images/plan_3.jpg"],"hash":"52122ce1fa94cfc5056f7b6adefc6b28","name":"plan_3","type":"jpg"});
+__d('chjApp/images/plan_3.jpg',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/images","httpServerLocation":"/assets/images","width":520,"height":193,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/images/plan_3.jpg"],"hash":"52122ce1fa94cfc5056f7b6adefc6b28","name":"plan_3","type":"jpg"});
 });
-__d('chjApp/images/plan_4.jpg',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/chjApp3/chjApp/images","httpServerLocation":"/assets/images","width":520,"height":193,"scales":[1],"files":["/Users/famesmart/Desktop/chjApp3/chjApp/images/plan_4.jpg"],"hash":"52122ce1fa94cfc5056f7b6adefc6b28","name":"plan_4","type":"jpg"});
+__d('chjApp/images/plan_4.jpg',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/images","httpServerLocation":"/assets/images","width":520,"height":193,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/images/plan_4.jpg"],"hash":"52122ce1fa94cfc5056f7b6adefc6b28","name":"plan_4","type":"jpg"});
 });
-__d('chjApp/images/plan_5.jpg',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/chjApp3/chjApp/images","httpServerLocation":"/assets/images","width":520,"height":193,"scales":[1],"files":["/Users/famesmart/Desktop/chjApp3/chjApp/images/plan_5.jpg"],"hash":"52122ce1fa94cfc5056f7b6adefc6b28","name":"plan_5","type":"jpg"});
+__d('chjApp/images/plan_5.jpg',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/images","httpServerLocation":"/assets/images","width":520,"height":193,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/images/plan_5.jpg"],"hash":"52122ce1fa94cfc5056f7b6adefc6b28","name":"plan_5","type":"jpg"});
 });
-__d('chjApp/images/plan_6.jpg',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/chjApp3/chjApp/images","httpServerLocation":"/assets/images","width":520,"height":193,"scales":[1],"files":["/Users/famesmart/Desktop/chjApp3/chjApp/images/plan_6.jpg"],"hash":"52122ce1fa94cfc5056f7b6adefc6b28","name":"plan_6","type":"jpg"});
+__d('chjApp/images/plan_6.jpg',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/images","httpServerLocation":"/assets/images","width":520,"height":193,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/images/plan_6.jpg"],"hash":"52122ce1fa94cfc5056f7b6adefc6b28","name":"plan_6","type":"jpg"});
 });
-__d('chjApp/images/plan_7.jpg',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/chjApp3/chjApp/images","httpServerLocation":"/assets/images","width":520,"height":193,"scales":[1],"files":["/Users/famesmart/Desktop/chjApp3/chjApp/images/plan_7.jpg"],"hash":"52122ce1fa94cfc5056f7b6adefc6b28","name":"plan_7","type":"jpg"});
+__d('chjApp/images/plan_7.jpg',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/images","httpServerLocation":"/assets/images","width":520,"height":193,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/images/plan_7.jpg"],"hash":"52122ce1fa94cfc5056f7b6adefc6b28","name":"plan_7","type":"jpg"});
 });
-__d('chjApp/images/m_message_left.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/chjApp3/chjApp/images","httpServerLocation":"/assets/images","width":124,"height":124,"scales":[1],"files":["/Users/famesmart/Desktop/chjApp3/chjApp/images/m_message_left.png"],"hash":"8947f5961ea86f492f332b4ee4148304","name":"m_message_left","type":"png"});
+__d('chjApp/images/m_message_left.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/images","httpServerLocation":"/assets/images","width":124,"height":124,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/images/m_message_left.png"],"hash":"8947f5961ea86f492f332b4ee4148304","name":"m_message_left","type":"png"});
 });
-__d('chjApp/images/slide_phone.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/chjApp3/chjApp/images","httpServerLocation":"/assets/images","width":132,"height":120,"scales":[1],"files":["/Users/famesmart/Desktop/chjApp3/chjApp/images/slide_phone.png"],"hash":"8947f5961ea86f492f332b4ee4148304","name":"slide_phone","type":"png"});
+__d('chjApp/images/slide_phone.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/images","httpServerLocation":"/assets/images","width":132,"height":120,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/images/slide_phone.png"],"hash":"8947f5961ea86f492f332b4ee4148304","name":"slide_phone","type":"png"});
 });
-__d('chjApp/images/my_back.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/chjApp3/chjApp/images","httpServerLocation":"/assets/images","width":669,"height":293,"scales":[1],"files":["/Users/famesmart/Desktop/chjApp3/chjApp/images/my_back.png"],"hash":"8947f5961ea86f492f332b4ee4148304","name":"my_back","type":"png"});
+__d('chjApp/images/my_back.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/images","httpServerLocation":"/assets/images","width":669,"height":293,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/images/my_back.png"],"hash":"8947f5961ea86f492f332b4ee4148304","name":"my_back","type":"png"});
 });
-__d('chjApp/images/left_arrow.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/chjApp3/chjApp/images","httpServerLocation":"/assets/images","width":96,"height":96,"scales":[1],"files":["/Users/famesmart/Desktop/chjApp3/chjApp/images/left_arrow.png"],"hash":"1136990ef9de5921290f70ce31ad53d7","name":"left_arrow","type":"png"});
+__d('chjApp/images/share_codeapk1.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/images","httpServerLocation":"/assets/images","width":250,"height":250,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/images/share_codeapk1.png"],"hash":"8d2fd16442d377cf884ff2a4df19eb25","name":"share_codeapk1","type":"png"});
 });
-__d('chjApp/images/share_codeapk.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/chjApp3/chjApp/images","httpServerLocation":"/assets/images","width":500,"height":500,"scales":[1],"files":["/Users/famesmart/Desktop/chjApp3/chjApp/images/share_codeapk.png"],"hash":"93e2441634fab1c613a0591e8c79c579","name":"share_codeapk","type":"png"});
+__d('chjApp/images/share_codeapk.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/images","httpServerLocation":"/assets/images","width":500,"height":500,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/images/share_codeapk.png"],"hash":"d3567e5925ed6dbfdedcc9e2b784b8d3","name":"share_codeapk","type":"png"});
 });
-__d('chjApp/images/share_right.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/chjApp3/chjApp/images","httpServerLocation":"/assets/images","width":24,"height":66,"scales":[1],"files":["/Users/famesmart/Desktop/chjApp3/chjApp/images/share_right.png"],"hash":"8947f5961ea86f492f332b4ee4148304","name":"share_right","type":"png"});
+__d('chjApp/images/share_code.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/images","httpServerLocation":"/assets/images","width":380,"height":380,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/images/share_code.png"],"hash":"8947f5961ea86f492f332b4ee4148304","name":"share_code","type":"png"});
 });
-__d('chjApp/images/share_left.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/chjApp3/chjApp/images","httpServerLocation":"/assets/images","width":24,"height":66,"scales":[1],"files":["/Users/famesmart/Desktop/chjApp3/chjApp/images/share_left.png"],"hash":"8947f5961ea86f492f332b4ee4148304","name":"share_left","type":"png"});
+__d('chjApp/images/pujiang2code.jpg',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/images","httpServerLocation":"/assets/images","width":430,"height":430,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/images/pujiang2code.jpg"],"hash":"357cecebe834d52be00339239e0045bb","name":"pujiang2code","type":"jpg"});
 });
-__d('chjApp/images/share_code.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/chjApp3/chjApp/images","httpServerLocation":"/assets/images","width":380,"height":380,"scales":[1],"files":["/Users/famesmart/Desktop/chjApp3/chjApp/images/share_code.png"],"hash":"8947f5961ea86f492f332b4ee4148304","name":"share_code","type":"png"});
+__d('chjApp/images/left_arrow.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/images","httpServerLocation":"/assets/images","width":96,"height":96,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/images/left_arrow.png"],"hash":"1136990ef9de5921290f70ce31ad53d7","name":"left_arrow","type":"png"});
 });
-__d('chjApp/images/pujiang2code.jpg',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/chjApp3/chjApp/images","httpServerLocation":"/assets/images","width":430,"height":430,"scales":[1],"files":["/Users/famesmart/Desktop/chjApp3/chjApp/images/pujiang2code.jpg"],"hash":"357cecebe834d52be00339239e0045bb","name":"pujiang2code","type":"jpg"});
+__d('chjApp/images/share_right.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/images","httpServerLocation":"/assets/images","width":24,"height":66,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/images/share_right.png"],"hash":"8947f5961ea86f492f332b4ee4148304","name":"share_right","type":"png"});
 });
-__d('chjApp/images/enterprise_integral.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/chjApp3/chjApp/images","httpServerLocation":"/assets/images","width":1080,"height":35,"scales":[1],"files":["/Users/famesmart/Desktop/chjApp3/chjApp/images/enterprise_integral.png"],"hash":"1136990ef9de5921290f70ce31ad53d7","name":"enterprise_integral","type":"png"});
+__d('chjApp/images/share_left.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/images","httpServerLocation":"/assets/images","width":24,"height":66,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/images/share_left.png"],"hash":"8947f5961ea86f492f332b4ee4148304","name":"share_left","type":"png"});
+});
+__d('chjApp/images/enterprise_integral.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/images","httpServerLocation":"/assets/images","width":1080,"height":35,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/images/enterprise_integral.png"],"hash":"1136990ef9de5921290f70ce31ad53d7","name":"enterprise_integral","type":"png"});
 });
 __d('react-native-refreshable-listview/lib/createElementFrom.js',function(global, require, module, exports) {  'use strict';var React=require('react-native/Libraries/react-native/react-native.js');var 
 
@@ -67750,8 +67752,9 @@ source:require('image!myIcon')}))),
 
 _reactNative2.default.createElement(_reactNative.View,{style:[{flex:2,marginLeft:5,flexDirection:'column',marginRight:5,height:this.state.screenHeight*0.5*0.1}]},
 _reactNative2.default.createElement(_reactNative.View,null,
-_reactNative2.default.createElement(_reactNative.View,{style:{flex:1,flexDirection:'row',height:this.state.screenHeight*0.5*0.1}},
+_reactNative2.default.createElement(_reactNative.View,{style:{flex:1,flexDirection:'row',height:this.state.screenHeight*0.5*0.09,marginLeft:this.state.screenWidth*0.1}},
 _reactNative2.default.createElement(_reactNative.Text,{style:styles.label},'手机号'),
+
 
 
 _reactNative2.default.createElement(_reactNative.TextInput,{
@@ -67762,15 +67765,16 @@ autoCorrect:true,
 value:this.state.mobile,
 keyboardType:'numeric',
 onChangeText:function(text){return _this6.setState({mobile:text});},
-placeholder:'手机号',
-placeholderTextColor:'#003257',
+
 onFocus:this.inputFocused.bind(this,'telInput'),
 onEndEditing:this.inputDisFocused.bind(this)}))),
 
 
 
+
+_reactNative2.default.createElement(_reactNative.View,{style:{height:1,backgroundColor:'white',marginLeft:this.state.screenWidth*0.1,marginRight:this.state.screenWidth*0.1,marginTop:this.state.screenHeight*0.5*0.01}}),
 _reactNative2.default.createElement(_reactNative.View,null,
-_reactNative2.default.createElement(_reactNative.View,{style:{flex:1,flexDirection:'row',height:this.state.screenHeight*0.5*0.1,marginTop:this.state.screenHeight*0.5*0.1*0.5}},
+_reactNative2.default.createElement(_reactNative.View,{style:{flex:1,flexDirection:'row',height:this.state.screenHeight*0.5*0.09,marginTop:this.state.screenHeight*0.5*0.1*0.5,marginLeft:this.state.screenWidth*0.1}},
 _reactNative2.default.createElement(_reactNative.Text,{style:styles.label},'验证码'),
 
 
@@ -67781,29 +67785,30 @@ value:this.state.verify,
 keyboardType:'numeric',
 onChangeText:function(text){return _this6.setState({verify:text});},
 secureTextEntry:true,
-placeholder:'验证码',
-placeholderTextColor:'#003257',
+
 onFocus:this.inputFocused.bind(this,'verfInput'),
 onEndEditing:this.inputDisFocused.bind(this)}),
 
 _reactNative2.default.createElement(_reactNative.TouchableHighlight,{
-style:{flex:3},
+style:{width:80,marginRight:this.state.screenWidth*0.1},
 onPress:this._getVerifyCode.bind(this),
 underlayColor:'#48BBEC'},
 
-_reactNative2.default.createElement(_reactNative.Text,{style:[styles.label,{marginTop:10}]},loginSpinner)))),
+_reactNative2.default.createElement(_reactNative.Text,{style:[styles.label1,{marginTop:10}]},loginSpinner)))),
 
 
 
-_reactNative2.default.createElement(_reactNative.View,{style:{flexDirection:'row',marginTop:this.state.screenHeight*0.5*0.1}},
-_reactNative2.default.createElement(_reactNative.TouchableHighlight,{style:[styles.button,{marginRight:this.state.screenWidth*0.2,height:this.state.screenHeight*0.5*0.1,marginLeft:this.state.screenWidth*0.2}],
+_reactNative2.default.createElement(_reactNative.View,{style:{height:1,backgroundColor:'white',marginLeft:this.state.screenWidth*0.1,marginRight:this.state.screenWidth*0.1,marginTop:this.state.screenHeight*0.5*0.01}}),
+
+_reactNative2.default.createElement(_reactNative.View,{style:{flexDirection:'row'}},
+_reactNative2.default.createElement(_reactNative.TouchableHighlight,{style:[styles.button,{marginTop:this.state.screenHeight*0.5*0.1,height:this.state.screenHeight*0.5/12,marginLeft:this.state.screenWidth*0.1,marginRight:this.state.screenWidth*0.1}],
 onPress:this._onDoRegister.bind(this),
-underlayColor:'#3D8CC5'},
-_reactNative2.default.createElement(_reactNative.Text,{style:styles.buttonText},'注    册'))),
+underlayColor:'#48BBEC'},
+_reactNative2.default.createElement(_reactNative.Text,{style:styles.buttonText},'注   册'))),
 
 
-_reactNative2.default.createElement(_reactNative.View,{style:{flexDirection:'row',marginTop:this.state.screenHeight*0.5*0.1}},
-_reactNative2.default.createElement(_reactNative.TouchableHighlight,{style:[styles.button,{marginRight:this.state.screenWidth*0.2,height:this.state.screenHeight*0.5*0.1,marginLeft:this.state.screenWidth*0.2}],
+_reactNative2.default.createElement(_reactNative.View,{style:{flexDirection:'row'}},
+_reactNative2.default.createElement(_reactNative.TouchableHighlight,{style:[styles.button,{marginTop:this.state.screenHeight*0.5/12,height:this.state.screenHeight*0.5/12,marginLeft:this.state.screenWidth*0.1,marginRight:this.state.screenWidth*0.1}],
 onPress:this._onPopMy.bind(this),
 underlayColor:'#3D8CC5'},
 _reactNative2.default.createElement(_reactNative.Text,{style:styles.buttonText},'返    回')))))));}}]);return RegisterPage;}(_reactNative.Component);
@@ -67836,20 +67841,16 @@ img:{
 flex:1},
 
 inputs:{
-flex:3,
+flex:1,
 fontSize:15,
-marginRight:10,
-borderWidth:1,
-borderColor:'#013861',
-borderRadius:5,
-color:'#003257',
-backgroundColor:'#3D8CC5'},
+color:'white',
+marginLeft:10},
 
 button:{
 flex:1,
 flexDirection:'row',
-backgroundColor:'#0067B1',
-borderColor:'#0067B1',
+
+borderColor:'white',
 borderWidth:1,
 borderRadius:4,
 alignSelf:'stretch',
@@ -67858,15 +67859,25 @@ justifyContent:'center'},
 buttonText:{
 fontSize:15,
 color:'white',
-alignSelf:'center'},
+alignSelf:'center',
+marginTop:5,
+marginBottom:5},
 
 label:{
 color:'white',
 fontSize:15,
 marginTop:10,
 marginLeft:10,
-width:80,
+width:50,
 textAlign:'left',
+backgroundColor:'transparent'},
+
+label1:{
+color:'white',
+fontSize:15,
+marginTop:10,
+width:80,
+textAlign:'right',
 backgroundColor:'transparent'}});
 
 
@@ -67990,6 +68001,12 @@ true);},
 this.refs.scrollView.scrollTo({y:0});}},{key:'render',value:function render()
 
 {var _this4=this;
+var loginSpinner;
+if(this.state.waiting==0){
+loginSpinner='获取验证码';}else 
+{
+loginSpinner=this.state.waiting;}
+
 return (
 _reactNative2.default.createElement(_reactNative.ScrollView,{ref:'scrollView',style:{flex:1,flexDirection:'row'},
 scrollEnabled:false},
@@ -68003,9 +68020,9 @@ style:{width:this.state.screenHeight*0.5*0.4,height:this.state.screenHeight*0.5*
 source:require('image!myIcon')}))),
 
 
-_reactNative2.default.createElement(_reactNative.View,{style:[{flex:2,marginLeft:5,flexDirection:'column',marginRight:5,height:this.state.screenHeight*0.5*0.1}]},
+_reactNative2.default.createElement(_reactNative.View,{style:[{flex:2,flexDirection:'column',marginLeft:this.state.screenWidth*0.5*0.1}]},
 _reactNative2.default.createElement(_reactNative.View,null,
-_reactNative2.default.createElement(_reactNative.View,{style:{flex:1,flexDirection:'row',height:this.state.screenHeight*0.5*0.1}},
+_reactNative2.default.createElement(_reactNative.View,{style:{flex:1,flexDirection:'row',height:this.state.screenHeight*0.5*0.09}},
 _reactNative2.default.createElement(_reactNative.Text,{style:styles.label},'密码'),
 
 
@@ -68021,8 +68038,9 @@ onEndEditing:this.inputDisFocused.bind(this)}))),
 
 
 
+_reactNative2.default.createElement(_reactNative.View,{style:{height:1,backgroundColor:'white',marginRight:this.state.screenWidth*0.1,marginTop:this.state.screenHeight*0.5*0.01}}),
 _reactNative2.default.createElement(_reactNative.View,null,
-_reactNative2.default.createElement(_reactNative.View,{style:{flex:1,flexDirection:'row',height:this.state.screenHeight*0.5*0.1,marginTop:this.state.screenHeight*0.5*0.1*0.5}},
+_reactNative2.default.createElement(_reactNative.View,{style:{flex:1,flexDirection:'row',height:this.state.screenHeight*0.5*0.09,marginTop:this.state.screenHeight*0.5*0.1*0.5}},
 _reactNative2.default.createElement(_reactNative.Text,{style:styles.label},'确认密码'),
 
 
@@ -68037,15 +68055,16 @@ onEndEditing:this.inputDisFocused.bind(this)}))),
 
 
 
-_reactNative2.default.createElement(_reactNative.View,{style:{flexDirection:'row',marginTop:this.state.screenHeight*0.5*0.1}},
-_reactNative2.default.createElement(_reactNative.TouchableHighlight,{style:[styles.button,{marginRight:this.state.screenWidth*0.2,height:this.state.screenHeight*0.5*0.1,marginLeft:this.state.screenWidth*0.2}],
+_reactNative2.default.createElement(_reactNative.View,{style:{height:1,backgroundColor:'white',marginRight:this.state.screenWidth*0.1,marginTop:this.state.screenHeight*0.5*0.01}}),
+_reactNative2.default.createElement(_reactNative.View,{style:{flexDirection:'row'}},
+_reactNative2.default.createElement(_reactNative.TouchableHighlight,{style:[styles.button,{marginTop:this.state.screenHeight*0.5*0.1,height:this.state.screenHeight*0.5/12,marginRight:this.state.screenWidth*0.1}],
 onPress:this._onDoRegister.bind(this),
 underlayColor:'#3D8CC5'},
 _reactNative2.default.createElement(_reactNative.Text,{style:styles.buttonText},'注    册'))),
 
 
-_reactNative2.default.createElement(_reactNative.View,{style:{flexDirection:'row',marginTop:this.state.screenHeight*0.5*0.1}},
-_reactNative2.default.createElement(_reactNative.TouchableHighlight,{style:[styles.button,{marginRight:this.state.screenWidth*0.2,height:this.state.screenHeight*0.5*0.1,marginLeft:this.state.screenWidth*0.2}],
+_reactNative2.default.createElement(_reactNative.View,{style:{flexDirection:'row'}},
+_reactNative2.default.createElement(_reactNative.TouchableHighlight,{style:[styles.button,{marginTop:this.state.screenHeight*0.5*0.1,height:this.state.screenHeight*0.5/12,marginRight:this.state.screenWidth*0.1}],
 onPress:this._onPopMy.bind(this),
 underlayColor:'#3D8CC5'},
 _reactNative2.default.createElement(_reactNative.Text,{style:styles.buttonText},'返    回')))))));}}]);return RegisterPage_1;}(_reactNative.Component);
@@ -68078,20 +68097,16 @@ img:{
 flex:1},
 
 inputs:{
-flex:3,
+flex:1,
 fontSize:15,
-marginRight:10,
-borderWidth:1,
-borderColor:'#013861',
-borderRadius:5,
-color:'#003257',
-backgroundColor:'#3D8CC5'},
+color:'white',
+marginLeft:10},
 
 button:{
 flex:1,
 flexDirection:'row',
-backgroundColor:'#0067B1',
-borderColor:'#0067B1',
+
+borderColor:'white',
 borderWidth:1,
 borderRadius:4,
 alignSelf:'stretch',
@@ -68100,14 +68115,16 @@ justifyContent:'center'},
 buttonText:{
 fontSize:15,
 color:'white',
-alignSelf:'center'},
+alignSelf:'center',
+marginTop:5,
+marginBottom:5},
 
 label:{
 color:'white',
 fontSize:15,
 marginTop:10,
 marginLeft:10,
-width:80,
+width:60,
 textAlign:'left',
 backgroundColor:'transparent'}});
 
@@ -68143,9 +68160,24 @@ verify:'',
 password:'',
 rePassword:'',
 screenWidth:Dimensions.get('window').width,
-screenHeight:Dimensions.get('window').height};return _this;}babelHelpers.createClass(ForgetPassPage,[{key:'queryStringForQueryAndPage',value:function queryStringForQueryAndPage(
+screenHeight:Dimensions.get('window').height,
+waiting:0};return _this;}babelHelpers.createClass(ForgetPassPage,[{key:'_deWaiting',value:function _deWaiting()
 
 
+
+{var _this2=this;
+console.log('waiting:'+this.state.waiting);
+if(this.state.waiting>0){
+this.setState({waiting:this.state.waiting-1});
+var timer=setTimeout(
+function(){_this2._deWaiting();},
+1000);}}},{key:'componentWillUnmount',value:function componentWillUnmount()
+
+
+
+{
+console.log('unmount');
+this.setState({waiting:0});}},{key:'queryStringForQueryAndPage',value:function queryStringForQueryAndPage(
 
 data){
 var querystring=Object.keys(data).
@@ -68154,8 +68186,18 @@ join('&');
 console.log(querystring);
 return querystring;}},{key:'_getVerifyCode',value:function _getVerifyCode(
 
-e){var _this2=this;
+e){var _this3=this;
 console.log('获取验证码');
+if(this.state.waiting>0){
+_reactNative.AlertIOS.alert(
+'请等待1分钟',
+null,
+[
+{text:'确定'}]);
+
+
+return false;}
+;
 try{
 
 console.log('Home/Login/sendCode');
@@ -68173,19 +68215,28 @@ then(function(json){
 console.log(json);
 if(json.status==0){
 
-console.log('faSong success');}else 
-
-if(json.status==1){
-_this2.setState({verify:''});
+console.log('faSong success');
 _reactNative.AlertIOS.alert(
-'请重新申请验证码',
+'验证码已发送到您手机上，请查收',
 null,
 [
-{text:'确定'}]);}else 
+{text:'确定'}]);
 
+
+_this3.setState({waiting:60});
+setTimeout(
+function(){_this3._deWaiting();},
+1000);}else 
 
 {
-console.log('fail');}}).
+_this3.setState({verify:''});
+_reactNative.AlertIOS.alert(
+'发送失败,请1分钟后重试',
+null,
+[
+{text:'确定'}]);}}).
+
+
 
 
 catch(function(error){
@@ -68204,7 +68255,7 @@ return false;}},{key:'_onPopTop',value:function _onPopTop()
 {
 this.props.navigator.popToTop();}},{key:'_onPassWord',value:function _onPassWord()
 
-{var _this3=this;
+{var _this4=this;
 
 console.log('找回密码');
 
@@ -68229,13 +68280,13 @@ _reactNative.AlertIOS.alert(
 '密码修改成功,请重新登陆',
 null,
 [
-{text:'返回',onPress:_this3._onPopTop.bind(_this3)}]);}else 
+{text:'返回',onPress:_this4._onPopTop.bind(_this4)}]);}else 
 
 
 if(json.status==1){
-_this3.setState({verify:''});
-_this3.setState({password:''});
-_this3.setState({rePassword:''});
+_this4.setState({verify:''});
+_this4.setState({password:''});
+_this4.setState({rePassword:''});
 _reactNative.AlertIOS.alert(
 '验证码不正确',
 null,
@@ -68245,8 +68296,8 @@ null,
 
 
 if(json.status==4){
-_this3.setState({password:''});
-_this3.setState({rePassword:''});
+_this4.setState({password:''});
+_this4.setState({rePassword:''});
 _reactNative.AlertIOS.alert(
 '确认密码失败',
 null,
@@ -68275,11 +68326,11 @@ return false;}},{key:'_onPopMy',value:function _onPopMy()
 
 this.props.navigator.pop();}},{key:'inputFocused',value:function inputFocused(
 
-refName){var _this4=this;
+refName){var _this5=this;
 setTimeout(function(){
-var scrollResponder=_this4.refs.scrollView.getScrollResponder();
+var scrollResponder=_this5.refs.scrollView.getScrollResponder();
 scrollResponder.scrollResponderScrollNativeHandleToKeyboard(
-_reactNative2.default.findNodeHandle(_this4.refs[refName]),
+_reactNative2.default.findNodeHandle(_this5.refs[refName]),
 110,
 true);},
 
@@ -68288,7 +68339,13 @@ true);},
 {
 this.refs.scrollView.scrollTo({y:0});}},{key:'render',value:function render()
 
-{var _this5=this;
+{var _this6=this;
+var loginSpinner;
+if(this.state.waiting==0){
+loginSpinner='获取验证码';}else 
+{
+loginSpinner=this.state.waiting;}
+
 return (
 _reactNative2.default.createElement(_reactNative.ScrollView,{style:{flex:1,flexDirection:'row'},
 ref:'scrollView',
@@ -68303,9 +68360,9 @@ style:{width:this.state.screenHeight*0.5*0.4,height:this.state.screenHeight*0.5*
 source:require('image!myIcon')}))),
 
 
-_reactNative2.default.createElement(_reactNative.View,{style:[{flex:5,flexDirection:'column'}]},
+_reactNative2.default.createElement(_reactNative.View,{style:[{flex:5,flexDirection:'column',marginLeft:this.state.screenWidth*0.1}]},
 _reactNative2.default.createElement(_reactNative.View,null,
-_reactNative2.default.createElement(_reactNative.View,{style:{flex:1,flexDirection:'row',height:this.state.screenHeight*0.5*0.1}},
+_reactNative2.default.createElement(_reactNative.View,{style:{flex:1,flexDirection:'row',height:this.state.screenHeight*0.5*0.09}},
 _reactNative2.default.createElement(_reactNative.Text,{style:styles.label},'手机号'),
 
 
@@ -68314,40 +68371,41 @@ style:styles.inputs,
 autoCorrect:true,
 value:this.state.mobile,
 keyboardType:'numeric',
-onChangeText:function(text){return _this5.setState({mobile:text});},
-placeholder:'手机号',
-placeholderTextColor:'#003257',
+onChangeText:function(text){return _this6.setState({mobile:text});},
+
 ref:'telInput',
 onFocus:this.inputFocused.bind(this,'telInput'),
 onEndEditing:this.inputDisFocused.bind(this)}))),
 
 
 
+_reactNative2.default.createElement(_reactNative.View,{style:{height:1,backgroundColor:'white',marginRight:this.state.screenWidth*0.1,marginTop:this.state.screenHeight*0.5*0.01}}),
 _reactNative2.default.createElement(_reactNative.View,null,
-_reactNative2.default.createElement(_reactNative.View,{style:{flex:1,flexDirection:'row',height:this.state.screenHeight*0.5*0.1,marginTop:this.state.screenHeight*0.5*0.1*0.5}},
+_reactNative2.default.createElement(_reactNative.View,{style:{flex:1,flexDirection:'row',height:this.state.screenHeight*0.5*0.09,marginTop:this.state.screenHeight*0.5*0.1*0.25}},
 _reactNative2.default.createElement(_reactNative.Text,{style:styles.label},'验证码'),
 
 
 _reactNative2.default.createElement(_reactNative.TextInput,{
-style:styles.inputs,
+style:[styles.inputs,{}],
 value:this.state.verify,
 keyboardType:'numeric',
-onChangeText:function(text){return _this5.setState({verify:text});},
+onChangeText:function(text){return _this6.setState({verify:text});},
 
 ref:'verInput',
 onFocus:this.inputFocused.bind(this,'verInput'),
-onEndEditing:this.inputDisFocused.bind(this),
-placeholder:'验证码',
-placeholderTextColor:'#003257'}),
-_reactNative2.default.createElement(_reactNative.TouchableHighlight,{style:{flex:3},
+onEndEditing:this.inputDisFocused.bind(this)}),
+
+_reactNative2.default.createElement(_reactNative.TouchableHighlight,{
+style:{width:80,marginRight:this.state.screenWidth*0.1},
 onPress:this._getVerifyCode.bind(this),
 underlayColor:'#48BBEC'},
-_reactNative2.default.createElement(_reactNative.Text,{style:[styles.label,{marginTop:10}]},'获取验证码')))),
+_reactNative2.default.createElement(_reactNative.Text,{style:[styles.label1,{marginTop:10}]},loginSpinner)))),
 
 
 
+_reactNative2.default.createElement(_reactNative.View,{style:{height:1,backgroundColor:'white',marginRight:this.state.screenWidth*0.1,marginTop:this.state.screenHeight*0.5*0.01}}),
 _reactNative2.default.createElement(_reactNative.View,null,
-_reactNative2.default.createElement(_reactNative.View,{style:{flex:1,flexDirection:'row',height:this.state.screenHeight*0.5*0.1,marginTop:this.state.screenHeight*0.5*0.1*0.5}},
+_reactNative2.default.createElement(_reactNative.View,{style:{flex:1,flexDirection:'row',height:this.state.screenHeight*0.5*0.09,marginTop:this.state.screenHeight*0.5*0.1*0.25}},
 _reactNative2.default.createElement(_reactNative.Text,{style:styles.label},'密码'),
 
 
@@ -68355,7 +68413,7 @@ _reactNative2.default.createElement(_reactNative.TextInput,{
 style:styles.inputs,
 autoCorrect:true,
 value:this.state.password,
-onChangeText:function(text){return _this5.setState({password:text});},
+onChangeText:function(text){return _this6.setState({password:text});},
 secureTextEntry:true,
 ref:'pwdInput',
 onFocus:this.inputFocused.bind(this,'pwdInput'),
@@ -68363,15 +68421,16 @@ onEndEditing:this.inputDisFocused.bind(this)}))),
 
 
 
+_reactNative2.default.createElement(_reactNative.View,{style:{height:1,backgroundColor:'white',marginRight:this.state.screenWidth*0.1,marginTop:this.state.screenHeight*0.5*0.01}}),
 _reactNative2.default.createElement(_reactNative.View,null,
-_reactNative2.default.createElement(_reactNative.View,{style:{flex:1,flexDirection:'row',height:this.state.screenHeight*0.5*0.1,marginTop:this.state.screenHeight*0.5*0.1*0.5}},
+_reactNative2.default.createElement(_reactNative.View,{style:{flex:1,flexDirection:'row',height:this.state.screenHeight*0.5*0.09,marginTop:this.state.screenHeight*0.5*0.1*0.25}},
 _reactNative2.default.createElement(_reactNative.Text,{style:styles.label},'确认密码'),
 
 
 _reactNative2.default.createElement(_reactNative.TextInput,{
 style:styles.inputs,
 value:this.state.rePassword,
-onChangeText:function(text){return _this5.setState({rePassword:text});},
+onChangeText:function(text){return _this6.setState({rePassword:text});},
 secureTextEntry:true,
 ref:'repwdInput',
 onFocus:this.inputFocused.bind(this,'repwdInput'),
@@ -68379,19 +68438,19 @@ onEndEditing:this.inputDisFocused.bind(this)}))),
 
 
 
-
-_reactNative2.default.createElement(_reactNative.View,{style:{flexDirection:'row',marginTop:this.state.screenHeight*0.5*0.1}},
-_reactNative2.default.createElement(_reactNative.TouchableHighlight,{style:[styles.button,{marginRight:this.state.screenWidth*0.2,height:this.state.screenHeight*0.5*0.1,marginLeft:this.state.screenWidth*0.2}],
+_reactNative2.default.createElement(_reactNative.View,{style:{height:1,backgroundColor:'white',marginRight:this.state.screenWidth*0.1,marginTop:this.state.screenHeight*0.5*0.01}}),
+_reactNative2.default.createElement(_reactNative.View,{style:{flexDirection:'row'}},
+_reactNative2.default.createElement(_reactNative.TouchableHighlight,{style:[styles.button,{marginTop:this.state.screenHeight*0.5*0.1,height:this.state.screenHeight*0.5/12,marginRight:this.state.screenWidth*0.1}],
 onPress:this._onPassWord.bind(this),
 underlayColor:'#3D8CC5'},
-_reactNative2.default.createElement(_reactNative.Text,{style:styles.buttonText},'修改密码'))),
+_reactNative2.default.createElement(_reactNative.Text,{style:styles.buttonText},'修  改  密  码'))),
 
 
-_reactNative2.default.createElement(_reactNative.View,{style:{flexDirection:'row',marginTop:this.state.screenHeight*0.5*0.05}},
-_reactNative2.default.createElement(_reactNative.TouchableHighlight,{style:[styles.button,{marginRight:this.state.screenWidth*0.2,height:this.state.screenHeight*0.5*0.1,marginLeft:this.state.screenWidth*0.2}],
+_reactNative2.default.createElement(_reactNative.View,{style:{flexDirection:'row'}},
+_reactNative2.default.createElement(_reactNative.TouchableHighlight,{style:[styles.button,{marginTop:this.state.screenHeight*0.5/12,height:this.state.screenHeight*0.5/12,marginRight:this.state.screenWidth*0.1}],
 onPress:this._onPopMy.bind(this),
 underlayColor:'#3D8CC5'},
-_reactNative2.default.createElement(_reactNative.Text,{style:styles.buttonText},'返回')))))));}}]);return ForgetPassPage;}(_reactNative.Component);
+_reactNative2.default.createElement(_reactNative.Text,{style:styles.buttonText},'返  回')))))));}}]);return ForgetPassPage;}(_reactNative.Component);
 
 
 
@@ -68421,20 +68480,16 @@ img:{
 flex:1},
 
 inputs:{
-flex:3,
+flex:1,
 fontSize:15,
-marginRight:10,
-borderWidth:1,
-borderColor:'#013861',
-borderRadius:5,
-color:'#003257',
-backgroundColor:'#3D8CC5'},
+color:'white',
+marginLeft:10},
 
 button:{
 flex:1,
 flexDirection:'row',
-backgroundColor:'#0067B1',
-borderColor:'#0067B1',
+
+borderColor:'white',
 borderWidth:1,
 borderRadius:4,
 alignSelf:'stretch',
@@ -68443,15 +68498,25 @@ justifyContent:'center'},
 buttonText:{
 fontSize:15,
 color:'white',
-alignSelf:'center'},
+alignSelf:'center',
+marginTop:5,
+marginBottom:5},
 
 label:{
 color:'white',
 fontSize:15,
 marginTop:10,
 marginLeft:10,
-width:80,
+width:60,
 textAlign:'left',
+backgroundColor:'transparent'},
+
+label1:{
+color:'white',
+fontSize:15,
+marginTop:10,
+width:80,
+textAlign:'right',
 backgroundColor:'transparent'}});
 
 
@@ -69000,14 +69065,16 @@ var _reactNative=require('react-native/Libraries/react-native/react-native.js');
 
 
 var WebViewBridge=require('react-native-webview-bridge/webview-bridge/index.ios.js');
-var MyservicePage=require('chjApp/MyServicePage.js');var 
+var MyservicePage=require('chjApp/MyServicePage.js');
+var Dimensions=require('Dimensions');var 
 
 DeclarePage=function(_Component){babelHelpers.inherits(DeclarePage,_Component);
 function DeclarePage(props){babelHelpers.classCallCheck(this,DeclarePage);var _this=babelHelpers.possibleConstructorReturn(this,Object.getPrototypeOf(DeclarePage).call(this,
 props));
 _this.state={
 verifyCode:'',
-mobile:''};return _this;}babelHelpers.createClass(DeclarePage,[{key:'_getVerifyCode',value:function _getVerifyCode(
+mobile:'',
+screenHeight:Dimensions.get('window').height};return _this;}babelHelpers.createClass(DeclarePage,[{key:'_getVerifyCode',value:function _getVerifyCode(
 
 
 e){
@@ -69057,7 +69124,7 @@ var injectScript="var Guname = '"+this.props.Gapp.user.username+"';var Gpwd ='"+
 console.log(injectScript);
 return (
 _reactNative2.default.createElement(_reactNative.View,{style:{flex:1}},
-_reactNative2.default.createElement(WebViewBridge,{style:styles.webview_style,
+_reactNative2.default.createElement(WebViewBridge,{style:[styles.webview_style,{}],
 startInLoadingState:true,
 domStorageEnabled:true,
 javaScriptEnabled:true,
@@ -70681,6 +70748,298 @@ scrollResponder.scrollTo({x:x,y:y,animate:animate});}}
 
 module.exports=scrollToCompat;
 });
+__d('chjApp/MyActivityPage.js',function(global, require, module, exports) {  'use strict';
+
+var React=require('react-native/Libraries/react-native/react-native.js');
+
+
+var RefreshableListView=require('react-native-refreshable-listview/index.js');
+var Dimensions=require('Dimensions');var 
+
+
+AppRegistry=
+
+
+
+
+
+
+
+
+
+React.AppRegistry;var StyleSheet=React.StyleSheet;var Image=React.Image;var View=React.View;var Text=React.Text;var TouchableHighlight=React.TouchableHighlight;var Component=React.Component;var ListView=React.ListView;var AlertIOS=React.AlertIOS;var Alert=React.Alert;
+
+function toQueryString(obj){
+return obj?Object.keys(obj).sort().map(function(key){
+var val=obj[key];
+if(Array.isArray(val)){
+return val.sort().map(function(val2){
+return encodeURIComponent(key)+'='+encodeURIComponent(val2);}).
+join('&');}
+
+return encodeURIComponent(key)+'='+encodeURIComponent(val);}).
+join('&'):'';}
+
+var ds=new ListView.DataSource({rowHasChanged:function(r1,r2){return r1!==r2;}});var 
+
+MyActivityPage=function(_Component){babelHelpers.inherits(MyActivityPage,_Component);
+
+function MyActivityPage(props){babelHelpers.classCallCheck(this,MyActivityPage);var _this=babelHelpers.possibleConstructorReturn(this,Object.getPrototypeOf(MyActivityPage).call(this,
+props));
+_this.state={
+verifyCode:'',
+mobile:'',
+
+EventdataSource:ds.cloneWithRows([]),
+screenWidth:Dimensions.get('window').width,
+screenHeight:Dimensions.get('window').height};return _this;}babelHelpers.createClass(MyActivityPage,[{key:'componentWillMount',value:function componentWillMount()
+
+
+
+
+{
+
+this._onLoadEvent();}},{key:'queryStringForQueryAndPage',value:function queryStringForQueryAndPage(
+
+
+
+
+
+
+data){
+var querystring=Object.keys(data).
+map(function(key){return key+'='+encodeURIComponent(data[key]);}).
+join('&');
+console.log(querystring);
+return querystring;}},{key:'_onLoadEvent',value:function _onLoadEvent(
+
+e){var _this2=this;
+try{
+console.log(this.props.Gapp.cmdUrl+"Home/cmd/getAttentedEvent");
+fetch(this.props.Gapp.cmdUrl+"Home/cmd/getAttentedEvent",{
+method:'post',
+body:this.queryStringForQueryAndPage({
+'lusername':this.props.Gapp.user.username,
+'lpassword':this.props.Gapp.user.password})}).
+
+then(function(response){return response.json();}).
+then(function(json){
+
+if(json.status==0){
+
+console.log('load activity success');
+_this2.setState({EventdataSource:ds.cloneWithRows(json.detail)});
+console.log(_this2.state.EventdataSource);
+return _this2.state.EventdataSource;}else 
+{}}).
+
+
+catch(function(error){
+console.warn(error);});}
+
+catch(e){
+console.log('activity failed');
+return false;}
+
+
+return false;}},{key:'onDel_btn',value:function onDel_btn(
+
+
+
+rowData){var _this3=this;
+
+try{
+
+console.log(this.props.Gapp.cmdUrl+"Home/cmd/delEventattend");
+console.log(rowData.id);
+fetch(this.props.Gapp.cmdUrl+"Home/cmd/delEventattend",{
+method:'post',
+body:this.queryStringForQueryAndPage({
+'lusername':this.props.Gapp.user.username,
+'lpassword':this.props.Gapp.user.password,
+'id':rowData.id})}).
+
+then(function(response){return response.json();}).
+then(function(json){
+
+console.log(json);
+if(json.status==0){
+
+console.log('sanchu success');
+
+AlertIOS.alert(
+
+'删除成功');
+
+_this3._onLoadEvent();}else 
+
+{
+console.log('fail');}}).
+
+
+catch(function(error){
+console.warn(error);});}
+
+catch(e){
+console.log('shanchu failed');
+return false;}
+
+
+return false;}},{key:'renderRow',value:function renderRow(
+
+
+
+
+
+rowData,sectionID,rowID){var _this4=this;
+var img=rowData.qrcode;
+console.log(img);
+
+if(!rowData.Event){
+
+return React.createElement(View,null);}else 
+
+
+{
+return (
+React.createElement(TouchableHighlight,{style:styles.row,underlayColor:'#dddddd',
+onLongPress:function(){return AlertIOS.alert(
+'要删除已预约的活动吗',
+null,
+[
+{text:'Yes',onPress:function(){return _this4.onDel_btn(rowData);}},
+{text:'No',onPress:function(){return console.log('1111111!');}}]);}},
+
+
+React.createElement(View,null,
+React.createElement(View,{style:{flex:1,flexDirection:'row'}},
+React.createElement(Image,{
+style:{width:30,height:30,margin:10,marginLeft:15},
+source:require('image!myIcon')}),
+
+React.createElement(Text,{style:{width:100,height:20,marginTop:18,fontSize:13,color:'#ADADAD'}},'活动通行证')),
+
+
+
+React.createElement(View,{style:{flex:1,flexDirection:'row',backgroundColor:'#255B9B',marginLeft:10,marginRight:10,marginBottom:5}},
+React.createElement(View,{style:{backgroundColor:'white',marginLeft:(this.state.screenWidth-20)/3*0.1,marginTop:(this.state.screenWidth-20)/3*0.25,marginBottom:(this.state.screenWidth-20)/3*0.25}},
+React.createElement(Image,{
+style:{width:78,height:78,margin:(this.state.screenWidth-20)/3*0.1},
+source:{uri:'http://famesmart.com/phpqrcode/qrcode.php?size=78&data='+img}})),
+
+React.createElement(View,{style:{flex:6,flexDirection:'column',marginTop:(this.state.screenWidth-20)/3*0.19,marginLeft:(this.state.screenWidth-20)/3*0.1}},
+React.createElement(View,{style:{flex:1,flexDirection:'row'}},
+React.createElement(Text,{style:[styles.textFont,{width:(this.state.screenWidth-20)*0.57,marginTop:(this.state.screenWidth-20)*0.1*0.1}],
+numberOfLines:1},'公司姓名:',
+rowData.comname)),
+
+
+React.createElement(View,{style:{flex:1,flexDirection:'row'}},
+React.createElement(Text,{style:[styles.textFont,{width:(this.state.screenWidth-20)*0.57,marginTop:(this.state.screenWidth-20)*0.1*0.1}],
+numberOfLines:1},'活动名称:',
+rowData.Event.title)),
+
+
+React.createElement(View,{style:{flex:1,flexDirection:'row'}},
+React.createElement(Text,{style:[styles.textFont,{width:(this.state.screenWidth-20)*0.57,marginTop:(this.state.screenWidth-20)*0.1*0.1}],
+numberOfLines:1},'预约人数:',
+rowData.num)),
+
+
+React.createElement(View,{style:{flex:1,flexDirection:'row'}},
+React.createElement(Text,{style:[styles.textFont,{width:(this.state.screenWidth-20)*0.57,marginTop:(this.state.screenWidth-20)*0.1*0.1}],
+numberOfLines:1},'活动地点:',
+rowData.Event.address)),
+
+
+React.createElement(View,{style:{flex:1,flexDirection:'row'}},
+React.createElement(Text,{style:[styles.textFont,{width:(this.state.screenWidth-20)*0.57,marginTop:(this.state.screenWidth-20)*0.1*0.1}],
+numberOfLines:1},'预约时间:',
+rowData.create_time)),
+
+
+React.createElement(View,{style:{flex:1,flexDirection:'row'}},
+React.createElement(Text,{style:[styles.textFont,{width:(this.state.screenWidth-20)*0.57,marginTop:(this.state.screenWidth-20)*0.1*0.1}],
+numberOfLines:1},'手机号码:',
+rowData.mobile)))))));}}},{key:'_onPopMy',value:function _onPopMy()
+
+
+
+
+
+
+
+
+
+{
+
+this.props.navigator.pop();}},{key:'render',value:function render()
+
+
+{
+return (
+React.createElement(View,{style:{flex:1,flexDirection:'column'}},
+React.createElement(View,null,
+React.createElement(View,{style:styles.container},
+React.createElement(TouchableHighlight,{
+style:{flex:1},
+underlayColor:'#0067B1',
+onPress:this._onPopMy.bind(this)},
+
+React.createElement(Image,{
+style:styles.image,
+source:require('image!left_arrow')})),
+
+React.createElement(Text,{style:{fontSize:15,color:'white',backgroundColor:'transparent',marginRight:this.state.screenWidth-150,marginTop:15}},'已预约的活动'))),
+
+
+React.createElement(View,{style:{flex:1}},
+React.createElement(RefreshableListView,{
+automaticallyAdjustContentInsets:false,
+dataSource:this.state.EventdataSource,
+renderRow:this.renderRow.bind(this),
+loadData:this._onLoadEvent.bind(this),
+refreshDescription:'正在刷新活动列表...'}))));}}]);return MyActivityPage;}(Component);
+
+
+
+
+
+
+
+var styles=StyleSheet.create({
+container:{
+flex:1,
+marginTop:20,
+backgroundColor:'#0067B1',
+height:44,
+flexDirection:'row'},
+
+textFont:{
+color:'#FFFFFF',
+fontSize:13,
+backgroundColor:'transparent'},
+
+image:{
+marginTop:7,
+marginLeft:10,
+width:30,
+height:30},
+
+row:{
+flex:1,
+marginTop:10,
+borderColor:'#999999',
+borderWidth:3,
+borderRadius:6},
+
+separator:{
+height:3,
+backgroundColor:'#dddddd'}});
+
+
+module.exports=MyActivityPage;
+});
 __d('chjApp/MyServicePage.js',function(global, require, module, exports) {  'use strict';
 
 
@@ -70943,7 +71302,8 @@ flexDirection:'row'},
 textFont:{
 color:'#FFFFFF',
 fontSize:13,
-marginTop:7},
+marginTop:7,
+backgroundColor:'transparent'},
 
 image:{
 marginTop:7,
@@ -71446,7 +71806,8 @@ var eventData=this.props.eventData;
 var img=require('image!myIcon');
 
 var content=eventData.Message_content.content;
-var contentHTML=""+escape2Html(content);
+var contentHTML=removeHtmlTab(escape2Html(content));
+
 
 return (
 React.createElement(View,{style:{flex:1}},
@@ -71467,15 +71828,11 @@ React.createElement(Text,{style:{fontSize:15,color:'white',backgroundColor:'tran
 
 
 React.createElement(View,{style:{flex:3},
-bounces:false,
-showsVerticalScrollIndicator:true,
 automaticallyAdjustContentInsets:false},
 React.createElement(View,null,
 React.createElement(View,{style:{flex:1,flexDirection:'row'}},
-React.createElement(Image,{style:{width:this.state.screenWidth*0.2,height:this.state.screenWidth*0.2,margin:this.state.screenWidth*0.08},
-source:img}),
 React.createElement(View,{style:{flex:1}},
-React.createElement(View,{style:{flex:1,flexDirection:'row',marginTop:this.state.screenWidth*0.085}},
+React.createElement(View,{style:{flex:1,flexDirection:'row',marginLeft:this.state.screenWidth*0.03,marginTop:this.state.screenWidth*0.085}},
 React.createElement(Text,{style:[styles.text1,{}]},'标题'),
 
 
@@ -71483,7 +71840,7 @@ React.createElement(Text,{style:[styles.text2,{marginLeft:this.state.screenWidth
 eventData.Message_content.title)),
 
 
-React.createElement(View,{style:{flex:1,flexDirection:'row',marginTop:this.state.screenWidth*0.08}},
+React.createElement(View,{style:{flex:1,flexDirection:'row',marginLeft:this.state.screenWidth*0.03,marginTop:this.state.screenWidth*0.08}},
 React.createElement(Text,{style:[styles.text1,{}]},'时间'),
 
 
@@ -71494,18 +71851,20 @@ eventData.Message_content.create_time))))),
 
 
 
-React.createElement(View,null,
-React.createElement(Text,{style:{fontSize:15,color:'#0067B1',marginLeft:this.state.screenWidth*0.03}},'内容详情')),
+
+React.createElement(Text,{style:{fontSize:15,color:'#0067B1',marginLeft:this.state.screenWidth*0.03,marginTop:this.state.screenWidth*0.08,height:this.state.screenWidth*0.1}},'内容详情'),
 
 
+React.createElement(ScrollView,{style:{flex:3},
+bounces:false,
+showsVerticalScrollIndicator:false},
+
+React.createElement(Text,{
+style:{flex:1,fontSize:14,color:'#505050',marginLeft:this.state.screenWidth*0.03,marginRight:this.state.screenWidth*0.03}},
+
+contentHTML)))));}}]);return MsgDetailsPage;}(Component);
 
 
-React.createElement(WebView,{
-style:{flex:1,marginLeft:this.state.screenWidth*0.03,marginRight:this.state.screenWidth*0.03,backgroundColor:'#fff'},
-source:{html:contentHTML},
-scalesPageToFit:false,
-scrollEnabled:true,
-automaticallyAdjustContentInsets:false}))));}}]);return MsgDetailsPage;}(Component);
 
 
 
@@ -71670,10 +72029,13 @@ var _reactNative=require("react-native/Libraries/react-native/react-native.js");
 
 
 
+
+
 IndexPage=function(_Component){babelHelpers.inherits(IndexPage,_Component);
 function IndexPage(props){babelHelpers.classCallCheck(this,IndexPage);var _this=babelHelpers.possibleConstructorReturn(this,Object.getPrototypeOf(IndexPage).call(this,
 props));
 _this.state={
+textValue:'',
 username:'',
 password:'',
 notifCount:0,
@@ -71683,6 +72045,7 @@ isLogining:false,
 screenHeight:Dimensions.get('window').height,
 screenwidth:Dimensions.get('window').width,
 devtoken:''};return _this;}babelHelpers.createClass(IndexPage,[{key:"queryStringForQueryAndPage",value:function queryStringForQueryAndPage(
+
 
 
 
@@ -71705,15 +72068,23 @@ return false;}
 this.setState({isLogining:true});
 
 
+var tel=this.state.username;
+var reg=/^0?1[3|4|5|8][0-9]\d{8}$/;
+if(reg.test(tel)){
+console.log("is mobile");
+this.setState({mobile:tel});}else 
 
-
-
+{
+console.log("is username");
+this.setState({username:tel});}
+;
 
 
 
 
 var logindata={
 'username':this.state.username,
+'mobile':this.state.mobile,
 'password':this.state.password};
 
 if(this.state.devtoken!=''){
@@ -71730,16 +72101,19 @@ _this2.setState({isLogining:false});
 if(json.status==0){
 
 console.log('login success');
+var name=json.detail.comname;
 Gapp.user=json.detail;
+console.log(name);
 
+Gapp.user.mobile=_this2.state.mobile;
 Gapp.user.username=_this2.state.username;
 Gapp.user.password=hex_md5(_this2.state.password);
+Gapp.user.zhizhao=name;
 console.log(Gapp);
 _this2.setState({loginErr:''});
 
 
 _this2._saveValue_One().done();
-
 
 _this2.props.navigator.push({
 title:'首页',
@@ -71782,20 +72156,28 @@ passProps:{listings:'data'}});}},{key:"_loadInitialState",value:function _loadIn
 
 
 value,
-value1;return regeneratorRuntime.async(function _loadInitialState$(_context){while(1){switch(_context.prev=_context.next){case 0:_context.prev=0;_context.next=3;return regeneratorRuntime.awrap(_reactNative.AsyncStorage.getItem('usern'));case 3:value=_context.sent;_context.next=6;return regeneratorRuntime.awrap(_reactNative.AsyncStorage.getItem('passw'));case 6:value1=_context.sent;
+value2,
+value1;return regeneratorRuntime.async(function _loadInitialState$(_context){while(1){switch(_context.prev=_context.next){case 0:_context.prev=0;_context.next=3;return regeneratorRuntime.awrap(_reactNative.AsyncStorage.getItem('usern'));case 3:value=_context.sent;_context.next=6;return regeneratorRuntime.awrap(_reactNative.AsyncStorage.getItem('mobile'));case 6:value2=_context.sent;_context.next=9;return regeneratorRuntime.awrap(_reactNative.AsyncStorage.getItem('passw'));case 9:value1=_context.sent;
 if(value!=null&&value1!=null){
 this.setState({username:value});
 this.setState({password:value1});}else 
 
-if(value!=null){
-this.setState({username:value});}else 
+if(value2!=null&&value1!=null){
+this.setState({mobile:value2});
+this.setState({password:value1});}else 
+
+
+
+if(value!=null||value2!=null){
+this.setState({username:value});
+this.setState({username:value2});}else 
 
 
 {
-console.log('无数据：');}_context.next=13;break;case 10:_context.prev=10;_context.t0=_context["catch"](0);
+console.log('无数据：');}_context.next=16;break;case 13:_context.prev=13;_context.t0=_context["catch"](0);
 
 
-console.log('错误1：');case 13:case "end":return _context.stop();}}},null,this,[[0,10]]);}},{key:"_saveValue_One",value:function _saveValue_One(){return regeneratorRuntime.async(function _saveValue_One$(_context2){while(1){switch(_context2.prev=_context2.next){case 0:_context2.prev=0;
+console.log('错误1：');case 16:case "end":return _context.stop();}}},null,this,[[0,13]]);}},{key:"_saveValue_One",value:function _saveValue_One(){return regeneratorRuntime.async(function _saveValue_One$(_context2){while(1){switch(_context2.prev=_context2.next){case 0:_context2.prev=0;
 
 
 
@@ -71803,9 +72185,10 @@ console.log('错误1：');case 13:case "end":return _context.stop();}}},null,thi
 
 console.log('添加数据：');_context2.next=4;return regeneratorRuntime.awrap(
 _reactNative.AsyncStorage.setItem('usern',this.state.username));case 4:_context2.next=6;return regeneratorRuntime.awrap(
-_reactNative.AsyncStorage.setItem('passw',this.state.password));case 6:_context2.next=11;break;case 8:_context2.prev=8;_context2.t0=_context2["catch"](0);
+_reactNative.AsyncStorage.setItem('mobile',this.state.mobile));case 6:_context2.next=8;return regeneratorRuntime.awrap(
+_reactNative.AsyncStorage.setItem('passw',this.state.password));case 8:_context2.next=13;break;case 10:_context2.prev=10;_context2.t0=_context2["catch"](0);
 
-console.log('错误2：');case 11:case "end":return _context2.stop();}}},null,this,[[0,8]]);}},{key:"_removeValue_One",value:function _removeValue_One(){return regeneratorRuntime.async(function _removeValue_One$(_context3){while(1){switch(_context3.prev=_context3.next){case 0:_context3.prev=0;_context3.next=3;return regeneratorRuntime.awrap(
+console.log('错误2：');case 13:case "end":return _context2.stop();}}},null,this,[[0,10]]);}},{key:"_removeValue_One",value:function _removeValue_One(){return regeneratorRuntime.async(function _removeValue_One$(_context3){while(1){switch(_context3.prev=_context3.next){case 0:_context3.prev=0;_context3.next=3;return regeneratorRuntime.awrap(
 
 
 
@@ -71855,13 +72238,17 @@ this.refs.scrollView.scrollTo({y:0});}},{key:"render",value:function render()
 
 {var _this4=this;
 
+
+
 var loginSpinner=this.state.isLogining?
 _reactNative2.default.createElement(_reactNative.Text,{style:styles.buttonText},"登录中..."):
-_reactNative2.default.createElement(_reactNative.Text,{style:styles.buttonText},"登   陆");
+_reactNative2.default.createElement(_reactNative.Text,{style:styles.buttonText},"登   录");
 return (
+
 _reactNative2.default.createElement(_reactNative.ScrollView,{ref:"scrollView",
 scrollEnabled:false,
 style:{flex:1,flexDirection:'row'}},
+
 _reactNative2.default.createElement(_reactNative.Image,{style:[styles.cont,{width:this.state.screenwidth}],
 source:require('image!login_bg')},
 _reactNative2.default.createElement(_reactNative.View,null,
@@ -71873,11 +72260,8 @@ source:require('image!myIcon')}))),
 
 
 _reactNative2.default.createElement(_reactNative.View,{style:{flex:2,marginLeft:this.state.screenwidth*0.1,marginRight:this.state.screenwidth*0.1,flexDirection:'column'}},
-_reactNative2.default.createElement(_reactNative.View,{style:{flexDirection:'row',width:this.state.screenwidth*0.8,height:this.state.screenHeight*0.5/12}},
+_reactNative2.default.createElement(_reactNative.View,{style:{width:this.state.screenwidth*0.8,height:this.state.screenHeight*0.5/12*0.95}},
 
-_reactNative2.default.createElement(_reactNative.Image,{
-style:{flex:1,height:this.state.screenHeight*0.5/12*0.95,resizeMode:_reactNative.Image.resizeMode.contain},
-source:require('image!back_edittext')},
 _reactNative2.default.createElement(_reactNative.TextInput,{
 autofocus:true,
 ref:"usernameInput",
@@ -71888,27 +72272,25 @@ onChangeText:function(text){return _this4.setState({username:text});},
 placeholder:"请输入手机号/营业执照",
 placeholderTextColor:'#003257',
 onFocus:this.inputFocused.bind(this,'usernameInput'),
-onEndEditing:this.inputDisFocused.bind(this)}))),
+onEndEditing:this.inputDisFocused.bind(this)})),
 
 
 
-
-_reactNative2.default.createElement(_reactNative.View,{style:{flexDirection:'row',height:this.state.screenHeight*0.5/12}},
-_reactNative2.default.createElement(_reactNative.Image,{
-style:{height:this.state.screenHeight*0.5/12*0.95,flex:1,resizeMode:_reactNative.Image.resizeMode.contain},
-source:require('image!back_edittext')},
+_reactNative2.default.createElement(_reactNative.View,{style:{height:1,backgroundColor:'white',marginTop:this.state.screenHeight*0.5/12*0.05}}),
+_reactNative2.default.createElement(_reactNative.View,{style:{height:this.state.screenHeight*0.5/12*0.95}},
 _reactNative2.default.createElement(_reactNative.TextInput,{
 ref:"pwdInput",
 style:styles.inputs,
 value:this.state.password,
 onChangeText:function(text){return _this4.setState({password:text});},
 secureTextEntry:true,
-placeholder:"",
+placeholder:"请输入密码",
+placeholderTextColor:'#003257',
 onFocus:this.inputFocused.bind(this,'pwdInput'),
-onEndEditing:this.inputDisFocused.bind(this)}))),
+onEndEditing:this.inputDisFocused.bind(this)})),
 
 
-
+_reactNative2.default.createElement(_reactNative.View,{style:{height:1,backgroundColor:'white',marginTop:this.state.screenHeight*0.5/12*0.05}}),
 _reactNative2.default.createElement(_reactNative.View,{style:{flexDirection:'row'}},
 _reactNative2.default.createElement(_reactNative.Text,{style:[styles.errText,{color:'red'}]},this.state.loginErr)),
 
@@ -72656,7 +73038,8 @@ props));
 _this.state={
 verifyCode:'',
 mobile:'',
-
+countNotic:0,
+evenTap:'',
 presses:0,
 selectedTab:'indexTab',
 moveDx:new _reactNative.Animated.Value(0),
@@ -72672,7 +73055,7 @@ EventdataSource1:ds.cloneWithRows([]),
 imageSwiperStr:[_reactNative2.default.createElement(_reactNative.View,{style:styles.slide},
 _reactNative2.default.createElement(_reactNative.Image,{style:styles.image}))],
 
-isshowslider:false};return _this;}babelHelpers.createClass(MainPage,[{key:'_pressSwiper',value:function _pressSwiper(
+isshowslider:true};return _this;}babelHelpers.createClass(MainPage,[{key:'_pressSwiper',value:function _pressSwiper(
 
 
 
@@ -72802,7 +73185,7 @@ body:this.queryStringForQueryAndPage({
 then(function(response){return response.json();}).
 then(function(json){
 
-console.log(json);
+
 var ss=_this2.queryStringForQueryAndPage({
 'lusername':_this2.props.Gapp.user.username,
 'lpassword':_this2.props.Gapp.user.password});
@@ -72832,7 +73215,7 @@ return false;}},{key:'rowPressedA',value:function rowPressedA(
 
 eventData){
 console.log('eventData for pass');
-console.log(eventData);
+
 this.props.navigator.push({
 title:eventData.title,
 component:ExplainPage,
@@ -72967,7 +73350,7 @@ count++;}}}
 
 
 _this4.props.Gapp.user.notifCount=count;
-
+_this4.setState({countNotic:count});
 
 return _this4.state.EventdataSource1;}else 
 {}}).
@@ -73217,6 +73600,12 @@ for(var i=0;i<imagedata.length;i++){
 valuedata=valuedata.concat(imagedata[i].value);
 urldata=urldata.concat(imagedata[i].note);}
 
+var pingye;
+if(this.props.Gapp.user.zhizhao!=null){
+pingye=this.props.Gapp.user.zhizhao;}else 
+{
+pingye='未绑定';}
+
 
 if(pageText=='indexTab'){
 var sss=_reactNative2.default.createElement(_reactNative.View,{style:styles.slide},
@@ -73228,7 +73617,7 @@ return (
 _reactNative2.default.createElement(_reactNative.View,{style:{flex:1,flexDirection:'column'}},
 _reactNative2.default.createElement(_reactNative.View,babelHelpers.extends({style:[styles.navBar,{width:this.state.screenWidth}]},this._panResponder.panHandlers),
 _reactNative2.default.createElement(_reactNative.View,{style:{width:80,alignItems:'center',justifyContent:'center'}},
-_reactNative2.default.createElement(_reactNative.TouchableHighlight,{style:styles.minbtn,
+_reactNative2.default.createElement(_reactNative.TouchableHighlight,{style:styles.minbtn1,
 onPress:this._onTopBtn1.bind(this),
 underlayColor:'transparent'},
 _reactNative2.default.createElement(_reactNative.Image,{
@@ -73245,18 +73634,18 @@ source:require('image!topBtn')}))),
 
 
 _reactNative2.default.createElement(_reactNative.View,{style:{width:80,alignItems:'center',justifyContent:'center'}},
-_reactNative2.default.createElement(_reactNative.TouchableHighlight,{style:styles.minbtn,
+_reactNative2.default.createElement(_reactNative.TouchableHighlight,{style:[styles.minbtn1,{marginLeft:this.state.screenWidth*0.1}],
 onPress:this._onTopBtn3.bind(this),
 underlayColor:'transparent'},
 _reactNative2.default.createElement(_reactNative.Image,{
-style:styles.minbtn,
+style:[styles.minbtn,{alignItems:'center'}],
 source:require('image!shareBtn')})))),
 
 
 
 _reactNative2.default.createElement(_reactNative.View,{style:{flex:1}},
 _reactNative2.default.createElement(Swiper,{style:styles.wrapper,height:(Dimensions.get('window').height-113)*0.4,
-onMomentumScrollEnd:function(e,state,context){console.log('index:',state.index);},
+
 dot:_reactNative2.default.createElement(_reactNative.View,{style:{backgroundColor:'rgba(255,255,255,.2)',width:5,height:5,borderRadius:4,marginLeft:3,marginRight:3,marginTop:3}}),
 activeDot:_reactNative2.default.createElement(_reactNative.View,{style:{backgroundColor:'#FFF',width:8,height:8,borderRadius:4,marginLeft:3,marginRight:3,marginTop:3}}),
 paginationStyle:{},loop:true,
@@ -73450,7 +73839,7 @@ source:require('image!topBtn')}))),
 
 
 _reactNative2.default.createElement(_reactNative.View,{style:{width:80,alignItems:'center',justifyContent:'center'}},
-_reactNative2.default.createElement(_reactNative.TouchableHighlight,{style:[styles.minbtn,{justifyContent:'center',alignItems:'center'}],
+_reactNative2.default.createElement(_reactNative.TouchableHighlight,{style:[styles.minbtn1,{justifyContent:'center',alignItems:'center'}],
 onPress:this._onTopBtn4.bind(this),
 underlayColor:'transparent'},
 _reactNative2.default.createElement(_reactNative.Text,{
@@ -73460,15 +73849,16 @@ style:{fontSize:15,color:'white',textAlign:'center'}},'退出')))),
 
 
 _reactNative2.default.createElement(_reactNative.View,{style:{flex:3}},
-_reactNative2.default.createElement(_reactNative.View,{style:{flexDirection:'row',height:(this.state.screenHeight-113)/11*2,backgroundColor:'#0066FF'}},
-_reactNative2.default.createElement(_reactNative.Image,{style:{width:(this.state.screenHeight-113)/11*1.2,height:(this.state.screenHeight-113)/11*1.2,marginTop:(this.state.screenHeight-113)/11*0.4,marginLeft:20},
+_reactNative2.default.createElement(_reactNative.View,{style:{flexDirection:'row',height:(this.state.screenHeight-113)/10*2,backgroundColor:'#0094FF'}},
+_reactNative2.default.createElement(_reactNative.Image,{style:{width:(this.state.screenHeight-113)/10*1.2,height:(this.state.screenHeight-113)/10*1.2,marginTop:(this.state.screenHeight-113)/10*0.4,marginLeft:20},
 source:require('image!my_logo')}),
 _reactNative2.default.createElement(_reactNative.View,null,
-_reactNative2.default.createElement(_reactNative.Text,{style:{width:180,height:20,marginTop:(this.state.screenHeight-113)/11*0.5,marginLeft:30,fontSize:15,color:'#ffffff'}},'创       客：',
+_reactNative2.default.createElement(_reactNative.Text,{style:{width:180,height:20,marginTop:(this.state.screenHeight-113)/10*0.5,marginLeft:30,fontSize:15,color:'#ffffff'}},'创       客：',
 this.props.Gapp.user.username),
 
-_reactNative2.default.createElement(_reactNative.Text,{style:{width:180,height:20,marginTop:(this.state.screenHeight-113)/11*0.25,marginLeft:30,fontSize:15,color:'#ffffff'}},'公司名称：',
-this.props.Gapp.user.username))),
+_reactNative2.default.createElement(_reactNative.Text,{style:{width:this.state.screenWidth*0.65,height:20,marginTop:(this.state.screenHeight-113)/10*0.25,marginLeft:30,fontSize:15,color:'#ffffff'},
+numberOfLines:1},'公司名称：',
+pingye))),
 
 
 
@@ -73476,7 +73866,7 @@ _reactNative2.default.createElement(_reactNative.View,null,
 
 _reactNative2.default.createElement(_reactNative.View,{style:{flex:6,flexDirection:'column'}},
 _reactNative2.default.createElement(_reactNative.TouchableHighlight,{
-style:{flex:1,height:(this.state.screenHeight-113)/11},
+style:{flex:1,height:(this.state.screenHeight-113)/10},
 underlayColor:'gray',
 onPress:this._onMyEvent.bind(this)},
 
@@ -73489,7 +73879,7 @@ source:require('image!right_arrow')}))),
 
 _reactNative2.default.createElement(_reactNative.View,{style:styles.separator}),
 _reactNative2.default.createElement(_reactNative.TouchableHighlight,{
-style:{flex:1,height:(this.state.screenHeight-113)/11},
+style:{flex:1,height:(this.state.screenHeight-113)/10},
 underlayColor:'gray',
 onPress:this._onMyService.bind(this)},
 
@@ -73502,7 +73892,7 @@ source:require('image!right_arrow')}))),
 
 _reactNative2.default.createElement(_reactNative.View,{style:styles.separator}),
 _reactNative2.default.createElement(_reactNative.TouchableHighlight,{
-style:{flex:1,height:(this.state.screenHeight-113)/11},
+style:{flex:1,height:(this.state.screenHeight-113)/10},
 underlayColor:'gray',
 onPress:this._onMyScore.bind(this)},
 
@@ -73515,7 +73905,7 @@ source:require('image!right_arrow')}))),
 
 _reactNative2.default.createElement(_reactNative.View,{style:styles.separator}),
 _reactNative2.default.createElement(_reactNative.TouchableHighlight,{
-style:{flex:1,height:(this.state.screenHeight-113)/11},
+style:{flex:1,height:(this.state.screenHeight-113)/10},
 underlayColor:'gray',
 onPress:this._onMyPwd.bind(this)},
 
@@ -73528,7 +73918,7 @@ source:require('image!right_arrow')}))),
 
 _reactNative2.default.createElement(_reactNative.View,{style:styles.separator}),
 _reactNative2.default.createElement(_reactNative.TouchableHighlight,{
-style:{flex:1,height:(this.state.screenHeight-113)/11},
+style:{flex:1,height:(this.state.screenHeight-113)/10},
 underlayColor:'gray',
 onPress:this._onMyMsg.bind(this)},
 
@@ -73545,43 +73935,32 @@ style:[styles.sliderRight,{marginRight:this.state.screenWidth*0.05}],
 source:require('image!right_arrow')}))),
 
 
-_reactNative2.default.createElement(_reactNative.View,{style:styles.separator}),
-_reactNative2.default.createElement(_reactNative.TouchableHighlight,{
-style:{flex:1,height:(this.state.screenHeight-113)/11},
-underlayColor:'gray',
-onPress:this._onMyUpdate.bind(this)},
-
-_reactNative2.default.createElement(_reactNative.View,{style:{flex:1,flexDirection:'row',alignItems:'center'}},
-_reactNative2.default.createElement(_reactNative.Text,{style:[styles.sliderText1,{marginLeft:this.state.screenWidth*0.05}]},'检查更新'),
-_reactNative2.default.createElement(_reactNative.Image,{
-style:[styles.sliderRight,{marginRight:this.state.screenWidth*0.05}],
-source:require('image!right_arrow')}))),
-
-
 _reactNative2.default.createElement(_reactNative.View,{style:styles.separator}))),
+
+
 
 
 
 
 _reactNative2.default.createElement(_reactNative.View,null,
 _reactNative2.default.createElement(_reactNative.TouchableHighlight,{
-style:{flex:1,height:(this.state.screenHeight-113)/11},
+style:{flex:1,height:(this.state.screenHeight-113)/10},
 underlayColor:'transparent',
 onPress:this._onTelephone.bind(this)},
 
 _reactNative2.default.createElement(_reactNative.View,{style:{flex:1,flexDirection:'row'}},
 _reactNative2.default.createElement(_reactNative.View,{style:{flex:1,flexDirection:'column'}},
 _reactNative2.default.createElement(_reactNative.Text,{style:{fontSize:15,color:'#2B2F2C',backgroundColor:'transparent',marginLeft:this.state.screenWidth*0.05,marginTop:5}},'联系我们'),
-_reactNative2.default.createElement(_reactNative.View,{style:{flex:1,flexDirection:'row',marginTop:(this.state.screenHeight-113)/11*0.05}},
+_reactNative2.default.createElement(_reactNative.View,{style:{flex:1,flexDirection:'row',marginTop:(this.state.screenHeight-113)/10*0.05}},
 _reactNative2.default.createElement(_reactNative.Text,{style:{fontSize:10,color:'#2B2F2C',backgroundColor:'transparent',marginLeft:this.state.screenWidth*0.05}},'服务电话：:'),
 _reactNative2.default.createElement(_reactNative.Text,{style:{fontSize:10,color:'red',backgroundColor:'transparent',marginLeft:0}},'021-3463-7000'))),
 
 
-_reactNative2.default.createElement(_reactNative.Image,{style:{marginRight:this.state.screenWidth*0.07,height:(this.state.screenHeight-113)/11,width:(this.state.screenHeight-113)/11*1.1},source:require('chjApp/images/slide_phone.png')}))),
+_reactNative2.default.createElement(_reactNative.Image,{style:{marginRight:this.state.screenWidth*0.07,height:(this.state.screenHeight-113)/10,width:(this.state.screenHeight-113)/10*1.1},source:require('chjApp/images/slide_phone.png')}))),
 
 
 _reactNative2.default.createElement(_reactNative.View,{style:{flex:1,marginLeft:this.state.screenWidth/2*0.8}},
-_reactNative2.default.createElement(_reactNative.Image,{style:{height:(this.state.screenHeight-113)/11*1.5,resizeMode:_reactNative.Image.resizeMode.contain,width:this.state.screenWidth/2},source:require('chjApp/images/my_back.png')})))),
+_reactNative2.default.createElement(_reactNative.Image,{style:{height:(this.state.screenHeight-113)/10*1.5,resizeMode:_reactNative.Image.resizeMode.contain,width:this.state.screenWidth/2},source:require('chjApp/images/my_back.png')})))),
 
 
 
@@ -73591,23 +73970,25 @@ _reactNative2.default.createElement(_reactNative.View,{style:{width:this.state.s
 
 
 
+
 {var _this9=this;
-
-
-
 
 this._panResponder=_reactNative.PanResponder.create({
 
-onMoveShouldSetPanResponder:function(evt,gestureState){console.log(1);return true;},
+onMoveShouldSetPanResponder:function(evt,gestureState){
+console.log(gestureState);
+if(Math.abs(gestureState.dx)+Math.abs(gestureState.dy)>10){
+return true;}else 
+
+return false;},
+
 onPanResponderGrant:function(evt,gestureState){
 
 
 
 _this9.setState({startWidth:_this9.state.moveDx._value});},
 
-
 onPanResponderMove:function(evt,gestureState){
-
 
 
 
@@ -73686,10 +74067,7 @@ start();
 
 if(toWidth==0){
 this.setState({isshowslider:true});}else 
-{this.setState({isshowslider:false});}
-
-console.log("isshowslider:");
-console.log(this.state.isshowslider);}},{key:'_onMyEvent',value:function _onMyEvent()
+{this.setState({isshowslider:false});}}},{key:'_onMyEvent',value:function _onMyEvent()
 
 
 {
@@ -73754,13 +74132,17 @@ InteractManager.addEvent(1,'02134637000');}},{key:'render',value:function render
 
 
 {var _this10=this;
-var dissliderbtn=!this.state.isshowslider?_reactNative2.default.createElement(_reactNative.TouchableHighlight,{
+var dissliderbtn=!this.state.isshowslider?_reactNative2.default.createElement(_reactNative.View,{
+style:{backgroundColor:'transparent',position:'absolute',width:this.state.screenWidth,height:this.state.screenHeight,top:0,left:0,opacity:0}},
+_reactNative2.default.createElement(_reactNative.TouchableHighlight,{
 style:{backgroundColor:'transparent',position:'absolute',width:this.state.screenWidth,height:this.state.screenHeight,top:0,left:0,opacity:0},
 onPress:function(){
 console.log('dis sliderbar');
 _this10._onSlider(0);}},
-_reactNative2.default.createElement(_reactNative.View,null)):
-_reactNative2.default.createElement(_reactNative.View,null);
+
+
+_reactNative2.default.createElement(_reactNative.View,null))):
+_reactNative2.default.createElement(_reactNative.View,this._panResponder.panHandlers);
 return (
 _reactNative2.default.createElement(_reactNative.View,{style:{flex:1,flexDirection:'row'}},
 _reactNative2.default.createElement(_reactNative.Animated.View,babelHelpers.extends({style:{width:this.state.moveDx,overflow:'hidden'}},this._panResponder.panHandlers,{
@@ -73854,20 +74236,8 @@ style:[styles.sliderRight,{marginRight:this.state.screenWidth*0.05}],
 source:require('image!right_arrow')}))),
 
 
-_reactNative2.default.createElement(_reactNative.Image,{style:{height:1,width:this.state.screenWidth/3*2-20},source:require('image!slider_line')}),
-_reactNative2.default.createElement(_reactNative.TouchableHighlight,{
-style:{flex:1},
-underlayColor:'gray',
-onPress:this._onMyUpdate.bind(this)},
-
-_reactNative2.default.createElement(_reactNative.View,{style:{flex:1,flexDirection:'row',alignItems:'center'}},
-_reactNative2.default.createElement(_reactNative.Text,{style:[styles.sliderText,{marginLeft:this.state.screenWidth*0.05}]},'检查更新'),
-_reactNative2.default.createElement(_reactNative.Image,{
-style:[styles.sliderRight,{marginRight:this.state.screenWidth*0.05}],
-source:require('image!right_arrow')}))),
-
-
 _reactNative2.default.createElement(_reactNative.Image,{style:{height:1,width:this.state.screenWidth/3*2-20},source:require('image!slider_line')})),
+
 
 _reactNative2.default.createElement(_reactNative.TouchableHighlight,{style:{flex:2,alignItems:'center',flexDirection:'row'},
 underlayColor:'transparent',
@@ -73929,16 +74299,17 @@ this._renderContent('#414A8C','eventTab')),
 _reactNative2.default.createElement(_reactNative.TabBarIOS.Item,{
 title:'消息',
 icon:{uri:base64IconMsg,scale:1.6},
-badge:this.props.Gapp.user.notifCount>0?this.props.Gapp.user.notifCount:undefined,
+badge:this.state.countNotic>0?this.state.countNotic:undefined,
 selected:this.state.selectedTab==='msgTab',
 selectedIcon:{uri:base64IconMsgPress,scale:2.6},
 onPress:function(){
 _this10.setState({
+evenTap:_this10._onLoadEvent1(),
 selectedTab:'msgTab',
-notifCount:_this10.props.Gapp.user.notifCount});}},
+notifCount:_this10.state.countNotic});}},
 
 
-this._renderContent('#783E33','msgTab',this.props.Gapp.user.notifCount)),
+this._renderContent('#783E33','msgTab',this.state.countNotic)),
 
 _reactNative2.default.createElement(_reactNative.TabBarIOS.Item,{
 icon:{uri:base64IconMy,scale:1.6},
@@ -73971,6 +74342,12 @@ flexDirection:'column'},
 
 icon:{
 flex:1},
+
+tabIcon:{
+width:30,
+height:35,
+resizeMode:'stretch',
+marginTop:12.5},
 
 ts:{
 backgroundColor:'transparent'},
@@ -74038,6 +74415,10 @@ tabContent:{
 flex:1,
 alignItems:'center'},
 
+minbtn1:{
+width:55,
+height:35},
+
 minbtn:{
 width:35,
 height:35},
@@ -74076,294 +74457,6 @@ flexDirection:'row'}});
 
 
 module.exports=MainPage;
-});
-__d('chjApp/MyActivityPage.js',function(global, require, module, exports) {  'use strict';
-
-var React=require('react-native/Libraries/react-native/react-native.js');
-
-
-var RefreshableListView=require('react-native-refreshable-listview/index.js');
-var Dimensions=require('Dimensions');var 
-
-
-AppRegistry=
-
-
-
-
-
-
-
-
-
-React.AppRegistry;var StyleSheet=React.StyleSheet;var Image=React.Image;var View=React.View;var Text=React.Text;var TouchableHighlight=React.TouchableHighlight;var Component=React.Component;var ListView=React.ListView;var AlertIOS=React.AlertIOS;var Alert=React.Alert;
-
-function toQueryString(obj){
-return obj?Object.keys(obj).sort().map(function(key){
-var val=obj[key];
-if(Array.isArray(val)){
-return val.sort().map(function(val2){
-return encodeURIComponent(key)+'='+encodeURIComponent(val2);}).
-join('&');}
-
-return encodeURIComponent(key)+'='+encodeURIComponent(val);}).
-join('&'):'';}
-
-var ds=new ListView.DataSource({rowHasChanged:function(r1,r2){return r1!==r2;}});var 
-
-MyActivityPage=function(_Component){babelHelpers.inherits(MyActivityPage,_Component);
-
-function MyActivityPage(props){babelHelpers.classCallCheck(this,MyActivityPage);var _this=babelHelpers.possibleConstructorReturn(this,Object.getPrototypeOf(MyActivityPage).call(this,
-props));
-_this.state={
-verifyCode:'',
-mobile:'',
-
-EventdataSource:ds.cloneWithRows([]),
-screenWidth:Dimensions.get('window').width,
-screenHeight:Dimensions.get('window').height};return _this;}babelHelpers.createClass(MyActivityPage,[{key:'componentWillMount',value:function componentWillMount()
-
-
-
-
-{
-
-this._onLoadEvent();}},{key:'queryStringForQueryAndPage',value:function queryStringForQueryAndPage(
-
-
-
-
-
-
-data){
-var querystring=Object.keys(data).
-map(function(key){return key+'='+encodeURIComponent(data[key]);}).
-join('&');
-console.log(querystring);
-return querystring;}},{key:'_onLoadEvent',value:function _onLoadEvent(
-
-e){var _this2=this;
-try{
-console.log(this.props.Gapp.cmdUrl+"Home/cmd/getAttentedEvent");
-fetch(this.props.Gapp.cmdUrl+"Home/cmd/getAttentedEvent",{
-method:'post',
-body:this.queryStringForQueryAndPage({
-'lusername':this.props.Gapp.user.username,
-'lpassword':this.props.Gapp.user.password})}).
-
-then(function(response){return response.json();}).
-then(function(json){
-
-if(json.status==0){
-
-console.log('load activity success');
-_this2.setState({EventdataSource:ds.cloneWithRows(json.detail)});
-console.log(_this2.state.EventdataSource);
-return _this2.state.EventdataSource;}else 
-{}}).
-
-
-catch(function(error){
-console.warn(error);});}
-
-catch(e){
-console.log('activity failed');
-return false;}
-
-
-return false;}},{key:'onDel_btn',value:function onDel_btn(
-
-
-
-rowData){var _this3=this;
-
-try{
-
-console.log(this.props.Gapp.cmdUrl+"Home/cmd/delEventattend");
-console.log(rowData.id);
-fetch(this.props.Gapp.cmdUrl+"Home/cmd/delEventattend",{
-method:'post',
-body:this.queryStringForQueryAndPage({
-'lusername':this.props.Gapp.user.username,
-'lpassword':this.props.Gapp.user.password,
-'id':rowData.id})}).
-
-then(function(response){return response.json();}).
-then(function(json){
-
-console.log(json);
-if(json.status==0){
-
-console.log('sanchu success');
-
-AlertIOS.alert(
-
-'删除成功');
-
-_this3._onLoadEvent();}else 
-
-{
-console.log('fail');}}).
-
-
-catch(function(error){
-console.warn(error);});}
-
-catch(e){
-console.log('shanchu failed');
-return false;}
-
-
-return false;}},{key:'renderRow',value:function renderRow(
-
-
-
-
-
-rowData,sectionID,rowID){var _this4=this;
-var img=require('chjApp/images/share_codeapk.png');
-if(!rowData.Event){
-
-return React.createElement(View,null);}else 
-
-
-{
-return (
-React.createElement(TouchableHighlight,{style:styles.row,underlayColor:'#dddddd',
-onLongPress:function(){return AlertIOS.alert(
-'要删除已预约的活动吗',
-null,
-[
-{text:'Yes',onPress:function(){return _this4.onDel_btn(rowData);}},
-{text:'No',onPress:function(){return console.log('1111111!');}}]);}},
-
-
-React.createElement(View,null,
-React.createElement(View,{style:{flex:1,flexDirection:'row'}},
-React.createElement(Image,{
-style:{width:30,height:30,margin:10,marginLeft:15},
-source:require('image!myIcon')}),
-React.createElement(Text,{style:{width:100,height:20,marginTop:18,fontSize:13,color:'#ADADAD'}},'活动通行证')),
-
-
-
-React.createElement(View,{style:{flex:1,flexDirection:'row',backgroundColor:'#255B9B',marginLeft:10,marginRight:10,marginBottom:5}},
-React.createElement(View,{style:{backgroundColor:'white',marginLeft:(this.state.screenWidth-20)/3*0.1,marginTop:(this.state.screenWidth-20)/3*0.25,marginBottom:(this.state.screenWidth-20)/3*0.25}},
-React.createElement(Image,{
-style:{width:78,height:78,margin:(this.state.screenWidth-20)/3*0.1},
-source:img})),
-
-React.createElement(View,{style:{flex:6,flexDirection:'column',marginTop:(this.state.screenWidth-20)/3*0.19,marginLeft:(this.state.screenWidth-20)/3*0.1}},
-React.createElement(View,{style:{flex:1,flexDirection:'row'}},
-React.createElement(Text,{style:[styles.textFont,{width:(this.state.screenWidth-20)*0.57,marginTop:(this.state.screenWidth-20)*0.1*0.1}],
-numberOfLines:1},'公司姓名:',
-rowData.comname)),
-
-
-React.createElement(View,{style:{flex:1,flexDirection:'row'}},
-React.createElement(Text,{style:[styles.textFont,{width:(this.state.screenWidth-20)*0.57,marginTop:(this.state.screenWidth-20)*0.1*0.1}],
-numberOfLines:1},'活动名称:',
-rowData.Event.title)),
-
-
-React.createElement(View,{style:{flex:1,flexDirection:'row'}},
-React.createElement(Text,{style:[styles.textFont,{width:(this.state.screenWidth-20)*0.57,marginTop:(this.state.screenWidth-20)*0.1*0.1}],
-numberOfLines:1},'预约人数:',
-rowData.num)),
-
-
-React.createElement(View,{style:{flex:1,flexDirection:'row'}},
-React.createElement(Text,{style:[styles.textFont,{width:(this.state.screenWidth-20)*0.57,marginTop:(this.state.screenWidth-20)*0.1*0.1}],
-numberOfLines:1},'活动地点:',
-rowData.Event.address)),
-
-
-React.createElement(View,{style:{flex:1,flexDirection:'row'}},
-React.createElement(Text,{style:[styles.textFont,{width:(this.state.screenWidth-20)*0.57,marginTop:(this.state.screenWidth-20)*0.1*0.1}],
-numberOfLines:1},'预约时间:',
-rowData.create_time)),
-
-
-React.createElement(View,{style:{flex:1,flexDirection:'row'}},
-React.createElement(Text,{style:[styles.textFont,{width:(this.state.screenWidth-20)*0.57,marginTop:(this.state.screenWidth-20)*0.1*0.1}],
-numberOfLines:1},'手机号码:',
-rowData.mobile)))))));}}},{key:'_onPopMy',value:function _onPopMy()
-
-
-
-
-
-
-
-
-
-{
-
-this.props.navigator.pop();}},{key:'render',value:function render()
-
-
-{
-return (
-React.createElement(View,{style:{flex:1,flexDirection:'column'}},
-React.createElement(View,null,
-React.createElement(View,{style:styles.container},
-React.createElement(TouchableHighlight,{
-style:{flex:1},
-underlayColor:'#0067B1',
-onPress:this._onPopMy.bind(this)},
-
-React.createElement(Image,{
-style:styles.image,
-source:require('image!left_arrow')})),
-
-React.createElement(Text,{style:{fontSize:15,color:'white',backgroundColor:'transparent',marginRight:this.state.screenWidth-150,marginTop:15}},'已预约的活动'))),
-
-
-React.createElement(View,{style:{flex:1}},
-React.createElement(RefreshableListView,{
-automaticallyAdjustContentInsets:false,
-dataSource:this.state.EventdataSource,
-renderRow:this.renderRow.bind(this),
-loadData:this._onLoadEvent.bind(this),
-refreshDescription:'正在刷新活动列表...'}))));}}]);return MyActivityPage;}(Component);
-
-
-
-
-
-
-
-var styles=StyleSheet.create({
-container:{
-flex:1,
-marginTop:20,
-backgroundColor:'#0067B1',
-height:44,
-flexDirection:'row'},
-
-textFont:{
-color:'#FFFFFF',
-fontSize:13},
-
-image:{
-marginTop:7,
-marginLeft:10,
-width:30,
-height:30},
-
-row:{
-flex:1,
-marginTop:10,
-borderColor:'#999999',
-borderWidth:3,
-borderRadius:6},
-
-separator:{
-height:3,
-backgroundColor:'#dddddd'}});
-
-
-module.exports=MyActivityPage;
 });
 __d('chjApp/BannerPage.js',function(global, require, module, exports) {  'use strict';
 
@@ -74562,7 +74655,9 @@ var _reactNative=require('react-native/Libraries/react-native/react-native.js');
 
 
 
-var _reactNativeWechat=require('react-native-wechat/index.js');var WeChat=babelHelpers.interopRequireWildcard(_reactNativeWechat);var Swiper=require('react-native-swiper/dist/index.js');var Dimensions=require('Dimensions');var 
+var _reactNativeWechat=require('react-native-wechat/index.js');var WeChat=babelHelpers.interopRequireWildcard(_reactNativeWechat);var Swiper=require('react-native-swiper/dist/index.js');var Dimensions=require('Dimensions');
+var resolveAssetSource=require('resolveAssetSource');
+var awita=WeChat.registerApp('wxf73e1fab51526b73');var 
 SharePage=function(_Component){babelHelpers.inherits(SharePage,_Component);
 
 function SharePage(props){babelHelpers.classCallCheck(this,SharePage);var _this=babelHelpers.possibleConstructorReturn(this,Object.getPrototypeOf(SharePage).call(this,
@@ -74570,6 +74665,7 @@ props));
 _this.state={
 verifyCode:'',
 mobile:'',
+count:'',
 
 screenWidth:Dimensions.get('window').width,
 screenHeight:Dimensions.get('window').height};return _this;}babelHelpers.createClass(SharePage,[{key:'_onShare1',value:function _onShare1(
@@ -74578,19 +74674,81 @@ screenHeight:Dimensions.get('window').height};return _this;}babelHelpers.createC
 e){var 
 
 
-result;return regeneratorRuntime.async(function _onShare1$(_context){while(1){switch(_context.prev=_context.next){case 0:_context.prev=0;_context.next=3;return regeneratorRuntime.awrap(WeChat.registerApp('1234567'));case 3:_context.next=5;return regeneratorRuntime.awrap(WeChat.shareToTimeline({
-type:'imageUrl',
+imageResource,
+
+result;return regeneratorRuntime.async(function _onShare1$(_context){while(1){switch(_context.prev=_context.next){case 0:_context.prev=0;imageResource=require('chjApp/images/share_codeapk1.png');_context.next=4;return regeneratorRuntime.awrap(WeChat.shareToSession({
+type:'imageResource',
 title:'web image',
 description:'share web image to time line',
 mediaTagName:'email signature',
 messageAction:undefined,
 messageExt:undefined,
-imageUrl:'http://www.ncloud.hk/email-signature-262x100.png'}));case 5:result=_context.sent;
+imageUrl:resolveAssetSource(imageResource).uri}));case 4:result=_context.sent;
 
-console.log('share image url to time line successful',result);_context.next=12;break;case 9:_context.prev=9;_context.t0=_context['catch'](0);
+console.log('share image url to time line successful',result);_context.next=11;break;case 8:_context.prev=8;_context.t0=_context['catch'](0);
 
 
-console.log('share image url to time line failed',_context.t0);case 12:case 'end':return _context.stop();}}},null,this,[[0,9]]);}},{key:'_onPopMy',value:function _onPopMy()
+console.log('share image url to time line failed',_context.t0);case 11:case 'end':return _context.stop();}}},null,this,[[0,8]]);}},{key:'_onShare2',value:function _onShare2(
+
+
+e){var 
+
+
+imageResource,
+
+result;return regeneratorRuntime.async(function _onShare2$(_context2){while(1){switch(_context2.prev=_context2.next){case 0:_context2.prev=0;imageResource=require('chjApp/images/share_codeapk.png');_context2.next=4;return regeneratorRuntime.awrap(WeChat.shareToSession({
+type:'imageResource',
+title:'web image',
+description:'share web image to time line',
+mediaTagName:'email signature',
+messageAction:undefined,
+messageExt:undefined,
+imageUrl:resolveAssetSource(imageResource).uri}));case 4:result=_context2.sent;
+
+console.log('share image url to time line successful',result);_context2.next=11;break;case 8:_context2.prev=8;_context2.t0=_context2['catch'](0);
+
+
+console.log('share image url to time line failed',_context2.t0);case 11:case 'end':return _context2.stop();}}},null,this,[[0,8]]);}},{key:'_onShare3',value:function _onShare3(
+
+
+e){var 
+
+
+imageResource,
+
+result;return regeneratorRuntime.async(function _onShare3$(_context3){while(1){switch(_context3.prev=_context3.next){case 0:_context3.prev=0;imageResource=require('chjApp/images/share_code.png');_context3.next=4;return regeneratorRuntime.awrap(WeChat.shareToSession({
+type:'imageResource',
+title:'web image',
+description:'share web image to time line',
+mediaTagName:'email signature',
+messageAction:undefined,
+messageExt:undefined,
+imageUrl:resolveAssetSource(imageResource).uri}));case 4:result=_context3.sent;
+
+console.log('share image url to time line successful',result);_context3.next=11;break;case 8:_context3.prev=8;_context3.t0=_context3['catch'](0);
+
+
+console.log('share image url to time line failed',_context3.t0);case 11:case 'end':return _context3.stop();}}},null,this,[[0,8]]);}},{key:'_onShare4',value:function _onShare4(
+
+
+e){var 
+
+
+imageResource,
+
+result;return regeneratorRuntime.async(function _onShare4$(_context4){while(1){switch(_context4.prev=_context4.next){case 0:_context4.prev=0;imageResource=require('chjApp/images/pujiang2code.jpg');_context4.next=4;return regeneratorRuntime.awrap(WeChat.shareToSession({
+type:'imageResource',
+title:'web image',
+description:'share web image to time line',
+mediaTagName:'email signature',
+messageAction:undefined,
+messageExt:undefined,
+imageUrl:resolveAssetSource(imageResource).uri}));case 4:result=_context4.sent;
+
+console.log('share image url to time line successful',result);_context4.next=11;break;case 8:_context4.prev=8;_context4.t0=_context4['catch'](0);
+
+
+console.log('share image url to time line failed',_context4.t0);case 11:case 'end':return _context4.stop();}}},null,this,[[0,8]]);}},{key:'_onPopMy',value:function _onPopMy()
 
 
 {
@@ -74618,11 +74776,12 @@ _reactNative2.default.createElement(_reactNative.View,null,
 _reactNative2.default.createElement(Swiper,{style:styles.wrapper,
 width:Dimensions.get('window').width,
 height:Dimensions.get('window').height,
+
 loop:false},
 _reactNative2.default.createElement(_reactNative.View,{style:styles.slide},
 _reactNative2.default.createElement(_reactNative.Image,{style:[styles.image,{width:this.state.screenWidth}],source:require('image!share_back')},
 _reactNative2.default.createElement(_reactNative.View,null,
-_reactNative2.default.createElement(_reactNative.Text,{style:[styles.text,{marginTop:(this.state.screenHeight-64)*0.2*0.25,height:(this.state.screenHeight-64)*0.2}]},'双创云服APP')),
+_reactNative2.default.createElement(_reactNative.Text,{style:[styles.text,{marginTop:(this.state.screenHeight-64)*0.2*0.25,height:(this.state.screenHeight-64)*0.2}]},'双创云服APP（Android）')),
 
 _reactNative2.default.createElement(_reactNative.View,null,
 _reactNative2.default.createElement(_reactNative.Text,{style:[styles.text1,{height:(this.state.screenHeight-64)*0.28}]},'漕河泾开发区创新创业园服务APP旨在通过打造“互联网+”的双创云服务平台， 为园区科技型企业提供融资上市、申报项目、技术服务、人才服务和信息发布等一站式创新创业服务， 推动科技企业技术创新，加快区域科技和经济发展，为上海加快建成具有全球影响力的科技创新中心助力。')),
@@ -74634,13 +74793,36 @@ _reactNative2.default.createElement(_reactNative.Text,{style:[styles.text1,{heig
 _reactNative2.default.createElement(_reactNative.View,null,
 _reactNative2.default.createElement(_reactNative.View,{style:{flex:1,flexDirection:'row',marginLeft:this.state.screenWidth*0.1}},
 
-_reactNative2.default.createElement(_reactNative.Image,{style:{flex:1,height:this.state.screenHeight*0.25,resizeMode:_reactNative.Image.resizeMode.contain},source:require('chjApp/images/share_codeapk.png')}),
+_reactNative2.default.createElement(_reactNative.Image,{style:{flex:1,height:this.state.screenHeight*0.25,resizeMode:_reactNative.Image.resizeMode.contain},source:require('chjApp/images/share_codeapk1.png')}),
 _reactNative2.default.createElement(_reactNative.Image,{style:[styles.rightImage,{marginTop:this.state.screenHeight*0.25*0.25}],source:require('chjApp/images/share_right.png')}))),
 
 
 _reactNative2.default.createElement(_reactNative.View,{style:{flexDirection:'row',marginTop:this.state.screenHeight*0.4*0.1}},
 _reactNative2.default.createElement(_reactNative.TouchableHighlight,{style:[styles.buttonStyle,{marginRight:this.state.screenWidth*0.3,marginLeft:this.state.screenWidth*0.3}],
 onPress:this._onShare1.bind(this),
+underlayColor:'#3D8CC5'},
+_reactNative2.default.createElement(_reactNative.Text,{style:styles.text2},'立即分享'))))),
+
+
+
+
+_reactNative2.default.createElement(_reactNative.View,{style:styles.slide},
+_reactNative2.default.createElement(_reactNative.Image,{style:[styles.image,{width:this.state.screenWidth}],source:require('image!share_back')},
+_reactNative2.default.createElement(_reactNative.Text,{style:[styles.text,{marginTop:(this.state.screenHeight-64)*0.2*0.25,height:(this.state.screenHeight-64)*0.2}]},'双创云服APP（IOS）'),
+_reactNative2.default.createElement(_reactNative.Text,{style:[styles.text1,{height:(this.state.screenHeight-64)*0.28}]},' 漕河泾开发区创新创业园服务APP旨在通过打造“互联网+”的双创云服务平台， 为园区科技型企业提供融资上市、申报项目、技术服务、人才服务和信息发布等一站式创新创业服务， 推动科技企业技术创新，加快区域科技和经济发展，为上海加快建成具有全球影响力的科技创新中心助力。'),
+
+
+
+_reactNative2.default.createElement(_reactNative.View,null,
+_reactNative2.default.createElement(_reactNative.View,{style:{flex:3,flexDirection:'row',marginLeft:10}},
+_reactNative2.default.createElement(_reactNative.Image,{style:[styles.rightImage,{marginTop:this.state.screenHeight*0.25*0.25}],source:require('chjApp/images/share_left.png')}),
+_reactNative2.default.createElement(_reactNative.Image,{style:{flex:1,height:this.state.screenHeight*0.25,resizeMode:_reactNative.Image.resizeMode.contain},source:require('chjApp/images/share_codeapk.png')}),
+_reactNative2.default.createElement(_reactNative.Image,{style:[styles.rightImage,{marginTop:this.state.screenHeight*0.25*0.25}],source:require('chjApp/images/share_right.png')}))),
+
+
+_reactNative2.default.createElement(_reactNative.View,{style:{flexDirection:'row',marginTop:this.state.screenHeight*0.4*0.1}},
+_reactNative2.default.createElement(_reactNative.TouchableHighlight,{style:[styles.buttonStyle,{marginRight:this.state.screenWidth*0.3,marginLeft:this.state.screenWidth*0.31}],
+onPress:this._onShare2.bind(this),
 underlayColor:'#3D8CC5'},
 _reactNative2.default.createElement(_reactNative.Text,{style:styles.text2},'立即分享'))))),
 
@@ -74662,8 +74844,8 @@ _reactNative2.default.createElement(_reactNative.Image,{style:[styles.rightImage
 
 
 _reactNative2.default.createElement(_reactNative.View,{style:{flexDirection:'row',marginTop:this.state.screenHeight*0.4*0.1}},
-_reactNative2.default.createElement(_reactNative.TouchableHighlight,{style:[styles.buttonStyle,{marginRight:this.state.screenWidth*0.3,marginLeft:this.state.screenWidth*0.3}],
-onPress:this._onShare1.bind(this),
+_reactNative2.default.createElement(_reactNative.TouchableHighlight,{style:[styles.buttonStyle,{marginRight:this.state.screenWidth*0.3,marginLeft:this.state.screenWidth*0.31}],
+onPress:this._onShare3.bind(this),
 underlayColor:'#3D8CC5'},
 _reactNative2.default.createElement(_reactNative.Text,{style:styles.text2},'立即分享'))))),
 
@@ -74685,8 +74867,8 @@ _reactNative2.default.createElement(_reactNative.Image,{style:{flex:1,height:thi
 
 
 _reactNative2.default.createElement(_reactNative.View,{style:{flexDirection:'row',marginTop:this.state.screenHeight*0.4*0.1}},
-_reactNative2.default.createElement(_reactNative.TouchableHighlight,{style:[styles.buttonStyle,{marginRight:this.state.screenWidth*0.3,marginLeft:this.state.screenWidth*0.3}],
-onPress:this._onShare1.bind(this),
+_reactNative2.default.createElement(_reactNative.TouchableHighlight,{style:[styles.buttonStyle,{marginRight:this.state.screenWidth*0.3,marginLeft:this.state.screenWidth*0.32}],
+onPress:this._onShare4.bind(this),
 underlayColor:'#3D8CC5'},
 _reactNative2.default.createElement(_reactNative.Text,{style:styles.text2},'立即分享')))))))));}}]);return SharePage;}(_reactNative.Component);
 
@@ -74749,7 +74931,7 @@ backgroundColor:'#0067B1',
 borderColor:'#0067B1',
 borderWidth:1,
 borderRadius:4,
-alignSelf:'stretch',
+alignSelf:'center',
 justifyContent:'center'},
 
 image:{
@@ -75015,7 +75197,8 @@ AppRegistry=
 
 
 
-React.AppRegistry;var StyleSheet=React.StyleSheet;var Image=React.Image;var View=React.View;var Text=React.Text;var TouchableHighlight=React.TouchableHighlight;var Component=React.Component;var 
+
+React.AppRegistry;var StyleSheet=React.StyleSheet;var Image=React.Image;var View=React.View;var Text=React.Text;var TouchableHighlight=React.TouchableHighlight;var ScrollView=React.ScrollView;var Component=React.Component;var 
 
 myScorePage=function(_Component){babelHelpers.inherits(myScorePage,_Component);
 
@@ -75024,8 +75207,58 @@ props));
 _this.state={
 verifyCode:'',
 mobile:'',
+valueG:'',
 screenWidth:Dimensions.get('window').width,
-screenHeight:Dimensions.get('window').height};return _this;}babelHelpers.createClass(myScorePage,[{key:'_onPopMy',value:function _onPopMy()
+screenHeight:Dimensions.get('window').height};return _this;}babelHelpers.createClass(myScorePage,[{key:'queryStringForQueryAndPage',value:function queryStringForQueryAndPage(
+
+
+
+data){
+var querystring=Object.keys(data).
+map(function(key){return key+'='+encodeURIComponent(data[key]);}).
+join('&');
+console.log(querystring);
+return querystring;}},{key:'_onLoadOption',value:function _onLoadOption(
+
+e){var _this2=this;
+try{
+console.log(this.props.Gapp.cmdUrl+"Home/Login/getOption");
+fetch(this.props.Gapp.cmdUrl+"Home/Login/getOption",{
+method:'post',
+body:this.queryStringForQueryAndPage({
+'lusername':this.props.Gapp.user.username,
+'lpassword':this.props.Gapp.user.password,
+'type':'integral'})}).
+
+then(function(response){return response.json();}).
+then(function(json){
+
+if(json.status==0){
+
+console.log('load image success');
+
+
+_this2.setState({valueG:json.detail[0].value});
+
+
+return _this2.state.valueG;}else 
+{}}).
+
+
+catch(function(error){
+console.warn(error);});}
+
+catch(e){
+console.log('image failed');
+return false;}
+
+
+return false;}},{key:'componentWillMount',value:function componentWillMount()
+
+
+{
+
+this._onLoadOption();}},{key:'_onPopMy',value:function _onPopMy()
 
 
 
@@ -75055,18 +75288,20 @@ React.createElement(Text,{style:{fontSize:15,color:'white',backgroundColor:'tran
 
 
 
-React.createElement(View,{style:{flex:1}},
 
-React.createElement(View,{style:{flex:1,height:this.state.screenHeight*0.5}},
+React.createElement(ScrollView,{style:{flex:1},
+bounces:false,
+automaticallyAdjustContentInsets:false},
+React.createElement(View,{style:{flex:1,height:(this.state.screenHeight-64)*0.4}},
 React.createElement(Text,{style:{color:'#0067B1',fontSize:15,marginTop:this.state.screenHeight*0.5*0.1,marginLeft:5}},'积分统计'),
 
 
 
 React.createElement(Image,{
-style:{height:2,marginTop:this.state.screenHeight*0.1*0.5,marginLeft:this.state.screenWidth*0.05,width:this.state.screenWidth*0.9},
+style:{height:2,marginTop:(this.state.screenHeight-64)*0.1*0.5,marginLeft:this.state.screenWidth*0.05,width:this.state.screenWidth*0.9},
 source:require('chjApp/images/enterprise_integral.png')}),
 React.createElement(View,null,
-React.createElement(View,{style:{flex:1,flexDirection:'row',marginTop:this.state.screenHeight*0.5*0.1}},
+React.createElement(View,{style:{flex:1,flexDirection:'row',marginTop:(this.state.screenHeight-64)*0.4*0.1}},
 React.createElement(Text,{style:styles.text1},'个人积分'),
 
 
@@ -75076,7 +75311,7 @@ this.props.Gapp.user.score1))),
 
 
 React.createElement(View,null,
-React.createElement(View,{style:{flex:1,flexDirection:'row',marginTop:this.state.screenHeight*0.5*0.1}},
+React.createElement(View,{style:{flex:1,flexDirection:'row',marginTop:(this.state.screenHeight-64)*0.4*0.1}},
 React.createElement(Text,{style:styles.text1},'企业积分'),
 
 
@@ -75093,7 +75328,8 @@ React.createElement(Text,{style:{color:'#0067B1',fontSize:15,marginLeft:5}},'积
 React.createElement(Image,{
 style:{height:2,marginTop:this.state.screenHeight*0.1*0.5,marginLeft:this.state.screenWidth*0.05,width:this.state.screenWidth*0.9},
 source:require('chjApp/images/enterprise_integral.png')}),
-React.createElement(Text,{style:{color:'gray',fontSize:15,marginTop:this.state.screenHeight*0.5*0.1,marginLeft:20}},'漕河泾双创业的积分规则如下：')))));}}]);return myScorePage;}(Component);
+React.createElement(Text,{style:{color:'gray',fontSize:15,marginTop:this.state.screenHeight*0.5*0.1,marginLeft:20}},
+this.state.valueG)))));}}]);return myScorePage;}(Component);
 
 
 
