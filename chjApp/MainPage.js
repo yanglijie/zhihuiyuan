@@ -33,6 +33,8 @@ var MyMsgPage = require('./MyMsgPage');
 var MyUpdatePage = require('./MyUpdatePage');
 var MsgDetailsPage = require('./MsgDetailsPage');
 var OptionPage = require('./OptionPage');
+var MyTelephone = require('./MyTelephone');
+
 
 import React, {
   AppRegistry,
@@ -907,7 +909,8 @@ _onLoadEvent1(e){
               <Image style={{width:(this.state.screenHeight-113)/10*1.2,height:(this.state.screenHeight-113)/10*1.2,marginTop:(this.state.screenHeight-113)/10*0.4,marginLeft:20}}
                   source={require('image!my_logo')} />
                   <View>
-                      <Text style={{width:180,height:20,marginTop:(this.state.screenHeight-113)/10*0.5,marginLeft:30,fontSize:15,color:'#ffffff'}}>
+                      <Text style={{width:this.state.screenWidth*0.65,height:20,marginTop:(this.state.screenHeight-113)/10*0.5,marginLeft:30,fontSize:15,color:'#ffffff'}}
+                      numberOfLines={1}>
                       创       客：{this.props.Gapp.user.username}
                       </Text>
                       <Text style={{width:this.state.screenWidth*0.65,height:20,marginTop:(this.state.screenHeight-113)/10*0.25,marginLeft:30,fontSize:15,color:'#ffffff'}}
@@ -920,7 +923,7 @@ _onLoadEvent1(e){
 
               <View style={{flex:6,flexDirection:'column',}}>
                 <TouchableHighlight
-                  style={{flex:1,height:(this.state.screenHeight-113)/10}}
+                  style={{flex:1,height:(this.state.screenHeight-113)/11}}
                   underlayColor='gray'
                   onPress={this._onMyEvent.bind(this)}
                   >
@@ -933,7 +936,7 @@ _onLoadEvent1(e){
                 </TouchableHighlight>
                 <View style={styles.separator}/>
                 <TouchableHighlight
-                style={{flex:1,height:(this.state.screenHeight-113)/10}}
+                style={{flex:1,height:(this.state.screenHeight-113)/11}}
                 underlayColor='gray'
                 onPress={this._onMyService.bind(this)}
                 >
@@ -946,7 +949,7 @@ _onLoadEvent1(e){
               </TouchableHighlight>
               <View style={styles.separator}/>
               <TouchableHighlight
-                style={{flex:1,height:(this.state.screenHeight-113)/10}}
+                style={{flex:1,height:(this.state.screenHeight-113)/11}}
                 underlayColor='gray'
                 onPress={this._onMyScore.bind(this)}
                 >
@@ -959,7 +962,7 @@ _onLoadEvent1(e){
               </TouchableHighlight>
               <View style={styles.separator}/>
               <TouchableHighlight
-                style={{flex:1,height:(this.state.screenHeight-113)/10}}
+                style={{flex:1,height:(this.state.screenHeight-113)/11}}
                 underlayColor='gray'
                 onPress={this._onMyPwd.bind(this)}
                 >
@@ -972,7 +975,7 @@ _onLoadEvent1(e){
               </TouchableHighlight>
               <View style={styles.separator}/>
               <TouchableHighlight
-                style={{flex:1,height:(this.state.screenHeight-113)/10}}
+                style={{flex:1,height:(this.state.screenHeight-113)/11}}
                 underlayColor='gray'
                 onPress={this._onMyMsg.bind(this)}
                 >
@@ -990,31 +993,41 @@ _onLoadEvent1(e){
                 </View>
               </TouchableHighlight>
               <View style={styles.separator}/>
-              
-              
+              <TouchableHighlight
+                style={{flex:1,height:(this.state.screenHeight-113)/11}}
+                underlayColor='gray'
+                onPress={this._onMyUpdate.bind(this)}
+                >
+                <View style={{flex:1,flexDirection:'row',alignItems:'center'}}>
+                  <Text style={[styles.sliderText1,{marginLeft:this.state.screenWidth*0.05}]} >绑定员工</Text>
+                  <Image
+                    style={[styles.sliderRight,{marginRight:this.state.screenWidth*0.05}]}
+                    source={require('image!right_arrow')} />
+                </View>
+              </TouchableHighlight>
+              <View style={styles.separator}/>
               </View>
-
-
+              
             </View>
             <View>
              <TouchableHighlight
-                style={{flex:1,height:(this.state.screenHeight-113)/10}}
+                style={{flex:1,height:(this.state.screenHeight-113)/11}}
                 underlayColor='transparent'
                 onPress={this._onTelephone.bind(this)}
                 >
                 <View style={{flex:1,flexDirection:'row'}}>
                   <View style={{flex:1,flexDirection:'column'}}>
                     <Text style={{fontSize:15,color:'#2B2F2C',backgroundColor:'transparent',marginLeft:this.state.screenWidth*0.05,marginTop:5}}>联系我们</Text>
-                    <View style={{flex:1,flexDirection:'row',marginTop:(this.state.screenHeight-113)/10*0.05}}>
+                    <View style={{flex:1,flexDirection:'row',marginTop:(this.state.screenHeight-113)/11*0.05}}>
                       <Text style={{fontSize:10,color:'#2B2F2C',backgroundColor:'transparent',marginLeft:this.state.screenWidth*0.05}}>服务电话：:</Text>
                       <Text style={{fontSize:10,color:'red',backgroundColor:'transparent',marginLeft:0}}>021-3463-7000</Text>
                     </View>
                   </View>
-                  <Image style={{marginRight:this.state.screenWidth*0.07,height:(this.state.screenHeight-113)/10,width:(this.state.screenHeight-113)/10*1.1,}} source={require('./images/slide_phone.png')} />
+                  <Image style={{marginRight:this.state.screenWidth*0.07,height:(this.state.screenHeight-113)/11,width:(this.state.screenHeight-113)/11*1.1,}} source={require('./images/slide_phone.png')} />
                 </View>
               </TouchableHighlight>
               <View style={{flex:1,marginLeft:this.state.screenWidth/2*0.8}}>
-              	<Image style={{height:(this.state.screenHeight-113)/10*1.5,resizeMode: Image.resizeMode.contain,width:this.state.screenWidth/2,}} source={require('./images/my_back.png')} />
+              	<Image style={{height:(this.state.screenHeight-113)/11*1.5,resizeMode: Image.resizeMode.contain,width:this.state.screenWidth/2,}} source={require('./images/my_back.png')} />
               </View>
             </View>
           </View>
@@ -1171,12 +1184,17 @@ _onLoadEvent1(e){
   }
   _onMyUpdate(){
 
-    this.props.navigator.push({
-      component: MyUpdatePage,
+    // this.props.navigator.push({
+    //   component: MyUpdatePage,
+    //   navigationBarHidden: true,
+    //   passProps: {Gapp: this.props.Gapp}
+    // });
+
+	this.props.navigator.push({
+      component: MyTelephone,
       navigationBarHidden: true,
       passProps: {Gapp: this.props.Gapp}
     });
-
   }
   _onTelephone(){
     //tel
@@ -1210,9 +1228,10 @@ _onLoadEvent1(e){
               source={require('image!slider_title_bg')}
             >
               <Image
-                style={{height:60,resizeMode: Image.resizeMode.contain,flex:1}}
+                style={{height:this.state.screenWidth/3*0.5,resizeMode: Image.resizeMode.contain,flex:1}}
                 source={require('image!my_logo')}/>
-              <Text style={[styles.sliderText,{flex:2,marginRight:this.state.screenWidth/3*2*0.5*0.5}]}>创客:{this.props.Gapp.user.username}</Text>
+              <Text style={[styles.sliderText,{flex:2}]}
+              numberOfLines={1}>创客:{this.props.Gapp.user.username}</Text>
             </Image>
             <Image style={{height:2,width:this.state.screenWidth/3*2-20}} source={require('image!slider_line')} />
             <View style={{flex:6,flexDirection:'column'}}>
@@ -1291,7 +1310,19 @@ _onLoadEvent1(e){
                 </View>
               </TouchableHighlight>
               <Image style={{height:1,width:this.state.screenWidth/3*2-20}} source={require('image!slider_line')} />
-              
+               <TouchableHighlight
+                style={{flex:1}}
+                underlayColor='gray'
+                onPress={this._onMyUpdate.bind(this)}
+                >
+                <View style={{flex:1,flexDirection:'row',alignItems:'center'}}>
+                  <Text style={[styles.sliderText,{marginLeft:this.state.screenWidth*0.05}]} >绑定员工</Text>
+                  <Image
+                    style={[styles.sliderRight,{marginRight:this.state.screenWidth*0.05}]}
+                    source={require('image!right_arrow')} />
+                </View>
+              </TouchableHighlight>
+              <Image style={{height:1,width:this.state.screenWidth/3*2-20}} source={require('image!slider_line')} />
             </View>
              <TouchableHighlight style={{flex:2,alignItems:'center',flexDirection:'row'}}
                   underlayColor='transparent'

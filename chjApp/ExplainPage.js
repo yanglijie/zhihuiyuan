@@ -36,11 +36,6 @@ class ExplainPage extends Component {
  _onPushAttent(){
     var eventData = this.props.eventData;
     if (eventData.status == '1') {
-      // this.props.navigator.push({
-      // component: AttentAcPage,
-      // navigationBarHidden: true,
-      // passProps: {Gapp: this.props.Gapp,eventData:eventData}
-      // });
       this.props.navigator.push({
         title: '活动预约',
         component: AttentEventPage,

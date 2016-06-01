@@ -17795,87 +17795,87 @@ __d('react-native/package.json',function(global, require, module, exports) {  mo
 }
 ;
 });
-__d('image!share_back',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/chjApp/Images.xcassets/share_back.imageset/share_back.png","uri":"share_back","width":520,"height":803,"deprecated":true};
+__d('image!share_back',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Documents/zhihuiyun/chjApp/ios/chjApp/Images.xcassets/share_back.imageset/share_back.png","uri":"share_back","width":520,"height":803,"deprecated":true};
 });
-__d('image!back_edittext',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/chjApp/Images.xcassets/back_edittext.imageset/back_edittext.png","uri":"back_edittext","width":715,"height":63,"deprecated":true};
+__d('image!back_edittext',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Documents/zhihuiyun/chjApp/ios/chjApp/Images.xcassets/back_edittext.imageset/back_edittext.png","uri":"back_edittext","width":715,"height":63,"deprecated":true};
 });
-__d('image!enterprise_integral',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/images/enterprise_integral.png","uri":"enterprise_integral","width":1080,"height":35,"deprecated":true};
+__d('image!enterprise_integral',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Documents/zhihuiyun/chjApp/ios/images/enterprise_integral.png","uri":"enterprise_integral","width":1080,"height":35,"deprecated":true};
 });
-__d('image!left_arrow',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/chjApp/Images.xcassets/left_arrow.imageset/left_arrow.png","uri":"left_arrow","width":96,"height":96,"deprecated":true};
+__d('image!left_arrow',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Documents/zhihuiyun/chjApp/ios/chjApp/Images.xcassets/left_arrow.imageset/left_arrow.png","uri":"left_arrow","width":96,"height":96,"deprecated":true};
 });
-__d('image!share_codeapk',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/images/share_codeapk.png","uri":"share_codeapk","width":500,"height":500,"deprecated":true};
+__d('image!share_codeapk',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Documents/zhihuiyun/chjApp/ios/images/share_codeapk.png","uri":"share_codeapk","width":500,"height":500,"deprecated":true};
 });
-__d('image!home_btn2',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/chjApp/Images.xcassets/home_btn2.imageset/home_btn2.png","uri":"home_btn2","width":419,"height":298,"deprecated":true};
+__d('image!home_btn2',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Documents/zhihuiyun/chjApp/ios/chjApp/Images.xcassets/home_btn2.imageset/home_btn2.png","uri":"home_btn2","width":419,"height":298,"deprecated":true};
 });
-__d('image!slideBtn',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/chjApp/Images.xcassets/slideBtn.imageset/slideBtn.png","uri":"slideBtn","width":55,"height":55,"deprecated":true};
+__d('image!slideBtn',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Documents/zhihuiyun/chjApp/ios/chjApp/Images.xcassets/slideBtn.imageset/slideBtn.png","uri":"slideBtn","width":55,"height":55,"deprecated":true};
 });
-__d('image!topBtn',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/chjApp/Images.xcassets/topBtn.imageset/topBtn.png","uri":"topBtn","width":124,"height":124,"deprecated":true};
+__d('image!topBtn',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Documents/zhihuiyun/chjApp/ios/chjApp/Images.xcassets/topBtn.imageset/topBtn.png","uri":"topBtn","width":124,"height":124,"deprecated":true};
 });
-__d('image!shareBtn',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/chjApp/Images.xcassets/shareBtn.imageset/shareBtn.png","uri":"shareBtn","width":124,"height":124,"deprecated":true};
+__d('image!shareBtn',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Documents/zhihuiyun/chjApp/ios/chjApp/Images.xcassets/shareBtn.imageset/shareBtn.png","uri":"shareBtn","width":124,"height":124,"deprecated":true};
 });
-__d('image!home_bg',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/chjApp/Images.xcassets/home_bg.imageset/home_bg.png","uri":"home_bg","width":520,"height":460,"deprecated":true};
+__d('image!home_bg',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Documents/zhihuiyun/chjApp/ios/chjApp/Images.xcassets/home_bg.imageset/home_bg.png","uri":"home_bg","width":520,"height":460,"deprecated":true};
 });
-__d('image!home_btn1',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/chjApp/Images.xcassets/home_btn1.imageset/home_btn1.png","uri":"home_btn1","width":280,"height":199,"deprecated":true};
+__d('image!home_btn1',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Documents/zhihuiyun/chjApp/ios/chjApp/Images.xcassets/home_btn1.imageset/home_btn1.png","uri":"home_btn1","width":280,"height":199,"deprecated":true};
 });
-__d('image!home_btn5',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/chjApp/Images.xcassets/home_btn5.imageset/home_btn5.png","uri":"home_btn5","width":420,"height":299,"deprecated":true};
+__d('image!home_btn5',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Documents/zhihuiyun/chjApp/ios/chjApp/Images.xcassets/home_btn5.imageset/home_btn5.png","uri":"home_btn5","width":420,"height":299,"deprecated":true};
 });
-__d('image!home_btn3',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/chjApp/Images.xcassets/home_btn3.imageset/home_btn3.png","uri":"home_btn3","width":280,"height":199,"deprecated":true};
+__d('image!home_btn3',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Documents/zhihuiyun/chjApp/ios/chjApp/Images.xcassets/home_btn3.imageset/home_btn3.png","uri":"home_btn3","width":280,"height":199,"deprecated":true};
 });
-__d('image!home_btn4',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/chjApp/Images.xcassets/home_btn4.imageset/home_btn4.png","uri":"home_btn4","width":280,"height":199,"deprecated":true};
+__d('image!home_btn4',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Documents/zhihuiyun/chjApp/ios/chjApp/Images.xcassets/home_btn4.imageset/home_btn4.png","uri":"home_btn4","width":280,"height":199,"deprecated":true};
 });
-__d('image!my_logo',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/chjApp/Images.xcassets/my_logo.imageset/my_logo.png","uri":"my_logo","width":124,"height":124,"deprecated":true};
+__d('image!my_logo',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Documents/zhihuiyun/chjApp/ios/chjApp/Images.xcassets/my_logo.imageset/my_logo.png","uri":"my_logo","width":124,"height":124,"deprecated":true};
 });
-__d('image!right_arrow',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/chjApp/Images.xcassets/right_arrow.imageset/right_arrow.png","uri":"right_arrow","width":48,"height":48,"deprecated":true};
+__d('image!right_arrow',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Documents/zhihuiyun/chjApp/ios/chjApp/Images.xcassets/right_arrow.imageset/right_arrow.png","uri":"right_arrow","width":48,"height":48,"deprecated":true};
 });
-__d('image!slider_bg',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/chjApp/Images.xcassets/slider_bg.imageset/slider_bg.png","uri":"slider_bg","width":320,"height":688,"deprecated":true};
+__d('image!slider_bg',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Documents/zhihuiyun/chjApp/ios/chjApp/Images.xcassets/slider_bg.imageset/slider_bg.png","uri":"slider_bg","width":320,"height":688,"deprecated":true};
 });
-__d('image!slider_title_bg',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/chjApp/Images.xcassets/slider_title_bg.imageset/slider_title_bg.png","uri":"slider_title_bg","width":320,"height":138,"deprecated":true};
+__d('image!slider_title_bg',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Documents/zhihuiyun/chjApp/ios/chjApp/Images.xcassets/slider_title_bg.imageset/slider_title_bg.png","uri":"slider_title_bg","width":320,"height":138,"deprecated":true};
 });
-__d('image!slider_line',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/chjApp/Images.xcassets/slider_line.imageset/slider_line.png","uri":"slider_line","width":320,"height":4,"deprecated":true};
+__d('image!slider_line',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Documents/zhihuiyun/chjApp/ios/chjApp/Images.xcassets/slider_line.imageset/slider_line.png","uri":"slider_line","width":320,"height":4,"deprecated":true};
 });
-__d('image!login_bg',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/chjApp/Images.xcassets/login_bg.imageset/login_bg.png","uri":"login_bg","width":520,"height":924,"deprecated":true};
+__d('image!login_bg',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Documents/zhihuiyun/chjApp/ios/chjApp/Images.xcassets/login_bg.imageset/login_bg.png","uri":"login_bg","width":520,"height":924,"deprecated":true};
 });
-__d('image!myIcon',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/ios/chjApp/Images.xcassets/myIcon.imageset/myIcon.png","uri":"myIcon","width":370,"height":370,"deprecated":true};
+__d('image!myIcon',function(global, require, module, exports) {  module.exports = {"__packager_asset":true,"path":"/Users/famesmart/Documents/zhihuiyun/chjApp/ios/chjApp/Images.xcassets/myIcon.imageset/myIcon.png","uri":"myIcon","width":370,"height":370,"deprecated":true};
 });
-__d('chjApp/images/forget_pass.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/images","httpServerLocation":"/assets/images","width":124,"height":32,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/images/forget_pass.png"],"hash":"1136990ef9de5921290f70ce31ad53d7","name":"forget_pass","type":"png"});
+__d('chjApp/images/forget_pass.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Documents/zhihuiyun/chjApp/images","httpServerLocation":"/assets/images","width":124,"height":32,"scales":[1],"files":["/Users/famesmart/Documents/zhihuiyun/chjApp/images/forget_pass.png"],"hash":"1136990ef9de5921290f70ce31ad53d7","name":"forget_pass","type":"png"});
 });
-__d('react-native/Libraries/CustomComponents/NavigationExperimental/back_chevron.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/node_modules/react-native/Libraries/CustomComponents/NavigationExperimental","httpServerLocation":"/assets/node_modules/react-native/Libraries/CustomComponents/NavigationExperimental","width":26,"height":42,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/node_modules/react-native/Libraries/CustomComponents/NavigationExperimental/back_chevron.png"],"hash":"ff62a71400a6f2c153edd030a2479ca7","name":"back_chevron","type":"png"});
+__d('react-native/Libraries/CustomComponents/NavigationExperimental/back_chevron.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Documents/zhihuiyun/chjApp/node_modules/react-native/Libraries/CustomComponents/NavigationExperimental","httpServerLocation":"/assets/node_modules/react-native/Libraries/CustomComponents/NavigationExperimental","width":26,"height":42,"scales":[1],"files":["/Users/famesmart/Documents/zhihuiyun/chjApp/node_modules/react-native/Libraries/CustomComponents/NavigationExperimental/back_chevron.png"],"hash":"ff62a71400a6f2c153edd030a2479ca7","name":"back_chevron","type":"png"});
 });
-__d('chjApp/images/plan_1.jpg',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/images","httpServerLocation":"/assets/images","width":520,"height":193,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/images/plan_1.jpg"],"hash":"52122ce1fa94cfc5056f7b6adefc6b28","name":"plan_1","type":"jpg"});
+__d('chjApp/images/plan_1.jpg',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Documents/zhihuiyun/chjApp/images","httpServerLocation":"/assets/images","width":520,"height":193,"scales":[1],"files":["/Users/famesmart/Documents/zhihuiyun/chjApp/images/plan_1.jpg"],"hash":"52122ce1fa94cfc5056f7b6adefc6b28","name":"plan_1","type":"jpg"});
 });
-__d('chjApp/images/plan_2.jpg',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/images","httpServerLocation":"/assets/images","width":520,"height":193,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/images/plan_2.jpg"],"hash":"52122ce1fa94cfc5056f7b6adefc6b28","name":"plan_2","type":"jpg"});
+__d('chjApp/images/plan_2.jpg',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Documents/zhihuiyun/chjApp/images","httpServerLocation":"/assets/images","width":520,"height":193,"scales":[1],"files":["/Users/famesmart/Documents/zhihuiyun/chjApp/images/plan_2.jpg"],"hash":"52122ce1fa94cfc5056f7b6adefc6b28","name":"plan_2","type":"jpg"});
 });
-__d('chjApp/images/plan_3.jpg',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/images","httpServerLocation":"/assets/images","width":520,"height":193,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/images/plan_3.jpg"],"hash":"52122ce1fa94cfc5056f7b6adefc6b28","name":"plan_3","type":"jpg"});
+__d('chjApp/images/plan_3.jpg',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Documents/zhihuiyun/chjApp/images","httpServerLocation":"/assets/images","width":520,"height":193,"scales":[1],"files":["/Users/famesmart/Documents/zhihuiyun/chjApp/images/plan_3.jpg"],"hash":"52122ce1fa94cfc5056f7b6adefc6b28","name":"plan_3","type":"jpg"});
 });
-__d('chjApp/images/plan_4.jpg',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/images","httpServerLocation":"/assets/images","width":520,"height":193,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/images/plan_4.jpg"],"hash":"52122ce1fa94cfc5056f7b6adefc6b28","name":"plan_4","type":"jpg"});
+__d('chjApp/images/plan_4.jpg',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Documents/zhihuiyun/chjApp/images","httpServerLocation":"/assets/images","width":520,"height":193,"scales":[1],"files":["/Users/famesmart/Documents/zhihuiyun/chjApp/images/plan_4.jpg"],"hash":"52122ce1fa94cfc5056f7b6adefc6b28","name":"plan_4","type":"jpg"});
 });
-__d('chjApp/images/plan_5.jpg',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/images","httpServerLocation":"/assets/images","width":520,"height":193,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/images/plan_5.jpg"],"hash":"52122ce1fa94cfc5056f7b6adefc6b28","name":"plan_5","type":"jpg"});
+__d('chjApp/images/plan_5.jpg',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Documents/zhihuiyun/chjApp/images","httpServerLocation":"/assets/images","width":520,"height":193,"scales":[1],"files":["/Users/famesmart/Documents/zhihuiyun/chjApp/images/plan_5.jpg"],"hash":"52122ce1fa94cfc5056f7b6adefc6b28","name":"plan_5","type":"jpg"});
 });
-__d('chjApp/images/plan_6.jpg',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/images","httpServerLocation":"/assets/images","width":520,"height":193,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/images/plan_6.jpg"],"hash":"52122ce1fa94cfc5056f7b6adefc6b28","name":"plan_6","type":"jpg"});
+__d('chjApp/images/plan_6.jpg',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Documents/zhihuiyun/chjApp/images","httpServerLocation":"/assets/images","width":520,"height":193,"scales":[1],"files":["/Users/famesmart/Documents/zhihuiyun/chjApp/images/plan_6.jpg"],"hash":"52122ce1fa94cfc5056f7b6adefc6b28","name":"plan_6","type":"jpg"});
 });
-__d('chjApp/images/plan_7.jpg',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/images","httpServerLocation":"/assets/images","width":520,"height":193,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/images/plan_7.jpg"],"hash":"52122ce1fa94cfc5056f7b6adefc6b28","name":"plan_7","type":"jpg"});
+__d('chjApp/images/plan_7.jpg',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Documents/zhihuiyun/chjApp/images","httpServerLocation":"/assets/images","width":520,"height":193,"scales":[1],"files":["/Users/famesmart/Documents/zhihuiyun/chjApp/images/plan_7.jpg"],"hash":"52122ce1fa94cfc5056f7b6adefc6b28","name":"plan_7","type":"jpg"});
 });
-__d('chjApp/images/m_message_left.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/images","httpServerLocation":"/assets/images","width":124,"height":124,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/images/m_message_left.png"],"hash":"8947f5961ea86f492f332b4ee4148304","name":"m_message_left","type":"png"});
+__d('chjApp/images/m_message_left.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Documents/zhihuiyun/chjApp/images","httpServerLocation":"/assets/images","width":124,"height":124,"scales":[1],"files":["/Users/famesmart/Documents/zhihuiyun/chjApp/images/m_message_left.png"],"hash":"8947f5961ea86f492f332b4ee4148304","name":"m_message_left","type":"png"});
 });
-__d('chjApp/images/slide_phone.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/images","httpServerLocation":"/assets/images","width":132,"height":120,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/images/slide_phone.png"],"hash":"8947f5961ea86f492f332b4ee4148304","name":"slide_phone","type":"png"});
+__d('chjApp/images/slide_phone.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Documents/zhihuiyun/chjApp/images","httpServerLocation":"/assets/images","width":132,"height":120,"scales":[1],"files":["/Users/famesmart/Documents/zhihuiyun/chjApp/images/slide_phone.png"],"hash":"8947f5961ea86f492f332b4ee4148304","name":"slide_phone","type":"png"});
 });
-__d('chjApp/images/my_back.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/images","httpServerLocation":"/assets/images","width":669,"height":293,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/images/my_back.png"],"hash":"8947f5961ea86f492f332b4ee4148304","name":"my_back","type":"png"});
+__d('chjApp/images/my_back.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Documents/zhihuiyun/chjApp/images","httpServerLocation":"/assets/images","width":669,"height":293,"scales":[1],"files":["/Users/famesmart/Documents/zhihuiyun/chjApp/images/my_back.png"],"hash":"8947f5961ea86f492f332b4ee4148304","name":"my_back","type":"png"});
 });
-__d('chjApp/images/share_codeapk1.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/images","httpServerLocation":"/assets/images","width":250,"height":250,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/images/share_codeapk1.png"],"hash":"8d2fd16442d377cf884ff2a4df19eb25","name":"share_codeapk1","type":"png"});
+__d('chjApp/images/share_codeapk1.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Documents/zhihuiyun/chjApp/images","httpServerLocation":"/assets/images","width":250,"height":250,"scales":[1],"files":["/Users/famesmart/Documents/zhihuiyun/chjApp/images/share_codeapk1.png"],"hash":"8d2fd16442d377cf884ff2a4df19eb25","name":"share_codeapk1","type":"png"});
 });
-__d('chjApp/images/share_codeapk.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/images","httpServerLocation":"/assets/images","width":500,"height":500,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/images/share_codeapk.png"],"hash":"d3567e5925ed6dbfdedcc9e2b784b8d3","name":"share_codeapk","type":"png"});
+__d('chjApp/images/share_codeapk.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Documents/zhihuiyun/chjApp/images","httpServerLocation":"/assets/images","width":500,"height":500,"scales":[1],"files":["/Users/famesmart/Documents/zhihuiyun/chjApp/images/share_codeapk.png"],"hash":"d3567e5925ed6dbfdedcc9e2b784b8d3","name":"share_codeapk","type":"png"});
 });
-__d('chjApp/images/share_code.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/images","httpServerLocation":"/assets/images","width":380,"height":380,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/images/share_code.png"],"hash":"8947f5961ea86f492f332b4ee4148304","name":"share_code","type":"png"});
+__d('chjApp/images/share_code.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Documents/zhihuiyun/chjApp/images","httpServerLocation":"/assets/images","width":380,"height":380,"scales":[1],"files":["/Users/famesmart/Documents/zhihuiyun/chjApp/images/share_code.png"],"hash":"8947f5961ea86f492f332b4ee4148304","name":"share_code","type":"png"});
 });
-__d('chjApp/images/pujiang2code.jpg',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/images","httpServerLocation":"/assets/images","width":430,"height":430,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/images/pujiang2code.jpg"],"hash":"357cecebe834d52be00339239e0045bb","name":"pujiang2code","type":"jpg"});
+__d('chjApp/images/pujiang2code.jpg',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Documents/zhihuiyun/chjApp/images","httpServerLocation":"/assets/images","width":430,"height":430,"scales":[1],"files":["/Users/famesmart/Documents/zhihuiyun/chjApp/images/pujiang2code.jpg"],"hash":"357cecebe834d52be00339239e0045bb","name":"pujiang2code","type":"jpg"});
 });
-__d('chjApp/images/left_arrow.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/images","httpServerLocation":"/assets/images","width":96,"height":96,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/images/left_arrow.png"],"hash":"1136990ef9de5921290f70ce31ad53d7","name":"left_arrow","type":"png"});
+__d('chjApp/images/left_arrow.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Documents/zhihuiyun/chjApp/images","httpServerLocation":"/assets/images","width":96,"height":96,"scales":[1],"files":["/Users/famesmart/Documents/zhihuiyun/chjApp/images/left_arrow.png"],"hash":"1136990ef9de5921290f70ce31ad53d7","name":"left_arrow","type":"png"});
 });
-__d('chjApp/images/share_right.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/images","httpServerLocation":"/assets/images","width":24,"height":66,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/images/share_right.png"],"hash":"8947f5961ea86f492f332b4ee4148304","name":"share_right","type":"png"});
+__d('chjApp/images/share_right.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Documents/zhihuiyun/chjApp/images","httpServerLocation":"/assets/images","width":24,"height":66,"scales":[1],"files":["/Users/famesmart/Documents/zhihuiyun/chjApp/images/share_right.png"],"hash":"8947f5961ea86f492f332b4ee4148304","name":"share_right","type":"png"});
 });
-__d('chjApp/images/share_left.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/images","httpServerLocation":"/assets/images","width":24,"height":66,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/images/share_left.png"],"hash":"8947f5961ea86f492f332b4ee4148304","name":"share_left","type":"png"});
+__d('chjApp/images/share_left.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Documents/zhihuiyun/chjApp/images","httpServerLocation":"/assets/images","width":24,"height":66,"scales":[1],"files":["/Users/famesmart/Documents/zhihuiyun/chjApp/images/share_left.png"],"hash":"8947f5961ea86f492f332b4ee4148304","name":"share_left","type":"png"});
 });
-__d('chjApp/images/enterprise_integral.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Desktop/zhihuiyuan/chjApp/images","httpServerLocation":"/assets/images","width":1080,"height":35,"scales":[1],"files":["/Users/famesmart/Desktop/zhihuiyuan/chjApp/images/enterprise_integral.png"],"hash":"1136990ef9de5921290f70ce31ad53d7","name":"enterprise_integral","type":"png"});
+__d('chjApp/images/enterprise_integral.png',function(global, require, module, exports) {  module.exports = require("AssetRegistry").registerAsset({"__packager_asset":true,"fileSystemLocation":"/Users/famesmart/Documents/zhihuiyun/chjApp/images","httpServerLocation":"/assets/images","width":1080,"height":35,"scales":[1],"files":["/Users/famesmart/Documents/zhihuiyun/chjApp/images/enterprise_integral.png"],"hash":"1136990ef9de5921290f70ce31ad53d7","name":"enterprise_integral","type":"png"});
 });
 __d('react-native-refreshable-listview/lib/createElementFrom.js',function(global, require, module, exports) {  'use strict';var React=require('react-native/Libraries/react-native/react-native.js');var 
 
@@ -71832,11 +71832,11 @@ automaticallyAdjustContentInsets:false},
 React.createElement(View,null,
 React.createElement(View,{style:{flex:1,flexDirection:'row'}},
 React.createElement(View,{style:{flex:1}},
-React.createElement(View,{style:{flex:1,flexDirection:'row',marginLeft:this.state.screenWidth*0.03,marginTop:this.state.screenWidth*0.085}},
+React.createElement(View,{style:{flex:1,flexDirection:'row',marginLeft:this.state.screenWidth*0.03,marginTop:this.state.screenWidth*0.08}},
 React.createElement(Text,{style:[styles.text1,{}]},'标题'),
 
 
-React.createElement(Text,{style:[styles.text2,{marginLeft:this.state.screenWidth*0.05,width:this.state.screenWidth*0.5}],numberOfLines:1},
+React.createElement(Text,{style:[styles.text2,{marginLeft:this.state.screenWidth*0.05,width:this.state.screenWidth*0.8}],numberOfLines:1},
 eventData.Message_content.title)),
 
 
@@ -71844,7 +71844,7 @@ React.createElement(View,{style:{flex:1,flexDirection:'row',marginLeft:this.stat
 React.createElement(Text,{style:[styles.text1,{}]},'时间'),
 
 
-React.createElement(Text,{style:[styles.text2,{marginLeft:this.state.screenWidth*0.05}],numberOfLines:1},
+React.createElement(Text,{style:[styles.text2,{marginLeft:this.state.screenWidth*0.05,width:this.state.screenWidth*0.8}],numberOfLines:1},
 eventData.Message_content.create_time))))),
 
 
@@ -72084,7 +72084,6 @@ this.setState({username:tel});}
 
 var logindata={
 'username':this.state.username,
-'mobile':this.state.mobile,
 'password':this.state.password};
 
 if(this.state.devtoken!=''){
@@ -72105,7 +72104,6 @@ var name=json.detail.comname;
 Gapp.user=json.detail;
 console.log(name);
 
-Gapp.user.mobile=_this2.state.mobile;
 Gapp.user.username=_this2.state.username;
 Gapp.user.password=hex_md5(_this2.state.password);
 Gapp.user.zhizhao=name;
@@ -74156,9 +74154,10 @@ _reactNative2.default.createElement(_reactNative.Image,{style:{flex:2,alignItems
 source:require('image!slider_title_bg')},
 
 _reactNative2.default.createElement(_reactNative.Image,{
-style:{height:60,resizeMode:_reactNative.Image.resizeMode.contain,flex:1},
+style:{height:this.state.screenWidth/3*0.5,resizeMode:_reactNative.Image.resizeMode.contain,flex:1},
 source:require('image!my_logo')}),
-_reactNative2.default.createElement(_reactNative.Text,{style:[styles.sliderText,{flex:2,marginRight:this.state.screenWidth/3*2*0.5*0.5}]},'创客:',this.props.Gapp.user.username)),
+_reactNative2.default.createElement(_reactNative.Text,{style:[styles.sliderText,{flex:2,marginRight:this.state.screenWidth/3*0.5}],
+numberOfLines:1},'创客:',this.props.Gapp.user.username)),
 
 _reactNative2.default.createElement(_reactNative.Image,{style:{height:2,width:this.state.screenWidth/3*2-20},source:require('image!slider_line')}),
 _reactNative2.default.createElement(_reactNative.View,{style:{flex:6,flexDirection:'column'}},

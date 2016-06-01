@@ -80,11 +80,11 @@ class MsgDetailsPage extends Component {
         <View>
           <View style={{flex:1,flexDirection:'row'}}>
             <View style={{flex:1}}>
-              <View style={{flex:1,flexDirection:'row',marginLeft:this.state.screenWidth*0.03,marginTop:this.state.screenWidth*0.085}}>
+              <View style={{flex:1,flexDirection:'row',marginLeft:this.state.screenWidth*0.03,marginTop:this.state.screenWidth*0.08}}>
                 <Text style={[styles.text1,{}]}>
                         标题
                 </Text>    
-                <Text style={[styles.text2,{marginLeft:this.state.screenWidth*0.05,width:this.state.screenWidth*0.5}]} numberOfLines={1}>
+                <Text style={[styles.text2,{marginLeft:this.state.screenWidth*0.05,width:this.state.screenWidth*0.8}]} numberOfLines={1}>
                         {eventData.Message_content.title}
                 </Text>
              </View>
@@ -92,7 +92,7 @@ class MsgDetailsPage extends Component {
                 <Text style={[styles.text1,{}]}>
                         时间
                 </Text>    
-                <Text style={[styles.text2,{marginLeft:this.state.screenWidth*0.05}]} numberOfLines={1}>
+                <Text style={[styles.text2,{marginLeft:this.state.screenWidth*0.05,width:this.state.screenWidth*0.8}]} numberOfLines={1}>
                         {eventData.Message_content.create_time}
                 </Text>
               </View>

@@ -41,10 +41,6 @@ class MyPasswordPage extends Component {
     this.setState({password:''});
     this.setState({repassword:''})
   }
-    _onPopMy(){
-
-    this.props.navigator.pop();
-  }
 	_onResetPassword(){
     try {
       console.log('Gapp:');
@@ -141,12 +137,13 @@ class MyPasswordPage extends Component {
 
 		
 	}
-  _onPopMy(){
+ _onPopMy(){
     this.props.navigator.pop();
   }
   _onPopTop(){
     this.props.navigator.popToTop();
   }
+
   render() {
     return (
       <View style={{flex:1,}}>
@@ -172,13 +169,15 @@ class MyPasswordPage extends Component {
             <Text style={styles.text1}>
               原始密码
             </Text>
-            <TextInput
-                style={styles.searchInput}
-                value={this.state.oldPassword}
-                onChangeText={(text) => this.setState({oldPassword: text})}
-                selectionColor={'blue'}
-                secureTextEntry={true}
-                />
+            <View style={styles.board}>
+                   <TextInput
+                    style={styles.searchInput}
+                    value={this.state.oldPassword}
+                    onChangeText={(text) => this.setState({oldPassword: text})}
+                    selectionColor={'blue'}
+                    secureTextEntry={true}
+                    />
+                </View>
           </View>
         </View>
         <View>
@@ -186,24 +185,30 @@ class MyPasswordPage extends Component {
             <Text style={styles.text1}>
               新密码
             </Text>
-            <TextInput
-                style={styles.searchInput}
-                value={this.state.newPassword}
-                onChangeText={(text) => this.setState({newPassword: text})}
-                secureTextEntry={true}
-                />
+            <View style={styles.board}>
+                   <TextInput
+                    style={styles.searchInput}
+                    value={this.state.newPassword}
+                    onChangeText={(text) => this.setState({newPassword: text})}
+                    selectionColor={'blue'}
+                    secureTextEntry={true}
+                    />
+            </View>
           </View>
         </View>
         <View style={{flex:1,flexDirection:'row',marginTop:10}}>
           <Text style={styles.text1}>
             确认密码
           </Text>
-          <TextInput
-              style={styles.searchInput}
-              value={this.state.rePassword}
-              onChangeText={(text) => this.setState({rePassword: text})}
-              secureTextEntry={true}
-              />
+          <View style={styles.board}>
+                   <TextInput
+                    style={styles.searchInput}
+                    value={this.state.rePassword}
+                    onChangeText={(text) => this.setState({rePassword: text})}
+                    selectionColor={'blue'}
+                    secureTextEntry={true}
+                    />
+        </View>
         </View>
         <View>
           <TouchableHighlight
@@ -231,9 +236,9 @@ var styles = StyleSheet.create({
   },
   text1: {
     color: 'gray',
-    height: 36,
+    height: 35,
     marginTop:5,
-    fontSize:18,
+    fontSize:15,
     marginLeft:10,
     width:80,
     textAlign: 'left',
@@ -261,15 +266,19 @@ var styles = StyleSheet.create({
     marginTop:15,
     borderRadius: 6,
   },
-searchInput: {
-  height: 36,
-  marginLeft: 40,
-  marginRight:10,
+  board: {
   flex: 3,
-  fontSize: 15,
+  height: 35,
+  marginLeft: 10,
+  marginRight:10,
   borderWidth: 1,
   borderColor: 'gray',
   borderRadius: 6,
+},
+searchInput: {
+  marginLeft: 10,
+  flex: 3,
+  fontSize: 15,
   color: '#48BBEC'
 }
 });
