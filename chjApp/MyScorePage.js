@@ -105,11 +105,9 @@ class myScorePage extends Component {
       </View>
 
       
-      <ScrollView style={{flex:1,}}
-      bounces={false}
-      automaticallyAdjustContentInsets={false}>
-          <View style={{flex:1,height:(this.state.screenHeight-64)*0.4,}}>
-            <Text style={{color:'#0067B1',fontSize:15,marginTop:this.state.screenHeight*0.5*0.1,marginLeft:5,}}>
+      <View style={{flex:1,}}>
+          <View style={{height:(this.state.screenHeight-64)*0.4,}}>
+            <Text style={{color:'#0067B1',fontSize:15,marginTop:this.state.screenHeight*0.5*0.1,marginLeft:5}}>
               积分统计
             </Text>
     
@@ -119,7 +117,7 @@ class myScorePage extends Component {
            <View>
               <View style={{flex:1,flexDirection:'row',marginTop:(this.state.screenHeight-64)*0.4*0.1}}>
                 <Text style={styles.text1}>
-                  个人积分
+                  消费积分
                 </Text>
                 <Text style={[styles.text2,{marginLeft:this.state.screenWidth-220}]}>
                   {this.props.Gapp.user.score1}
@@ -129,27 +127,31 @@ class myScorePage extends Component {
           <View>
             <View style={{flex:1,flexDirection:'row',marginTop:(this.state.screenHeight-64)*0.4*0.1}}>
               <Text style={styles.text1}>
-                企业积分
+                服务积分
               </Text>
               <Text style={[styles.text2,{marginLeft:this.state.screenWidth-220}]}>
                 {this.props.Gapp.user.score2}
               </Text>
             </View>
           </View>
-        </View>
-          <View style={{flex:1,}}>
+          </View>
+        <View style={{flex:1,}}>
             <Text style={{color:'#0067B1',fontSize:15,marginLeft:5}}>
               积分规则
             </Text>
             <Image
                 style={{height:2,marginTop:this.state.screenHeight*0.1*0.5,marginLeft:this.state.screenWidth*0.05,width:this.state.screenWidth*0.9}}
                 source={require('./images/enterprise_integral.png')} />
-             <Text style={{color:'gray',fontSize:15,marginTop:this.state.screenHeight*0.5*0.1,marginLeft:20}}>
+            <ScrollView style={{flex:1,marginTop:this.state.screenHeight*0.5*0.1,}}
+                bounces={false}
+                automaticallyAdjustContentInsets={false}>
+             <Text style={{color:'gray',fontSize:15,marginLeft:20}}>
               {this.state.valueG}
              </Text>
-          </View >
+            </ScrollView>
+        </View >
+      </View>
       
-      </ScrollView>
       </View>
     );
   }

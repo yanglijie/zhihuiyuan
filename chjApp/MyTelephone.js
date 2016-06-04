@@ -89,14 +89,27 @@ class MyTelephone extends Component {
         return false;
 
 
-    };
+    }else{
+
+      AlertIOS.alert(
+                 '你没有权限',
+                  '请用营业执照号登录,再绑定员工手机号',
+                [
+                   {text: '确认',onPress:this._onPopTop.bind(this)},
+                   {text: '取消'},
+                ]
+              )
+
+    }
 
     }
 	_onPopMy(){
 
 		this.props.navigator.pop();
 	}
-
+_onPopTop(){
+    this.props.navigator.popToTop();
+  }
   render() {
 
     var buttonColor
@@ -128,61 +141,62 @@ class MyTelephone extends Component {
           </View> 
         </View>
       
-       <View style={{flex:1,}}>
-          <View style={{flex:1,height:this.state.screenHeight*0.9/2,}}>
-              <View style={{marginTop:this.state.screenHeight*0.9/2/4*0.25}}> 
-                <Text style={styles.text1}>
+       <Image style={[styles.cont],{width:this.state.screenWidth}}
+          source={require('image!login_bg')} >
+          <View style={{}}>
+              <View style={{flexDirection:'row',marginTop:this.state.screenHeight*0.9/2/4*0.25}}> 
+                <Image style={{width:(this.state.screenHeight-113)/10*0.7,height:(this.state.screenHeight-113)/10*0.7,marginLeft:20}}
+                  source={require('image!my_logo')} />
+                <Text style={styles.text2}>
                   员工一
                 </Text>
               </View>
-              <View style={{flex:1,flexDirection:'row',height:this.state.screenHeight*0.9/2/4}}>
+              <View style={{height:1,backgroundColor:'white',}} />
+              <View style={{flexDirection:'row',height:this.state.screenHeight*0.5*0.09,marginTop:this.state.screenHeight*0.5*0.09,marginRight:this.state.screenWidth*0.1}}>
                 <Text style={styles.text1}>
-                   员工手机号：
+                  员工手机：
                 </Text>
-                <View style={styles.board}>
-                   <TextInput
-                    style={styles.searchInput}
+                <TextInput
+                    style={[styles.inputs,{}]}
                     value={this.state.m1}
                     onChangeText={(text) => this.setState({m1: text})}
                     selectionColor={'blue'}
                     />
-                </View>
+            
               </View>
-              <View style={{height:1,
-                marginTop:this.state.screenHeight*0.9/2/4,backgroundColor:'#BEBEBE'}}/>
-          </View>
-         <View style={{flex:2,}}>
-              <View style={{marginTop:this.state.screenHeight*0.9/2/4*0.8}}> 
-                <Text style={styles.text1}>
+              <View style={{height:1,backgroundColor:'white',marginRight:this.state.screenWidth*0.1,marginLeft:50}} />
+        </View>
+        <View style={{marginTop:this.state.screenHeight*0.5*0.15}}>
+              <View style={{flexDirection:'row',marginTop:this.state.screenHeight*0.9/2/4*0.25}}> 
+                <Image style={{width:(this.state.screenHeight-113)/10*0.7,height:(this.state.screenHeight-113)/10*0.7,marginLeft:20}}
+                  source={require('image!my_logo')} />
+                <Text style={styles.text2}>
                   员工二
                 </Text>
               </View>
-              <View style={{flex:1,flexDirection:'row',height:this.state.screenHeight*0.9/2/4}}>
+              <View style={{height:1,backgroundColor:'white',}} />
+              <View style={{flexDirection:'row',height:this.state.screenHeight*0.5*0.09,marginTop:this.state.screenHeight*0.5*0.09,marginRight:this.state.screenWidth*0.1}}>
                 <Text style={styles.text1}>
-                   员工手机号：
+                  员工手机：
                 </Text>
-                <View style={styles.board}>
-                   <TextInput
-                    style={styles.searchInput}
+                <TextInput
+                    style={[styles.inputs,{}]}
                     value={this.state.m2}
                     onChangeText={(text) => this.setState({m2: text})}
                     selectionColor={'blue'}
                     />
-                </View>
+            
               </View>
-        </View>
-         <View>
-          <TouchableHighlight
-                  style={[styles.buttonStyle,{backgroundColor:buttonColor}]}
-                  underlayColor='gray'
-                  onPress={this._onResetPassword.bind(this)}
-                  >
-                <Text style={styles.text2}>
-                提交
-                </Text>
+              <View style={{height:1,backgroundColor:'white',marginRight:this.state.screenWidth*0.1,marginLeft:50}} />
+          </View>
+        <View style={{flexDirection:'row',marginTop:this.state.screenHeight*0.35,marginRight:this.state.screenWidth*0.1,marginLeft:this.state.screenWidth*0.1}}>
+              <TouchableHighlight style={[styles.button,{}]}
+                onPress={this._onResetPassword.bind(this)}
+                underlayColor='#3D8CC5'>
+                <Text style={styles.buttonText}>提  交</Text>
               </TouchableHighlight>
-       </View>
-      </View>
+        </View>
+      </Image>
     </View>
     );
   }
@@ -196,18 +210,17 @@ var styles = StyleSheet.create({
     flexDirection:'row'
   },
   cont: {
-    flex: 4,
+    flex: 3,
     flexDirection:'column',
     resizeMode:'stretch'
   },
-  searchInput: {
-  marginLeft: 10,
-  flex: 3,
-  fontSize: 15,
-  color: '#48BBEC'
-},
+  inputs: {
+    flex: 1,
+    fontSize: 15,
+    color:'white',
+
+  },
 board: {
-  flex: 3,
   height: 35,
   marginLeft: 10,
   marginRight:10,
@@ -217,28 +230,39 @@ board: {
 },
 
   text1: {
-    color: 'gray',
-    height: 35,
-    marginTop:10,
+    color: 'white',
     fontSize:15,
-    marginLeft:10,
+    marginTop:10,
+    marginLeft:50,
     width:90,
     textAlign: 'left',
+    backgroundColor:'transparent'
   },
   text2: {
-    fontSize: 15,
-    color:'white',
-    marginBottom:10,
+    color: 'white',
+    fontSize:18,
     marginTop:10,
-    textAlign: 'center',
+    marginLeft:10,
+    width:100,
+    textAlign: 'left',
+    backgroundColor:'transparent'
   },
-   buttonStyle: {
-    flex:1,
-    marginLeft:60,
-    marginRight:60,
-    marginBottom:15,
-    marginTop:15,
-    borderRadius: 6,
+ button:{
+    flex: 1,
+    flexDirection: 'row',
+    //backgroundColor: '#48BBEC',
+    borderColor: 'white',
+    borderWidth: 1,
+    borderRadius: 4,
+    alignSelf: 'stretch',
+    justifyContent: 'center'
+  },
+  buttonText: {
+    fontSize: 15,
+    color: 'white',
+    alignSelf: 'center',
+    marginTop:5,
+    marginBottom:5,
   },
   
   backImage: {
