@@ -164,7 +164,7 @@ _onPopTop(){
                     />
             
               </View>
-              <View style={{height:1,backgroundColor:'white',marginRight:this.state.screenWidth*0.1,marginLeft:50}} />
+              <View style={{height:1,backgroundColor:'white',marginRight:this.state.screenWidth*0.1,marginLeft:50,marginTop:5}} />
         </View>
         <View style={{marginTop:this.state.screenHeight*0.5*0.15}}>
               <View style={{flexDirection:'row',marginTop:this.state.screenHeight*0.9/2/4*0.25}}> 
@@ -187,7 +187,7 @@ _onPopTop(){
                     />
             
               </View>
-              <View style={{height:1,backgroundColor:'white',marginRight:this.state.screenWidth*0.1,marginLeft:50}} />
+              <View style={{height:1,backgroundColor:'white',marginRight:this.state.screenWidth*0.1,marginLeft:50,marginTop:5}} />
           </View>
         <View style={{flexDirection:'row',marginTop:this.state.screenHeight*0.35,marginRight:this.state.screenWidth*0.1,marginLeft:this.state.screenWidth*0.1}}>
               <TouchableHighlight style={[styles.button,{}]}

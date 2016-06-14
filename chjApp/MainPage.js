@@ -338,8 +338,8 @@ class MainPage extends Component {
             source={img} />
           <View>
             <Text
-              style={{fontSize:15,color:'#2B2F2C',marginTop:10,}}
-              >{rowData.title}
+              style={{fontSize:15,color:'#2B2F2C',marginTop:10,width:this.state.screenWidth*0.8-30}}
+              numberOfLines={1}>{rowData.title}
             </Text>
             <Text 
               style={{fontSize:12,marginTop:10,color:'#969696',width:this.state.screenWidth*0.8-30}}
@@ -657,7 +657,7 @@ _onLoadEvent1(e){
             urldata=urldata.concat(imagedata[i].note)
           }
      var pingye 
-     if (this.props.Gapp.user.zhizhao != null) {
+     if (this.props.Gapp.user.zhizhao != null && this.props.Gapp.user.zhizhao != '') {
      	pingye=this.props.Gapp.user.zhizhao;
      }else{
      	pingye='未绑定';
@@ -731,7 +731,7 @@ _onLoadEvent1(e){
                   onPress={() => this._onPressOption(urldata[3])}
                   underlayColor='transparent'
                     >
-                <Image style={[styles.image,{height:(Dimensions.get('window').height-113)*0.4}]} source={{uri: valuedata[3]}} />
+                <Image style={[styles.image,{height:(Dimensions.get('window').height-113)*0.4,}]} source={{uri: valuedata[3]}} />
               </TouchableHighlight>
               <TouchableHighlight style={styles.slide} 
                   onPress={() => this._onPressOption(urldata[4])}
@@ -1389,9 +1389,9 @@ _onLoadEvent1(e){
           selectedIcon={{uri: base64IconMsgPress, scale: 2.6}}
           onPress={() => {
             this.setState({
-            	evenTap:this._onLoadEvent1(),
+              evenTap:this._onLoadEvent1(),
               selectedTab: 'msgTab',
-              notifCount: this.state.countNotic,
+              
             });
           } }>
           {this._renderContent('#783E33', 'msgTab', this.state.countNotic )}

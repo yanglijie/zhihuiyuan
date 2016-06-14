@@ -8,20 +8,19 @@ import React, {
   Image,
   TextInput,
   TouchableHighlight,
-  WebView
+  WebView,
+  Linking
 } from 'react-native';
 
 var WebViewBridge = require('react-native-webview-bridge');
 var MyservicePage = require('./MyServicePage');
-var Dimensions = require('Dimensions');
 
 class DeclarePage extends Component {
   constructor(props) {
     super(props);
     this.state = {
       verifyCode: '',
-      mobile:'',
-      screenHeight:Dimensions.get('window').height,
+      mobile:''
     };
   }
   _getVerifyCode(e){
@@ -55,6 +54,8 @@ class DeclarePage extends Component {
         navigationBarHidden:true,
         passProps:{Gapp:this.props.Gapp}});
         break;
+      case 'html':
+        Linking.openURL("http://www.shlinganghr.com/").catch(err => console.error('An error occurred', err));
     	default:
     		console.log('default');
     	break;
@@ -71,7 +72,7 @@ class DeclarePage extends Component {
 			console.log(injectScript);
     return (
     	<View style={{flex:1}}>
-        <WebViewBridge style={[styles.webview_style,{}]} 
+        <WebViewBridge style={styles.webview_style} 
           startInLoadingState={true}
           domStorageEnabled={true}
           javaScriptEnabled={true}
@@ -88,7 +89,7 @@ class DeclarePage extends Component {
 }
 var styles = StyleSheet.create({
     webview_style:{  
-       backgroundColor:'white', 
+       backgroundColor:'white',   
     }
 });
 module.exports = DeclarePage;

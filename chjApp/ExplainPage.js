@@ -109,7 +109,7 @@ class ExplainPage extends Component {
 
       <View style={{flex:3,}}>
         <View>
-          <Image style={[styles.image,{height:(this.state.screenHeight-113)*0.4}]} 
+          <Image style={[styles.image,{height:(this.state.screenHeight-113)*0.3,width:this.state.screenWidth}]} 
             source={img} />
         </View>
         <ScrollView style={{flex:3,}}
